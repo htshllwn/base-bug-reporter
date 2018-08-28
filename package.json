@@ -1,0 +1,27 @@
+{
+  "name": "base-bug-reporter",
+  "version": "1.0.0",
+  "description": "A tool for reporting bugs in Base Camp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htshllwn/base-bug-reporter.git"
+  },
+  "author": "Hitesh Lalwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htshllwn/base-bug-reporter/issues"
+  },
+  "homepage": "https://github.com/htshllwn/base-bug-reporter#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "jira": "^0.10.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "nightmare": "^3.0.1",
+    "nodemailer": "^4.6.8"
+  }
+}
