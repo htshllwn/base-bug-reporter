@@ -3,13 +3,24 @@ var CWD = process.cwd();
 var urls = require(path.join(CWD,'config','urls'));
 var Nightmare = require('nightmare');
 var nmConfig = require(path.join(CWD,'config','nightmare'));
+var folders = require(path.join(CWD,'config','folders'))
+var fs = require('fs');
 
 var moment = require('moment');
 
 var now = moment();
-var today = now.format("MMMM, D YYYY h:mm a");
-var lastDate = "June 8, 2018 11:44 AM";
-console.log("No of websites to be scraped " + urls.length);
+var today = now.format("MMMM D, YYYY h:mm a");
+var lastDate;
+
+if(!fs.existsSync(folders.dataDir + folders.lastDateLoc)){
+    console.log('Last Date Not Found');
+    lastDate = "June 8, 2000 11:44 AM";
+}
+else {
+    lastDate = JSON.parse(fs.readFileSync(folders.dataDir + folders.lastDateLoc));
+}
+
+console.log("No. of websites to be scraped " + urls.length);
 
 var promise = new Promise(function(resolve, reject) {
     // do a thing, possibly async, then…
@@ -17,12 +28,13 @@ var promise = new Promise(function(resolve, reject) {
     var tempRes = [];
     for(var urlsInd = 0; urlsInd < urls.length; urlsInd++){
 
-        console.log('Run no : ' + urlsInd + ' starting');
+        console.log('Run no : ' + urlsInd + ' at '+urls[urlsInd].name+' starting');
         getData(urls[urlsInd], urlsInd)
             .then(function(res){
                 resCount++;
-                console.log('Result-- ' + res + ' --done');
+                // console.log('Result-- ' + res + ' --done');
                 if(resCount == urls.length) {
+                    fs.writeFileSync(folders.dataDir + folders.lastDateLoc,JSON.stringify(today));
                     resolve(res);
                 }
             });
@@ -40,8 +52,8 @@ var promise = new Promise(function(resolve, reject) {
                 .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > a.cuf-feedElement-wrap > article")
                 .then(function(res) {
                     if(res){
-                        console.log('First Post Found in ' + url.href + ' ... ');
-                        console.log(res);
+                        // console.log('First Post Found in ' + url.href + ' ... ');
+                        // console.log(res);
                         return postExists2(nightmare, 1, []);         
                     } else {
                         console.log('First Post NOT Found in ' + url.href + ' ... ');
@@ -131,7 +143,7 @@ var promise = new Promise(function(resolve, reject) {
                     }
                     console.log();
                     console.log("-----------------------------------------------------------------");
-                    console.log('Run no : ' + urlsInd + ' completed');
+                    console.log('Run no : ' + urlsInd + ' at '+url.name+' completed');
                     console.log("Total Results: -- " + fetchedData.length + " --");
                     console.log("-----------------------------------------------------------------");
                     // nightmare.end()
@@ -140,7 +152,7 @@ var promise = new Promise(function(resolve, reject) {
                     return nightmare.end();
                 })
                 // nightmare.end();
-                console.log(tempRes);
+                // console.log(tempRes);
                 return tempRes;
             
             } catch (error) {
@@ -176,15 +188,29 @@ function extractDate(data1) {
             if(mInd == -1){
                 date = today;
             } else {
-                var mins = data1[2].substr(ind - 2, ind).trim();
+                var mins;
+                if(ind - 2 > -1) {
+                    mins = data1[2].substr(mInd - 2, mInd).trim();
+                } else {
+                    mins = data1[2].substr(mInd - 1, mInd).trim();
+                }
+                
                 mins = parseInt(mins);
-                date = now.subtract(mins, 'minutes').format("MMMM, D YYYY h:mm A");    
+                // console.log(mins + " mins");
+                date = moment().subtract(mins, 'minutes').format("MMMM D, YYYY h:mm A");    
             }
             
         } else {
-            var hours = data1[2].substr(ind - 2, ind).trim();
-            hours = parseInt(hours);
-            date = now.subtract(hours, 'hours').format("MMMM, D YYYY h:mm A");
+            var hours;
+            if(ind - 2 > -1) {
+                hours = data1[2].substr(ind - 2, ind).trim();
+            } else {
+                hours = data1[2].substr(ind - 1, ind).trim();
+            }
+            // var hours = data1[2].substr(ind - 2, ind).trim();
+            // hours = parseInt(hours);
+            console.log(hours + " hours");
+            date = moment().subtract(hours, 'hours').format("MMMM D, YYYY h:mm A");
         }
         
         // date.setHours(today.getHours() - hours);
