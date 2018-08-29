@@ -14,7 +14,7 @@ var lastDate;
 
 if(!fs.existsSync(folders.dataDir + folders.lastDateLoc)){
     console.log('Last Date Not Found');
-    lastDate = "June 8, 2000 11:44 AM";
+    lastDate = "June 8, 2018 11:44 AM";
 }
 else {
     lastDate = JSON.parse(fs.readFileSync(folders.dataDir + folders.lastDateLoc));

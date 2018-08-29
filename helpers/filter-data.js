@@ -27,9 +27,9 @@ var filterData = function(result,hidKeywords,priKeywords,secKeywords){
             }
         }
 
-        // if(result[i].hidList.length == 0) {
-        //     continue;
-        // }
+        if(result[i].hidList.length == 0) {
+            continue;
+        }
 
         for(var j = 0; j < priKeywords.length; j++){
             var tempString = priKeywords[j].trim();

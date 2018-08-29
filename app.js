@@ -13,6 +13,7 @@ if(!fs.existsSync(config.folders.dataDir)){
 }
 
 var nmRes = require('./helpers/nightmare-scrap');
+var jiraRes = require('./helpers/jira');
 
 nmRes.then(function(res){
     // console.log(res);
@@ -41,6 +42,30 @@ nmRes.then(function(res){
 
     var filteredResult = filterData(newQuestions, hidKeywords, priKeywords, secKeywords);
     console.log('Filtered Results : ' + filteredResult.length);
+
+    //--------------------------------------------------------//
+    //------Raise Issues in JIRA for the filtered Results-----//
+    //--------------------------------------------------------//
+
+    jiraRes.raiseIssues(filteredResult)
+        .then(function(jiraResult){
+            var jiraLoc = config.folders.dataDir + config.folders.jiraColLoc;
+            if(!fs.existsSync(jiraLoc)){
+                jiraCollection = []
+            } else {
+                jiraCollection = JSON.parse(fs.readFileSync(jiraLoc));
+            }
+            jiraCollection = jiraCollection.concat(jiraResult);
+            fs.writeFileSync(jiraLoc, JSON.stringify(jiraCollection, null, 4));
+
+            // console.log(jiraResult);
+
+            //--------------------------------------------------------//
+            //-----------------------Send Mail------------------------//
+            //--------------------------------------------------------//
+
+            
+        });
 
     fs.writeFileSync(collectionLoc, JSON.stringify(collection, null, 4));
 
