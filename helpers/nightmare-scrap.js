@@ -3,22 +3,14 @@ var CWD = process.cwd();
 var urls = require(path.join(CWD,'config','urls'));
 var Nightmare = require('nightmare');
 var nmConfig = require(path.join(CWD,'config','nightmare'));
-var folders = require(path.join(CWD,'config','folders'))
-var fs = require('fs');
+
 
 var moment = require('moment');
 
 var now = moment();
-var today = now.format("MMMM D, YYYY h:mm a");
-var lastDate;
-
-if(!fs.existsSync(folders.dataDir + folders.lastDateLoc)){
-    console.log('Last Date Not Found');
-    lastDate = "June 8, 2018 11:44 AM";
-}
-else {
-    lastDate = JSON.parse(fs.readFileSync(folders.dataDir + folders.lastDateLoc));
-}
+var dateHelper = require('./date');
+var today = dateHelper.today;
+var lastDate = dateHelper.lastDate;
 
 console.log("No. of websites to be scraped " + urls.length);
 
@@ -34,7 +26,7 @@ var promise = new Promise(function(resolve, reject) {
                 resCount++;
                 // console.log('Result-- ' + res + ' --done');
                 if(resCount == urls.length) {
-                    fs.writeFileSync(folders.dataDir + folders.lastDateLoc,JSON.stringify(today));
+                    // fs.writeFileSync(folders.dataDir + folders.lastDateLoc,JSON.stringify(today));
                     resolve(res);
                 }
             });
@@ -210,7 +202,7 @@ function extractDate(data1) {
             // var hours = data1[2].substr(ind - 2, ind).trim();
             // hours = parseInt(hours);
             hours = parseInt(hours);
-            console.log(hours + " hours");
+            // console.log(hours + " hours");
             date = moment().subtract(hours, 'hours').format("MMMM D, YYYY h:mm A");
         }
         

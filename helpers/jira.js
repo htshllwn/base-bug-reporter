@@ -8,8 +8,15 @@ var jira = new JiraApi(jiraConfig.protocol, jiraConfig.host, jiraConfig.port, ji
 
 var raiseIssues = function(newQuestions){
     var issueRaisePromise = new Promise(function(resolve, reject) {
+
+        
         var jiraResCount = 0;
         resultData = [];
+
+        if(newQuestions.length == 0){
+            resolve(resultData);
+        }
+
         for(var x = 0; x < newQuestions.length; x++){
             var issue_dict = [];
             issue_dict[x] = {
@@ -40,7 +47,7 @@ var raiseIssues = function(newQuestions){
             // console.log(ques);
             getSomeData(value, ques, x)
                 .then(function(result) {
-                    console.log(result);
+                    // console.log(result);
                 });
     
             async function getSomeData(value, ques, ind){

@@ -81,7 +81,7 @@ var filterData = function(result,hidKeywords,priKeywords,secKeywords){
     }
 
     result = filteredResult;
-    console.log(result.length + " in filter-data.js");
+    // console.log(result.length + " in filter-data.js");
     
     return result;
 

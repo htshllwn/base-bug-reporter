@@ -14,7 +14,12 @@ if(!fs.existsSync(config.folders.dataDir)){
 
 var nmRes = require('./helpers/nightmare-scrap');
 var jiraRes = require('./helpers/jira');
+var mail = require('./helpers/mail');
 
+
+//--------------------------------------------------------//
+//---------------------Scrap Websites---------------------//
+//--------------------------------------------------------//
 nmRes.then(function(res){
     // console.log(res);
     collectionLoc = config.folders.dataDir + config.folders.collectionLoc;
@@ -63,8 +68,12 @@ nmRes.then(function(res){
             //--------------------------------------------------------//
             //-----------------------Send Mail------------------------//
             //--------------------------------------------------------//
+            mail.sendBugsMail(jiraResult, config.mail, config.filter, config.recipients)
+                .then(function(mailResult){
+                    console.log('sendBugsMail resolved');
+                    // console.log(mailResult);
+                });
 
-            
         });
 
     fs.writeFileSync(collectionLoc, JSON.stringify(collection, null, 4));
