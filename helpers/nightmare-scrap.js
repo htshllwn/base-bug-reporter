@@ -189,7 +189,7 @@ function extractDate(data1) {
                 date = today;
             } else {
                 var mins;
-                if(ind - 2 > -1) {
+                if((mInd - 2) > -1) {
                     mins = data1[2].substr(mInd - 2, mInd).trim();
                 } else {
                     mins = data1[2].substr(mInd - 1, mInd).trim();
@@ -202,13 +202,14 @@ function extractDate(data1) {
             
         } else {
             var hours;
-            if(ind - 2 > -1) {
+            if((ind - 2) > -1) {
                 hours = data1[2].substr(ind - 2, ind).trim();
             } else {
                 hours = data1[2].substr(ind - 1, ind).trim();
             }
             // var hours = data1[2].substr(ind - 2, ind).trim();
             // hours = parseInt(hours);
+            hours = parseInt(hours);
             console.log(hours + " hours");
             date = moment().subtract(hours, 'hours').format("MMMM D, YYYY h:mm A");
         }
