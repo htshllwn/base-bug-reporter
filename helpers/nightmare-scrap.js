@@ -40,6 +40,10 @@ var promise = new Promise(function(resolve, reject) {
                 var nightmare = Nightmare(nmConfig);
                 await nightmare
                 .goto(url.href)
+                .wait("span.cuf-sortLabelTriggerWrapper")
+                .click("span.cuf-sortLabelTriggerWrapper")
+                .wait("li.uiMenuItem")
+                .click("li.uiMenuItem")
                 .wait(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > a.cuf-feedElement-wrap > article")
                 .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > a.cuf-feedElement-wrap > article")
                 .then(function(res) {
