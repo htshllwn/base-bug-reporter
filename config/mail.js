@@ -2,9 +2,22 @@
 var gmailConfig = {
     service: 'gmail',
     auth: {
-      user: 'hitesh.lalwani04@gmail.com', // EMAIL
-      pass: 'h0tesh0verture', // PASSWORD
+      user: '', // EMAIL
+      pass: '', // PASSWORD
     }
+}
+
+var officeConfig = {
+  host: 'smtp.office365.com', // Office 365 server
+  port: 25,     // secure SMTP
+  secure: false, // false for TLS - as a boolean not string - but the default is false so just remove this completely
+  auth: {
+      user: "",
+      pass: ""
+  },
+  tls: {
+      ciphers: 'SSLv3'
+  }
 }
 
 module.exports = gmailConfig;

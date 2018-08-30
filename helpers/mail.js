@@ -105,7 +105,7 @@ var sendBugsMail = function(newQuestions, mailConfig, filterConfig, recipients){
         }
 
         var mailOptions = {
-            from: 'hitesh.lalwani04@gmail.com',
+            from: mailConfig.auth.user,
             to: recipients,
             subject: 'Bug Report : ' + newQuestions.length + " question(s) raised",
             text: emailBody
