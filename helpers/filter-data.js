@@ -1,3 +1,16 @@
+var PorterKeywords = require('porter-keywords');
+var _ = require('lodash');
+
+var checkKeywords = function(text, tempString){
+    var tempKeywords = PorterKeywords.extract(tempString);
+    // console.log(tempKeywords);
+    for(var tempKeywordsInd = 0; tempKeywordsInd < tempKeywords.length; tempKeywordsInd++){
+        if(!_.includes(text, tempKeywords[tempKeywordsInd])){
+            return false;
+        }
+    }
+    return true;
+}
 var filterData = function(result,hidKeywords,priKeywords,secKeywords){
     var filteredResult = [];
     for(var i = 0; i < result.length; i++){
@@ -32,7 +45,7 @@ var filterData = function(result,hidKeywords,priKeywords,secKeywords){
         }
 
         for(var j = 0; j < priKeywords.length; j++){
-            var tempString = priKeywords[j].trim();
+            var tempString = priKeywords[j].trim().toLowerCase();
             var re = new RegExp(tempString, "gi");
             count = 0;
             count += (quesTitle.match(re) || []).length;
@@ -43,6 +56,13 @@ var filterData = function(result,hidKeywords,priKeywords,secKeywords){
                     keyword: tempString,
                     count: count
                 });
+            } else {
+                if(checkKeywords(quesTitle + " " + quesDetails, tempString)){
+                    result[i].priList.push({
+                        keyword: tempString,
+                        count: 1
+                    });   
+                }
             }
         }
 
