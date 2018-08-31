@@ -2,6 +2,8 @@ var arrayCleaner = require('../helpers/array-cleaner');
 
 hiddenWords = [
     "MarketPlace ",
+    "market place",
+    "market",
     "Component",
 ]
 
