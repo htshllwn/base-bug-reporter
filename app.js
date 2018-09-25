@@ -29,17 +29,17 @@ nmRes.then(function(res){
         collection = JSON.parse(fs.readFileSync(collectionLoc));
     }
 
-    var tempRes = _.uniqBy(res, 'name');
+    var tempRes = _.uniqBy(res, 'quesTitle');
 
-    var newQuestions = _.differenceBy(tempRes, collection,'name');
-    var removedQuestions = _.differenceBy(collection, tempRes,'name');
+    var newQuestions = _.differenceBy(tempRes, collection,'quesTitle');
+    var removedQuestions = _.differenceBy(collection, tempRes,'quesTitle');
     
     console.log("From File: " + collection.length);
 
     collection = collection.concat(tempRes);
     console.log("After Concat: " + collection.length);
 
-    collection = _.uniqBy(collection, 'name');
+    collection = _.uniqBy(collection, 'quesTitle');
     console.log("After uniqBy: " + collection.length);
 
     console.log('New Questions : ' + newQuestions.length);

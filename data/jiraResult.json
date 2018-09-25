@@ -1,0 +1,275 @@
+[
+    {
+        "name": "Dhineshkumar K (Customer)",
+        "date": "August 28, 2018 4:33 PM",
+        "quesTitle": "After passing file path to pdfviewer component, getting file path error message\": \"{\\\"error\\\":\\\"Invalid Path\\\",\\\"message\\\":\\\"please enter a valid path\\\"}\"",
+        "quesDetails": "Hi, \nThe below code snippet using for storing file and getting file path. After passing file path to pdfviewer component, getting file path error please help. \nThe file system returns the path as getMyFile{\"size\":{},\"modificationTime\":\"Thu Jan 01 05:30:00 GMT+05:30 1970\",\"writable\":false,\"readable\":false,\"parent\":\"/storage/emulated/0\",\"fullPath\":\"/storage/emulated/0/Certificate.pdf\",\"name\":\"Certificate.pdf\"} \n \n/*************************************************************/ \nfunction saveFile(){ \ntry{ \nvar rb = kony.convertToRawBytes(gblBase64);  \n \nvar path =\"\";  \n \nif( kony.os.deviceInfo().name == \"Android\" ){  \n \npath = kony.io.FileSystem.getExternalStorageDirectoryPath();  \n \n}else{  \n \npath = kony.io.FileSystem.getApplicationDirectoryPath();  \n \n}  \n \nif(kony.io.FileSystem.isExternalStorageAvailable()){ \n \n \nvar myfile = new kony.io.File( path +\"/Certificate.pdf\");  \n \nmyfile.write(rb, true);  \n \n} \n} \ncatch(err){ \nkony.print(\"saveFile\"+err); \n} \n \n \n \n} \n \nfunction showView(){ \n \ntry{ \nvar mainLoc = kony.io.FileSystem.getExternalStorageDirectoryPath(); \nvar myFileLoc = mainLoc + constants.FILE_PATH_SEPARATOR + \"Certificate.pdf\"; \nvar getMyFile = kony.io.FileSystem.getFile(myFileLoc); \nkony.print(\"getMyFile\"+JSON.stringify(getMyFile)); \nkony.print(\"getMyFile 2\"+getMyFile.fullPath); \nForm2.pdfviewer.pdfType = \"Local File Path\"; \nForm2.pdfviewer.setAndroidFilePath(getMyFile.fullPath+\"\"); \nForm2.show(); \n \n}catch(err){ \nkony.print(\"viewFile\"+err); \n} \n}\nShow More\nShow More\n",
+        "tags": [
+            "PDF Viewer",
+            "Marketplace",
+            "Path Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khSbhSAE",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "pdf viewer",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 3
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-716"
+    },
+    {
+        "name": "Abhishek Kumar (Customer)",
+        "date": "June 12, 2018 12:14 PM",
+        "quesTitle": "Error while importing the marketplace Accordion component",
+        "quesDetails": "I downloaded the library but when i am importing it i am getting an error \" An error occurred while importing the library , Click retry to import again \" Can you please tell me why this occoured and how can i use it?\n \nCurrently using Kony Enterprise Version 8 Service Pack 2 Fix Pack 6\n",
+        "tags": [
+            "Marketplace",
+            "Component",
+            "Kony Enterprise Version Service",
+            "Error",
+            "V8 SP2"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XTB28SAH",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "accordion",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 3
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-717"
+    },
+    {
+        "name": "Deepthy Yalamanchili (Customer)",
+        "date": "September 5, 2018 7:56 PM",
+        "quesTitle": "Voice to text is not workinghttps://marketplace.kony.com/#/items/voice-input-interface",
+        "quesDetails": "I have downloded voice input interface from marketplace and when i try to integrate it in my visulaizer. I am getting Invalid import dir: \"There is no .metadata file.\". I am using visulaizer 7.3. Can you please update this as soon as possible.\n",
+        "tags": [
+            "Visualizer",
+            "Text",
+            "Marketplace",
+            "Voice Input Interface"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kk4x9SAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 2
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "voice input interface",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Not working",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-718"
+    },
+    {
+        "name": "Kony Marketplace — Tetsuro Okabe (Kony)",
+        "date": "August 8, 2018 11:44 AM",
+        "quesTitle": "The \"Work Order Management\" is an app. Not a \"Collection Library\"",
+        "quesDetails": "In the marketplace main page, it shows \"Category: Collection Library\" for this item. But this is not a library and I can't import it into my library. Instead, I can download it as a zip file and I can import it as a project into Visualizer.\nIt's confusing and should be change the category to \"Application\" instead.\n",
+        "tags": [
+            "Collection Library",
+            "Marketplace",
+            "Work Order Management",
+            "Order Management"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsaq1SAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "work order management",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Hang",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-720"
+    },
+    {
+        "name": "Lithesh DS (KLST)",
+        "date": "September 6, 2018 2:59 PM",
+        "quesTitle": "Unable to Login using the Login Component",
+        "quesDetails": "I'm just getting started with the Kony Platform, In this course \"Designer - Getting Started: Creating and Publishing an App Prototype (version 8)\"., I have followed all the steps exactly as said in video, but I'm Getting the below error on clicking the Sign in button \"\" Unhandled Exception : onErrorCallback is not defined\" , can anyone just help me get this resolved..\n",
+        "tags": [
+            "Visualizer",
+            "Component",
+            "App Prototype",
+            "Unhandled Exception",
+            "Login Component",
+            "Login",
+            "Training"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000klIY7SAM",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 2
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 2
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-719"
+    },
+    {
+        "name": "Yuji Shudo (NTT DATA corporation)",
+        "date": "July 10, 2018 9:18 AM",
+        "quesTitle": "Import Error",
+        "quesDetails": "I am looking at the \"I am looking at the reference book and trying out its contents.\" and trying out its contents.\n​\nI tried to import \"com.konymp.login_.zip\" into \"Components\", but I could not do it.\n \nI do not know what is the cause.\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Reference Book"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgZy7SAE",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-721"
+    },
+    {
+        "name": "Gary Dyksman (Freelance)",
+        "date": "July 19, 2018 5:45 PM",
+        "quesTitle": "Kony Login Component and Kony Fabric issues",
+        "quesDetails": "I am evaluating Kony as a mobile app platform but i am struggling to get the very basics running. I requested a Enterprise trial license, so while waiting for that i have started using the Starter Edition.\nI have started with the Login component, and linked it the the Kony User Repository, i have published it to the Kony App Preview, becasue i can't find a better way of debugging an App. But when i click on the Login button nothing happens. What am i missing? or what am i doing wrong?\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Starter Edition",
+            "Kony User Repository"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dcqveSAA",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 3
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Bug",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-722"
+    },
+    {
+        "name": "Hugo Leite (Sommet-Education)",
+        "date": "September 21, 2018 8:00 AM",
+        "quesTitle": "BarcodeScanner - Error - Result: 173",
+        "quesDetails": "Dear Team, \nthe barcode scanner is really something that we would like to use in our next app release. I have been trying to create a dummy app using the component Barcode Scanner but when launching the emulator I have the following error: \n\n[exec-shell] Result: 173 \n\nI'm using the latest Version of Kony Visualizer Enterprise Edition\nVersion 8 Service Pack 2 Fix Pack 21 \nand XCODE Version 10.0 (10A255)\n\nThank you in advance for your help. \n\nHugo Leite\n",
+        "tags": [
+            "Marketplace",
+            "V8 SP2",
+            "Barcode Scanner",
+            "QR Barcode Scanner",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YvPSAU",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 2
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-738"
+    }
+]

@@ -1,0 +1,3309 @@
+[
+    {
+        "name": "prabhakaran baskaran (TrueTech solutions)",
+        "date": "September 6, 2018 1:25 PM",
+        "quesTitle": "How to generate faceid.licenseString & faceid.serverURL ?",
+        "quesDetails": "Hi,\n\nI am getting init failure alert. How can i generate licence string and server URL. Would you please share the details or URL.\n\nThanks.\n",
+        "tags": [
+            "Gemalto Face-ID",
+            "Marketplace",
+            "Gemalto",
+            "Face Id Authentication"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000klFKRSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Deepthy Yalamanchili (Customer)",
+        "date": "September 5, 2018 7:56 PM",
+        "quesTitle": "Voice to text is not workinghttps://marketplace.kony.com/#/items/voice-input-interface",
+        "quesDetails": "I have downloded voice input interface from marketplace and when i try to integrate it in my visulaizer. I am getting Invalid import dir: \"There is no .metadata file.\". I am using visulaizer 7.3. Can you please update this as soon as possible.\n",
+        "tags": [
+            "Visualizer",
+            "Text",
+            "Marketplace",
+            "Voice Input Interface"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kk4x9SAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 2
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "voice input interface",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Not working",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sujith Ajitha (UST Global)",
+        "date": "September 5, 2018 9:20 AM",
+        "quesTitle": "How can I hide the values displayed against the vertical bar?",
+        "quesDetails": "I just need the bar chart created and not the range of values against with it is plotted. How can I hide the values ?\n",
+        "tags": [
+            "Vertical Bar Chart - Stacked Bars",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjnTXSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Dhineshkumar K (Customer)",
+        "date": "August 28, 2018 4:33 PM",
+        "quesTitle": "After passing file path to pdfviewer component, getting file path error message\": \"{\\\"error\\\":\\\"Invalid Path\\\",\\\"message\\\":\\\"please enter a valid path\\\"}\"",
+        "quesDetails": "Hi, \nThe below code snippet using for storing file and getting file path. After passing file path to pdfviewer component, getting file path error please help. \nThe file system returns the path as getMyFile{\"size\":{},\"modificationTime\":\"Thu Jan 01 05:30:00 GMT+05:30 1970\",\"writable\":false,\"readable\":false,\"parent\":\"/storage/emulated/0\",\"fullPath\":\"/storage/emulated/0/Certificate.pdf\",\"name\":\"Certificate.pdf\"} \n \n/*************************************************************/ \nfunction saveFile(){ \ntry{ \nvar rb = kony.convertToRawBytes(gblBase64);  \n \nvar path =\"\";  \n \nif( kony.os.deviceInfo().name == \"Android\" ){  \n \npath = kony.io.FileSystem.getExternalStorageDirectoryPath();  \n \n}else{  \n \npath = kony.io.FileSystem.getApplicationDirectoryPath();  \n \n}  \n \nif(kony.io.FileSystem.isExternalStorageAvailable()){ \n \n \nvar myfile = new kony.io.File( path +\"/Certificate.pdf\");  \n \nmyfile.write(rb, true);  \n \n} \n} \ncatch(err){ \nkony.print(\"saveFile\"+err); \n} \n \n \n \n} \n \nfunction showView(){ \n \ntry{ \nvar mainLoc = kony.io.FileSystem.getExternalStorageDirectoryPath(); \nvar myFileLoc = mainLoc + constants.FILE_PATH_SEPARATOR + \"Certificate.pdf\"; \nvar getMyFile = kony.io.FileSystem.getFile(myFileLoc); \nkony.print(\"getMyFile\"+JSON.stringify(getMyFile)); \nkony.print(\"getMyFile 2\"+getMyFile.fullPath); \nForm2.pdfviewer.pdfType = \"Local File Path\"; \nForm2.pdfviewer.setAndroidFilePath(getMyFile.fullPath+\"\"); \nForm2.show(); \n \n}catch(err){ \nkony.print(\"viewFile\"+err); \n} \n}\nShow More\nShow More\n",
+        "tags": [
+            "PDF Viewer",
+            "Marketplace",
+            "Path Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khSbhSAE",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "pdf viewer",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 3
+            }
+        ]
+    },
+    {
+        "name": "Thomas V (Customer)",
+        "date": "August 28, 2018 10:50 AM",
+        "quesTitle": "Can we add more than one label in the accordion header",
+        "quesDetails": "We need to have two labels one with text on the left side and the other with a value on the right side near the arrow.\n",
+        "tags": [
+            "Accordion",
+            "Marketplace",
+            "Label"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khRprSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Pavithree Shetty (Moonraft Innovation Labs)",
+        "date": "August 20, 2018 1:29 PM",
+        "quesTitle": "I have used com.konymp.singledatepicker , the segment scrolls vertically . How do i make the segment scroll horizontally?",
+        "quesDetails": "I changed the segment view type to \"page\" but when i do this i face 2 problems\ni) The segment section header field is not supported.\nii) The month and year field (lblMonthYear) gets initialized to the Start date (1/15/2000) instead of getting initialized to the current Month and year as it automatically happens when the view type is set to \"table\".\n",
+        "tags": [
+            "Marketplace",
+            "Segment View Type",
+            "Segment",
+            "Segment Scrolls",
+            "Date Picker",
+            "Scroll"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j1hQ4SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Google FCM Push Notifications — Arindam Ganguly (Moonraft)",
+        "date": "August 16, 2018 10:02 AM",
+        "quesTitle": "Where to add Google-Services.json file?",
+        "quesDetails": "",
+        "tags": [
+            "Marketplace",
+            "Google"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j0YFpSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Zoran Milutinovic (Self)",
+        "date": "August 10, 2018 6:30 AM",
+        "quesTitle": "Handling Non-Google maps",
+        "quesDetails": "Hi all,\nFor my solution I need to use ESRI rather than Google maps. I have an ArcGIS server that would supply these maps. I was hoping to use IFrame widget for this but figured that kony does not support IFrame.\nHow do I embed ESRI map into the app? Will need to be desktop and app channels enabled. Also, I need to have two way communication - parent/child.\n",
+        "tags": [
+            "Visualizer",
+            "ESRI",
+            "Marketplace",
+            "Google",
+            "Maps"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000iGEQOSA4",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Kony Marketplace — Amitabh Pradhan (Kony India Pvt Ltd)",
+        "date": "August 10, 2018 6:15 AM",
+        "quesTitle": "Front/Rear Camera switch in Barcode/QR code Scanner NFI",
+        "quesDetails": "Do we have any option to switch between front/rear camera in Barcode/QR code Scanner NFI at https://community.kony.com/marketplace/items/barcode-qr-code-scanner\n",
+        "tags": [
+            "Rear Toggle",
+            "Scanner NFI",
+            "Rear Camera",
+            "Rear Switch",
+            "Switch",
+            "Marketplace Component",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000iGEP1SAO",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            }
+        ],
+        "secList": []
+    },
+    {
+        "name": "Kony Marketplace — Tetsuro Okabe (Kony)",
+        "date": "August 8, 2018 11:44 AM",
+        "quesTitle": "The \"Work Order Management\" is an app. Not a \"Collection Library\"",
+        "quesDetails": "In the marketplace main page, it shows \"Category: Collection Library\" for this item. But this is not a library and I can't import it into my library. Instead, I can download it as a zip file and I can import it as a project into Visualizer.\nIt's confusing and should be change the category to \"Application\" instead.\n",
+        "tags": [
+            "Collection Library",
+            "Marketplace",
+            "Work Order Management",
+            "Order Management"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsaq1SAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "work order management",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Hang",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Janaradhan Chokkani (Novartis)",
+        "date": "August 21, 2018 6:59 PM",
+        "quesTitle": "\"Importing component from Kony Marketplace",
+        "quesDetails": " \nI have started with the Visualizer version 8 x and have problems importing the any component. I get the following error: \"Importing component failed:Error import framework:error add api def to tern\". Currently am accessing from comny Network with proxy settings\n",
+        "tags": [
+            "Visualizer",
+            "Error",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ddltbSAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            },
+            {
+                "keyword": "error",
+                "count": 3
+            }
+        ]
+    },
+    {
+        "name": "Paul Flood (PRF)",
+        "date": "June 15, 2018 2:28 AM",
+        "quesTitle": "I am interested in creating an app. But very frustrated by Kony. Not really for a novice. I would like to see if some one can guide / or make for me a fairly simple app.?",
+        "quesDetails": "",
+        "tags": [
+            "Marketplace",
+            "URL"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XU0HMSA1",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Abhishek Kumar (Customer)",
+        "date": "June 12, 2018 12:14 PM",
+        "quesTitle": "Error while importing the marketplace Accordion component",
+        "quesDetails": "I downloaded the library but when i am importing it i am getting an error \" An error occurred while importing the library , Click retry to import again \" Can you please tell me why this occoured and how can i use it?\n \nCurrently using Kony Enterprise Version 8 Service Pack 2 Fix Pack 6\n",
+        "tags": [
+            "Marketplace",
+            "Component",
+            "Kony Enterprise Version Service",
+            "Error",
+            "V8 SP2"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XTB28SAH",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "accordion",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 3
+            }
+        ]
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "September 11, 2018 5:46 PM",
+        "quesTitle": "Custom Behaviour for each Segment row",
+        "quesDetails": "Hi! How Do I add a custom behaviour for each row in Segment. for example if I have boolean flag in segment data and want to show/hide a label in Segment row, based on the value of the boolean? Thank you\n",
+        "tags": [
+            "Visualizer",
+            "Custom Behaviour",
+            "Segment Row",
+            "Segment Data"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mLDBsSAO",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Nilesh Bose (Cognizant Technology Solution)",
+        "date": "September 11, 2018 2:08 PM",
+        "quesTitle": "Not able to access correct flex container dynamically in SPA",
+        "quesDetails": "Hi,\nI am creating rows by using flex containers and adding one flex container as button in it dynamically.\nNow on click of button flex container, I am getting last index of container every time.\nBelow is the code.\n var btnDelete = new kony.ui.FlexContainer({\n      \"autogrowMode\": kony.flex.AUTOGROW_NONE,\n      \"clipBounds\": true,\n      \"height\": \"75dp\",\n      \"id\": \"btnDelete\",\n      \"isVisible\": true,\n      \"layoutType\": kony.flex.FREE_FORM,\n      \"left\": 0,\n      \"onClick\": onDeleteClick,\n      \"skin\": \"slFbox\",\n      \"top\": 0,\n      \"width\": \"15%\",\n      \"zIndex\": 1\n    }, {}, {});\n    btnDelete.setDefaultUnit(kony.flex.DP);\n \nvar flxItemContainer = new kony.ui.FlexContainer({\n      \"autogrowMode\": kony.flex.AUTOGROW_NONE,\n      \"clipBounds\": true,\n      \"height\": \"80dp\",\n      \"id\": index,\n      \"isVisible\": true,\n      \"layoutType\": kony.flex.FLOW_HORIZONTAL,\n      \"left\": \"2%\",\n      \"right\": \"2%\",\n      \"skin\": \"CopyslFbox0afdfae0cb85640\",\n      \"top\": \"0dp\",\n      \"width\": \"96%\"\n    }, {}, {});\n    flxItemContainer .setDefaultUnit(kony.flex.DP);\n \n flxItemContainer.add(btnDelete);\n flxItemContainer.forceLayout();\n \n \n//Button click\n \nfunction onDeleteClick(btnDelete){\n   alert(btnDelete.parent.id);\n  }\nIn this code btnDelete.parent.id is returning the last index of parent every time.\nThe same code is working perfect in native but not working in SPA.\n \nPlease help.\nThanks in advance.\n \n",
+        "tags": [
+            "Visualizer",
+            "SPA",
+            "Flex Container",
+            "Flex Containers",
+            "Flex Container OnClick"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mLAotSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "vinay kumar reddy (Smartnapp)",
+        "date": "September 11, 2018 6:05 pm",
+        "quesTitle": "How to get an image from the server when ever required",
+        "quesDetails": "I want to change the source of an image dynamically by getting the image from the server.\n \nCan you suggest me any code or sample app or any document which would be helpful.\n",
+        "tags": [
+            "Visualizer",
+            "Image"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mKZ1ISAW",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Satish Kumar (Customer)",
+        "date": "September 11, 2018 6:05 pm",
+        "quesTitle": "I'm unable to build the app via visualizer",
+        "quesDetails": "Hi ,\nI'm trying to run the app in debug mode for web via visualiser, but ending up with the errors which i have attached in the same thread.\n \nPl let me know what i am missing\n \nThanks\nSatish A\n",
+        "tags": [
+            "Visualizer",
+            "APP",
+            "Build",
+            "Debug",
+            "Debug Mode"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mKYFxSAO",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narendra Jadon (Customer)",
+        "date": "September 9, 2018 3:42 PM",
+        "quesTitle": "Not able to build app in Android",
+        "quesDetails": "Hi everyone,\nI have been working on Kony visualizer for long time but all of a sudden it has started to give me error while creating build in Android. It was working fine and with just next try it stopped working only in case of Android, it works fine in IOS. Not sure what can be the issue. Its not working for any project, not even newly created one with just a single form. PFA the log file for the same. Seems like some jar file is missing as it gives error on KonyMain.\nI am using macbook air..\nThanks,\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mKWdUSAW",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "RaviKumarReddy Pyreddy (KonyLabs)",
+        "date": "September 9, 2018 10:20 AM",
+        "quesTitle": "Where are the log files for a Windows 10 Tablet App?",
+        "quesDetails": "#Informational Post​\nBelow are the location for the Windows 10 Tablet app the log files are located in :\nC:\\Users\\<USERID>\\AppData\\Local\\Packages\\<AppName>\\RoamingState\\Windows10Logs\n",
+        "tags": [
+            "Visualizer",
+            "Tablet App",
+            "Log Files",
+            "Windows 10",
+            "Informational Post"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mKW8bSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Al-hussein dimyati (PST)",
+        "date": "September 7, 2018 8:17 PM",
+        "quesTitle": "in theDBX training in the MVC2.0 , when i build a terranbank application",
+        "quesDetails": "in theDBX training in the MVC2.0 , when i build a terranbank application they ask me to write in the preshow Action of the form this code\nvar accountModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AccountModule\"); \nthis.attachToModule(accountModule); // startup  \nand when i run my application i'v got an exception that say (this.attachToModule is not a function)\n \nwhat i should do ??!!\n",
+        "tags": [
+            "Visualizer",
+            "Training",
+            "Terranbank Application",
+            "Action"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mKLGkSAO",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Aniket Raut (Customer)",
+        "date": "September 7, 2018 11:05 AM",
+        "quesTitle": "Facing issue while Deploy application on windows 8 device from Kony Visualizer 8.2 service pack 6",
+        "quesDetails": "Logs for the Error :\n[exec] Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly \\'Microsoft.SmartDevice.Connectivity, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\' or one of its dependencies. The system cannot find the file specified.\n[exec] at Wp7AppDeployer.AppDeployer.IsEmulatorReady(String emulatorType)\n[exec] at AutomateWP7.Program.Main(String[] args)\n[exec]\n[exec] D:\\\\temp\\\\UBIMADB\\\\build\\\\winphone8\\\\HelperFiles>if not errorlevel 0 goto failed\n[exec]\n[exec] D:\\\\temp\\\\UBIMADB\\\\build\\\\winphone8\\\\HelperFiles>echo application installation process failed\n[exec] application installation process failed\n[exec]\n[exec] D:\\\\temp\\\\UBIMADB\\\\build\\\\winphone8\\\\HelperFiles>exit /B 234\nConsole: Switched to tab \"Console\"\n \nDevice Details :\nModel : Nokia Lumia 720\nSoftware : Windows Phone 8.1\n \nKony version : Version 8 Service Pack 2 Fix Pack 6  \n \nSystem : Windows 10 Pro\n \nWindows SDK : \n1. Windows Phone SDK 8.0 - ENU\n2. Windows SDK AddOn\n3. Windows Phone 8.1 Update 1 SDK and Emulators\n \n",
+        "tags": [
+            "Visualizer",
+            "Service Pack",
+            "String",
+            "V8 SP2"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mK6dASAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "georg mende (Customer)",
+        "date": "September 7, 2018 12:09 AM",
+        "quesTitle": "Scandit Demo App errors with invalid licence key",
+        "quesDetails": "Hi Folks,\nThe Barcode-Scanner-with-Scandit-library was downloaded from GitHub (Visualizer 7.0). A trial licence key was obtained from Scandit. The installation instructions were followed (installed in Visualizer 8.2). The Scandit Demo App fails with an Error 12 (invalid licence key). Is this problem due to the new version of Visualizer and if so, how can we update the Demo App?\nYour assistance will be appreciated.\nthanks\n.......georg\n",
+        "tags": [
+            "Visualizer",
+            "Scandit Demo App",
+            "Scandit",
+            "Barcode Scanner"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mK4LwSAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lithesh DS (KLST)",
+        "date": "September 6, 2018 2:59 PM",
+        "quesTitle": "Unable to Login using the Login Component",
+        "quesDetails": "I'm just getting started with the Kony Platform, In this course \"Designer - Getting Started: Creating and Publishing an App Prototype (version 8)\"., I have followed all the steps exactly as said in video, but I'm Getting the below error on clicking the Sign in button \"\" Unhandled Exception : onErrorCallback is not defined\" , can anyone just help me get this resolved..\n",
+        "tags": [
+            "Visualizer",
+            "Component",
+            "App Prototype",
+            "Unhandled Exception",
+            "Login Component",
+            "Login",
+            "Training"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000klIY7SAM",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 2
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "name": "radha.madabathula radha.madabathula (Customer)",
+        "date": "September 6, 2018 5:18 AM",
+        "quesTitle": "Getting the below error while installing the application on device after Signing unsigned APK from release folder. \n\nHas signing procedure changed in V8?",
+        "quesDetails": " \n Failure [INSTALL_PARSE_FAILED_NO_CERTIFICATES: Package /data/app/vmdl1016544640.tmp/base.apk has no certificates at entry AndroidManifest.xml]\n \nNote: Issue is not observed by Following the same process for debug APK from debug folder.\n",
+        "tags": [
+            "Visualizer",
+            "APK",
+            "Release Folder",
+            "PROD BINARY",
+            "PARSE FAILED NO CERTIFICATES"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kkqSbSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Roelof Koelewijn (REDORA)",
+        "date": "September 5, 2018 12:37 PM",
+        "quesTitle": "Function names won't load",
+        "quesDetails": "Since the latest update my function names won't load making it impossible to choose a function to invoke. \n \nI have restarted Visualizer, my computer etc. Also I have been waiting for 30 minutes but still it won't load - see screenshot.\n \nAnything I can do???\n \n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Function",
+            "Function Names"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjpMeSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hervé Ndoguéfouba (Arcturien.Com)",
+        "date": "September 4, 2018 6:31 PM",
+        "quesTitle": "Tools for profiling and performance : Win10/Win8 app in Kony Vis 7.3",
+        "quesDetails": "Hi all,\n \nAre they tools tools for profiling and performance apps build in Kony Vis 7.3 for Win10/Win8 app?\n \nSee for example the new VS2017 profiling tools :\nhttps://docs.microsoft.com/fr-fr/visualstudio/profiling/profiling-tools?view=vs-2015\n \nThanks in advance,\n \nHervé Ndoguéfouba \n",
+        "tags": [
+            "Visualizer",
+            "Performance",
+            "Win10",
+            "Tools Tools",
+            "Win8",
+            "7.3"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjaf4SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Phyrom Phat (My Extreme Wealth)",
+        "date": "September 4, 2018 9:42 AM",
+        "quesTitle": "Getting error while using AWS SDK(CognitoIdentityServiceProvider)?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "AWS SDK",
+            "SDK"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjLrASAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "habeeb Nadumparambath (mannai corporation)",
+        "date": "September 4, 2018 8:41 AM",
+        "quesTitle": "How to change status bar background colour to black in ios",
+        "quesDetails": "I want change the status bar background colour to black in ios. The status bar style property just changing the text colour of content in the status bar.\n",
+        "tags": [
+            "Visualizer",
+            "Text Colour",
+            "Status Bar Background Colour",
+            "Background",
+            "Status Bar Colour"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjLlWSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Katya Taran (Customer)",
+        "date": "September 4, 2018 5:17 AM",
+        "quesTitle": "Is there a way to stay logged in in Visualizer?",
+        "quesDetails": "Kony Visualizer seems to automatically log me out and logging back in seems to take quite some time, and often fails.\nIs there a way to keep account connection active for a long period of time to avoid these disruptions?\nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Login"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjLOSSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ramya N (Cognizant Technology solutions)",
+        "date": "September 3, 2018 12:27 PM",
+        "quesTitle": "Tracking the driver for my order similar to swiggy app",
+        "quesDetails": "We are developing a food ordering mobile app in android & ios. Once the user order food. Driver will pickup from store and deliver to the customer. How can we do the realtime tracking of the driver vehicle. Use case similar to swiggy/old/uber. In kony we have polyline api but its just drawing line.\nCan we achieve vehicle tracking with real route?\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Food Ordering",
+            "Delivery"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjIi0SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "TechM KonyDemos (Tech Mahindra)",
+        "date": "September 3, 2018 10:26 AM",
+        "quesTitle": "Getting Error while connecting to Kony Fabric from Kony Visualizer",
+        "quesDetails": "I Team,\nI am getting error \"Unable to get request token with provided Kony Fabric Details\" while connecting to Kony Fabric from Kony visualizer. So, I request you to help me in resolving this issue.\n \nRegards,\nOmkar\n9491870132\n",
+        "tags": [
+            "Visualizer",
+            "Omkar",
+            "Request Token",
+            "Error",
+            "Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjIQHSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Biswaranjan Lenka (moonraft)",
+        "date": "September 3, 2018 9:40 AM",
+        "quesTitle": "i want to design a datepicker exctaly the same as image and the scorling should be left right croling not up down can any one help",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Right Croling",
+            "Design",
+            "Scrolling",
+            "Date Picker"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjIM0SAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martin Nugraha (Self Employee)",
+        "date": "September 3, 2018 3:56 AM",
+        "quesTitle": "How to give multiple color in 1 text/label?",
+        "quesDetails": "Hi, i want to display like this on my app :\n\n\"Klmn opqrs\" is a button with red skin. \"opqrs\" can be wrapped. How can I do that in Kony sir?\nI hope Kony's senior can help me.\nThank you. 😃\n \n",
+        "tags": [
+            "Visualizer",
+            "APP",
+            "Multiple Color",
+            "Color"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjHxeSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Chetaswan Bhattacharya (NA)",
+        "date": "September 2, 2018 6:49 PM",
+        "quesTitle": "Response is coming Null in Kony but working with simple native JS",
+        "quesDetails": "I am using following piece of code. The same thing is working with simple ajax call but not in Kony. Can you please check what I might have missed.\n \nfunction getCustDetails(){\n  \n var request = new kony.net.HttpRequest();\n  \n request.onReadyStateChange=httpCallbackHandlergetCustDetails;\n  \n request.open(constants.HTTP_METHOD_POST, \"https://reqres.in/api/users\");\n request.setRequestHeader(\"Content-Type\", \"application/json\");\n var postdata = {name: \"paul rudd\", movies: [\"I Love You Man\", \"Role Models\"]};\n request.send(postdata);\n  \n  \n}\n \nfunction httpCallbackHandlergetCustDetails(){\n  \n if(this.readyState == constants.HTTP_READY_STATE_DONE){   \n   \n  alert(\"In Callback \"+JSON.stringify(this));\n  \n }\n  \n}\n",
+        "tags": [
+            "Visualizer",
+            "JS",
+            "STATE DONE",
+            "Null Response"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjGPlSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Deepak Nandanwar (Techsignia Solutions Pvt Ltd.)",
+        "date": "September 2, 2018 11:52 AM",
+        "quesTitle": "I want to create app menu for app which is developed on Visualizer 8.I tried by the below code but it is not working .Please let me know if i missing anything.",
+        "quesDetails": "I changed the form property for app menu rendering but still not working.\nI done this by code like below.\ncalled below function on preappinit -\nfunction createAppMenu(){\n try{\n  kony.print(\"inside createAppMenu\");\n  var appMenuItem1 = [\"AppMenu1\",\"home\", \"menu_home.png\", onClickHome];\n  var appMenuItem2 = [\"AppMenu2\", \"store\", \"menu_stores.png\", onClickStore];\n  var appMenuItem3 = [\"AppMenu3\", \"sart\", \"menu_cart.png\", onClickCart];\n \n  //defining appMenu parameter with the above menu items.\n  var appMenu = [appMenuItem1, appMenuItem2,appMenuItem3];\n \n  //Creating App menu.\n  kony.application.createAppMenu(\"myappmenu\", appMenu);\n }  \n catch(err){\n  kony.print(\"error in createAppMenu-\"+err);\n }\n}\n \ncalled below function on form post show event.\nfunction setAppMenuStoreForm(){\n try{\n  kony.print(\"inside setAppMenuStoreForm\");  \n  kony.application.setCurrentAppMenu(\"myappmenu\");\n  kony.application.setAppMenuFocusByID(\"AppMenu2\");\n }\n catch(err){\n  kony.print(\"error in setAppMenuStoreForm-\"+err);\n }\n}\n",
+        "tags": [
+            "Visualizer",
+            "Menu",
+            "App Menu Rendering",
+            "Form Property"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjBBySAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "September 1, 2018 8:09 PM",
+        "quesTitle": "Disable the focus state of Row in segment in iphone",
+        "quesDetails": "I have a segment with a row template. I want to disable the focused state of the row template. Even after disabling the focus skin , i am still getting it for iphone ( It is working fine in Android ). Attaching the video for the problem and images showing the skin for the segment and the row template.\n \nAny help regarding this is appreciated.\n",
+        "tags": [
+            "Visualizer",
+            "Focus State",
+            "Focus",
+            "Iphone",
+            "Segment Row",
+            "Ios"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kjA7gSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "radu.brinda radu.brinda (Customer)",
+        "date": "August 31, 2018 2:38 PM",
+        "quesTitle": "How to display decimal separator on numeric keyboard on Samsung Galaxy Tab S2",
+        "quesDetails": "We are using the device Samsung Galaxy Tab S2 in the EHS project for our client EHS.\nThe client needs the decimal separator in the screen as in clavier.png - screenshot from Google Fit app.\nThe numeric keyboard is displayed as can be seen in clavier_samsung.png.\nBoth apps are running on the same device.\nHow can this be achieved with Kony? We are using V8.2.\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Decimal Separator",
+            "Samsung"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kihdCSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Benjamin Jaffe-Talberg (Wildflower Schools)",
+        "date": "August 30, 2018 5:44 PM",
+        "quesTitle": "Unable to move items into or out of flex container",
+        "quesDetails": "I'm not sure how I add/remove UI components to/from flex containers. I can highlight multiple components, right click, and select \"Group into Flex\", but sometimes I want to move a single component out of a flex group or add a single component into a flex group. It seems like I should just be able to drag and drop these components within Kony Visualizer's Project navigation window. Is my assumption correct, is this a bug in Visualizer?\n \nMy environment:\n \nMac 10.13.6\nKony Visualizer - Enterprise Edition - Version 8 Service Pack 2  \n",
+        "tags": [
+            "Visualizer",
+            "Flex Container",
+            "Group Items",
+            "Flex Containers",
+            "MAC"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kiRbQSAU",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 5
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "Bug",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Naji Salcedo (Chevron)",
+        "date": "August 30, 2018 4:06 PM",
+        "quesTitle": "kony.i18n.getLocalizedString() returns \"Preparation\"",
+        "quesDetails": "Code:\narrHeaders = [kony.i18n.getLocalizedString(\"genEngLoc\"), kony.i18n.getLocalizedString(\"genEngTopic\"),\"fda\",kony.i18n.getLocalizedString(\"genEngAud\"),\"fda\"];\n \nBut when I run it, it shows like this:\n\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Code"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kiORrSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rajat Kumar (Customer)",
+        "date": "August 30, 2018 7:43 AM",
+        "quesTitle": "How to Navigate from Browser Widget's button (Hybrid) to another Kony Form.",
+        "quesDetails": "Scenario is like this:-\nI have loaded Html page within browser widget. In html page I have a button .On click of that want to navigate to Kony form . That mean want to achieve hybrid to kony native navigation.\n \nAny help on this will be really helpful.Thanks\n",
+        "tags": [
+            "Visualizer",
+            "Browser Widget's",
+            "HTML",
+            "Kony Form"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000kiGRnSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Don Shope (Independence Blue Cross)",
+        "date": "August 29, 2018 1:16 PM",
+        "quesTitle": "What is the maximum number of characters allowed for a widget name, form name, variable name?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Maximum Number",
+            "Widget"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khvIxSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Freddy Molina (Customer)",
+        "date": "August 28, 2018 11:05 PM",
+        "quesTitle": "Failed to process request: com.kony.webexception.Channel NotFoundException:Channel not build",
+        "quesDetails": "When I want to enter from Browser from a cell phone, the web page does not show error 500.\n \nUsing Kony Visualizer 7.3\n",
+        "tags": [
+            "Visualizer",
+            "Process Request",
+            "NotFoundException",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khqZySAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lavanya Ratnala (Customer)",
+        "date": "August 28, 2018 12:36 PM",
+        "quesTitle": "How do we show two flex containers in side a row template,\nExample : if i have two flex containers in a row template , when i click on flexcontainer1 flexcontainer2 should be visible for that what piece of code i need to write",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Flex Containers",
+            "Row Template"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khSk0SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "August 28, 2018 12:33 PM",
+        "quesTitle": "How to send Push Notification from one device to another?",
+        "quesDetails": "I am able to send push messages from KMS console by token and device info. But I need to send it form the device for a requirement. Suppose on click of a button I need to send notification to another device (I have the token and other creds.) from the device in which button was pressed. How can I achieve that without help of a server?\n",
+        "tags": [
+            "Visualizer",
+            "Push Notification",
+            "Push Messages",
+            "Device"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khSebSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "raviteja kolla (Cognizant Technology Solutions)",
+        "date": "August 28, 2018 6:23 AM",
+        "quesTitle": "unable to build \"Kony Visualizer 8.2\" for Android and IOS (Native and SPA)",
+        "quesDetails": "[exec-script] at FSReqWrap.oncomplete (fs.js:145:20)\nThe following error occurred while executing this line:/Users/raviteja/KonyVizEWS/temp/Sample/build/server/androidbuild.xml:202: The following error occurred while executing this line:/Users/raviteja/KonyVizEWS/temp/Sample/build/server/build.xml:900: exec-script returned: 1\nAnt build error=The following error occurred while executing this line:/Users/raviteja/KonyVizEWS/temp/Sample/build/server/androidbuild.xml:202: The following error occurred while executing this line:/Users/raviteja/KonyVizEWS/temp/Sample/build/server/build.xml:900: exec-script returned: 1\nThe following error occurred while executing this line:/Users/raviteja/KonyVizEWS/temp/Sample/build/server/androidbuild.xml:202: The following error occurred while executing this line:/Users/raviteja/KonyVizEWS/temp/Sample/build/server/build.xml:900: exec-script returned: 1\nFailed : Preprocessing code for selected platforms\nBuild Generation failed.\nBuild Generation Status\nAndroid: Failed\nApplication [Sample] is pointing to [RAISC - heathw-RJR-DEV-MBL-VPC-EAST] environment but does not involve Service integration.\n \n",
+        "tags": [
+            "Visualizer",
+            "IOS Na",
+            "Android",
+            "Error",
+            "V8 SP2",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khRESSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "N S (myco)",
+        "date": "August 27, 2018 6:56 PM",
+        "quesTitle": "Incorrect ndk_bundle/toolchain picked up during build",
+        "quesDetails": "During android native build ndk_bundle\\......\\mips64el-linux-android-4.9\\ binaries are being picked up. How do I specify correct windows-x86 binaries to be picked up from the ndk_bundle.\n",
+        "tags": [
+            "Visualizer",
+            "Android Native",
+            "Bundle",
+            "Ndk",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khISwSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ignacio Fernandez (ENGIE)",
+        "date": "August 27, 2018 4:27 PM",
+        "quesTitle": "Is necessary add the Googleservice-Info.plist to the xcode project for work with push notification?",
+        "quesDetails": "I add the plits in the root of the folder and add the certificate in the app messaging of Mobile fabric but its seems is not working and i got a succes register from FCM. Its necessary that file in the project? can explain a cheat sheet of what we need for work with push in iOS?? in Android everything is fine.\n \nThanks!!!\n",
+        "tags": [
+            "Visualizer",
+            "Root",
+            "FCM",
+            "Push Notification",
+            "Xcode Project",
+            "Googleservice-Info..plist",
+            "Fabric",
+            "Xcode"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000khDU8SAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rajendra Prasad (DBS)",
+        "date": "August 27, 2018 2:38 PM",
+        "quesTitle": "Status bar is enlarged after mobile banking app (iOS) is launched.",
+        "quesDetails": "Status bar is enlarged after mobile banking app (iOS) is launched. Please find the attached screen shot for your reference.\nRegards,\nGuru\n8008254919\n",
+        "tags": [
+            "Visualizer",
+            "Mobile",
+            "Status Bar",
+            "Screen Shot",
+            "Banking",
+            "Mobile Banking App"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j4RzgSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Shrikant Sakhare (GFI)",
+        "date": "August 26, 2018 2:12 PM",
+        "quesTitle": "How to kill kony application in",
+        "quesDetails": "can please help to let me know any api for the same'\n \n",
+        "tags": [
+            "Visualizer",
+            "Kony Application",
+            "APPLICATION",
+            "API"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j4KfnSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "john varghese (john)",
+        "date": "August 25, 2018 11:57 AM",
+        "quesTitle": "unable to login using",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Login"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j4FFrSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Falk Hebstreit (KPT/CPT)",
+        "date": "August 24, 2018 12:16 PM",
+        "quesTitle": "Enterprise license is not valid. Only restricted functionalities will be available.",
+        "quesDetails": "We have a valid licence but i still can't use the Visualizer. What to do? How to validate the licence?\n",
+        "tags": [
+            "Visualizer",
+            "Valid Licence",
+            "Enterprise",
+            "Enterprise License"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j3VwYSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "bhuvaneswari premkumar (fyusion infotech)",
+        "date": "August 23, 2018 5:41 AM",
+        "quesTitle": "I cant able to add android emulator in the visualizer.I am getting [exec-shell] Result: 1 error in the log.How to solve this ?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Android Emulator"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j3AZcSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Nicole Bowman (In-Depth Genomics)",
+        "date": "August 22, 2018 8:22 PM",
+        "quesTitle": "Visualizer stopped working!",
+        "quesDetails": "first my projects woudn't load, then the entire software stopped working. I uninstalled and re-installed....now I'm infinitely stuck at the loading screen shown here....tips??\n",
+        "tags": [
+            "Visualizer",
+            "Kony Visualizer Bugs"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j34KsSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Evans Langat (Incentro)",
+        "date": "August 22, 2018 2:52 PM",
+        "quesTitle": "how can I best implement Access Control on forms? Users not logged in can still access forms when they press back button multiple times (despite the code below)",
+        "quesDetails": " onNavigate: function (params) {\n  try {\n   if (kony.store.getItem(\"isLoggedIn\") !== \"true\") {\n    return;\n   } \n  } catch (error) {\n   return;\n  }\n },\n",
+        "tags": [
+            "Visualizer",
+            "OnNavigate",
+            "Access Control",
+            "Access Forms"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j2elvSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sally Davis (eTruckBiz)",
+        "date": "August 21, 2018 7:59 PM",
+        "quesTitle": "Has anyone built an android mobile app and uploaded to the Google Play store using App Signing by Google Play?",
+        "quesDetails": "I am getting a successful release build of my android mobile app, but cannot upload it to the google play store because of the error: \"You uploaded an APK that is not signed with the upload certificate. You must use the same certificate.\"\n \nThough I have set the keystore aliases and passwords in the visualizer project settings, it appears that the build continues to use the debug keystore...\n \nHere is an excerpt from the console log:\n...\n[exec-shell] :validateSigningRelease\n[exec-shell] :packageRelease\n[exec-shell] :assembleRelease\n[exec-shell]\n[exec-shell] BUILD SUCCESSFUL in 1m 49s\n[exec-shell] 27 actionable tasks: 27 executed\nsignApk:\n[echo] Release apk signing started.\n[copy] Copying 1 file to A:\\\\pndDriver\\\\build\\\\outputs\\\\apk\\\\debug\n[echo] Invoking APKSigner.jar to sign apk\n[java] Getting .andorid folder location\n[java] Checking key folder Path = C:\\\\Users\\\\sally\\\\.android\n[java] Debug key exists at C:\\\\Users\\\\sally\\\\.android\\\\debug.keystore\n[java] Debug Key not expired\n[java] Signing the Apk=A://pndDriver//build//outputs//apk//debug//pndDriver-debug.apk with debugkey=C:\\\\Users\\\\sally\\\\.android\\\\debug.keystore\n[java] Running command =C:\\\\KonyVisualizerEnterprise8.1.0.0\\\\java\\\\jdk\\\\bin\\\\jarsigner -sigalg MD5withRSA -digestalg SHA1 -keystore C:\\\\Users\\\\sally\\\\.android\\\\debug.keystore -storepass android -keypass android A://pndDriver//build//outputs//apk//debug//pndDriver-debug.apk androiddebugkey\n[java] jarsigner: unable to sign jar: java.util.zip.ZipException: invalid entry compressed size (expected 27003 but got 27863 bytes)\n[java]\n[java] Process Exit status = 1\n[java] Could not sign the Apk=A://pndDriver//build//outputs//apk//debug//pndDriver-debug.apk\\tusing debugkey=C:\\\\Users\\\\sally\\\\.android\\\\debug.keystore\n...\n \nI am wondering if anyone else has run into this situation... and how it was resolved.\nThank you!\n",
+        "tags": [
+            "Visualizer",
+            "Release Version",
+            "App Signing",
+            "Project Settings",
+            "Google Play",
+            "Google",
+            "APK",
+            "Copying File"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j2P3DSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "gurumurthy pulipati (Konylabs)",
+        "date": "August 22, 2018 5:51 AM",
+        "quesTitle": "Getting \"linker command failed with exit code 1 (use -v to see invocation)\"",
+        "quesDetails": "This is an #Informational Post​ ﻿\n \nIssue: We are facing below issue/error while generating the ipa using Kony visualizer.\n \nISSUE : linker command failed with exit code 1 (use -v to see invocation)\nXCode Ver : 10.0 beta 5\nViz Ver : 7.3 with latest Plugins\nExtracting with Latest Plugin(IOS 7.3.0.65)\n \nBuild Error:\nndefined symbols for architecture arm64:\n\"std::string::append(unsigned long, char)\", referenced from:\nstd::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) in libkonyios.a(libkony.a-arm64-master.o)\n\"std::string::operator+=(char)\", referenced from:\n-[KDvFontUtil getFontImgRawData:width:height:isLatin:] in libkonyios.a(libkony.a-arm64-master.o)\n-[KDvFontUtil GetFontUIImage:::] in libkonyios.a(libkony.a-arm64-master.o)\n\"std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)\", referenced from:\n-[KDvFontUtil getFontImgRawData:width:height:isLatin:] in libkonyios.a(libkony.a-arm64-master.o)\n-[KDvFontUtil GetFontRawData::::] in libkonyios.a(libkony.a-arm64-master.o)\n-[KDvFontUtil GetFontUIImage:::] in libkonyios.a(libkony.a-arm64-master.o)\n\"std::string::operator=(std::string const&)\", referenced from:\n-[KDvFontUtil GetFontUIImage:::] in libkonyios.a(libkony.a-arm64-master.o)\n\"std::string::size() const\", referenced from:\n-[KDvFontUtil GetFontUIImage:::] in libkonyios.a(libkony.a-arm64-master.o)\n \nSolution:\n \nKony Xcode project supports \"C++ Standard Library\" key to \"linstdc++ (GNU C++ standard library)\" value. Please find the attached screenshot for your reference.\n \nKindly change the above setting in your Xcode \"Build Settings\" under KRelease target.\n \nRegards,\nGuru Murthy.\n \n\n",
+        "tags": [
+            "Xcode",
+            "Linker Command",
+            "Exit Code",
+            "Informational Post",
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j2IZaSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ravi Kumar Padigela (Kony)",
+        "date": "August 22, 2018 5:53 AM",
+        "quesTitle": "Visualizer 7.3.x Plugins showing as a Unsigned plugins",
+        "quesDetails": "#Informational Post​ \nIf any Visualizer 7.3.x Plugins showing as a Unsigned plugins as like attached screenshot,\ni.e. when we open plugins from Viz-->Window-->show view-->plugins we will observe all the plugins with grey color crossed mark instead of blue color tick mark\n \nPlease follow the below steps to overcome the same.\n#Solution#​ \na.Check if JAVA-HOME variable to JDK path is properly set in Environment variables. If not, Please set Variable Name : JAVA_HOME Variable Value : C:\\Program Files\\Java\\jdk1.7.0\\\nb.Also, run jarsigner command in command prompt and see if you are getting below message.\nC:\\Users\\<<username>>>jarsigner\n<<output>>\nUsage: jarsigner [options] jar-file alias\n     jarsigner -verify [options] jar-file [alias...]\nAfter adding the JAVA_HOME variable value with C:\\Program Files\\Java\\jdk1.7.0 issue will be resolved. i.e. now all the plugins will be shown in signed content when you open the plugins through Kony Viz-->Window-->show view-->plugins. \n",
+        "tags": [
+            "Informational Post​",
+            "Visualizer",
+            "Plugins",
+            "Program Files",
+            "Unsigned",
+            "7.3",
+            "Solution#",
+            "Informational Post"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j2DnBSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Leszek Mzyk (Customer)",
+        "date": "August 20, 2018 1:56 PM",
+        "quesTitle": "Converting/reading widget units programatically",
+        "quesDetails": "I'm setting the widget position programatically by setting it's `left` property to an integer.\nNow after `onTouchEnd` event I need to check it's position in respect to it's `width`.\nUnfortunatelly when I read the `width` of the widget it is a percent value in respect to it's parent (the parent's `width` is also set as percent of it's parent).\n \nMy question is - is there any method to convert between PERCENTAGE, PX and DP values of the widget dimension/position properties (`left`, `centerX`, `width` etc...)?\n",
+        "tags": [
+            "Visualizer",
+            "Px",
+            "Percentage",
+            "Widget",
+            "Dp",
+            "Units",
+            "OnTouchEnd"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j1iQ7SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hugo Leite (Sommet-Education)",
+        "date": "August 20, 2018 1:33 PM",
+        "quesTitle": "Switch Widget - Right background color.",
+        "quesDetails": "Hi Everyone,\nI have been trying to change the \"Right\" color of the Switch widget but nothing seems to work.\n \nIs there any other way to do that?\n \nRegards,\n \nHugo Leite\n \n",
+        "tags": [
+            "Visualizer",
+            "Switch Widget",
+            "Switch",
+            "V8 SP2"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j1hZ6SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gilles CLAPIT (Diebold Nixdorf France)",
+        "date": "August 20, 2018 9:04 AM",
+        "quesTitle": "\"Error: connect ETIMEDOUT 13.32.67.8.80\" when downloading fix pack 14 in Visualizer starter",
+        "quesDetails": "With the last version of Visualizer starter installed (v8 SP2), I have an upgrade available (fix pack 14) but I'm not available to download this package directly from Visualizer. Is it possible to do this upgrade manually ?\nThanks.\n",
+        "tags": [
+            "Visualizer",
+            "Visualizer Starter",
+            "V8 SP2",
+            "Upgrade",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j1f1ZSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Santosh Sarangi (TATAPOWER-DDL)",
+        "date": "August 20, 2018 7:05 AM",
+        "quesTitle": "Ant build error",
+        "quesDetails": "[exec-shell] BUILD FAILED in 8s\n[exec-shell] :mergeDebugResources\n[exec-shell] A:\\\\CMGTataPower\\\\res\\\\drawable\\\\CMG_app_icon.png: Error: \\'C\\' is not a valid file-based resource name character: File-based resource names must contain only lowercase a-z, 0-9, or underscore\n[exec-shell] :mergeDebugResources FAILED\n[exec-shell] 8 actionable tasks: 8 executed\n[java] unSubstituting DriveUnsubstituting Drive ARunning command =SUBST A: /d\n[java]\n[java] Process Exit status = 0\n[java] Unsubstitution successful for Drive A\nThe following error occurred while executing this line:\\nD:\\\\SVN\\\\CMG\\\\temp\\\\CMGTataPower\\\\build\\\\luaandroid\\\\build.xml:2875: exec-shell returned: 1\nAnt build error=The following error occurred while executing this line:\\nD:\\\\SVN\\\\CMG\\\\temp\\\\CMGTataPower\\\\build\\\\luaandroid\\\\build.xml:2875: exec-shell returned: 1\nConsole: Switched to tab \"Build\"\nThe following error occurred while executing this line:\\nD:\\\\SVN\\\\CMG\\\\temp\\\\CMGTataPower\\\\build\\\\luaandroid\\\\build.xml:2875: exec-shell returned: 1\nPackage Generation failed for platform Android.\nBuild Generation Status\nAndroid: Failed\n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j1ekOSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jonathan Lison (BIDMC)",
+        "date": "August 17, 2018 5:56 PM",
+        "quesTitle": "Kony can't launch my Android emulator any more",
+        "quesDetails": "I'm using Windows 10, Kony Visualizer 8.2. I'm not very familiar with Kony or Android Studio.\n \nI have one configured Android Emulator named \"Nexus5X.\" The location points to a copy of emulator.exe which exists, and the AVD Name matches the one in Android Studio, and I can launch it from there just fine.\n \nI used to be able to launch my Android emulator directly from within Kony by going to Product->Launch Emulator->Nexus 5X->Native. Now if I do that, I get this output:\nAVD: Nexus_5X_API_26\nAPK: C:\\Users\\{**}\\KonyVizEWS\\temp\\EmployeeDirectory\\build\\luaandroid\\dist\\luavmandroid.apk\nAppId: EmpDirectory\nEmulator arguments: \" \"\nPackage: com.orgname.EmployeeDirectory\nserialnumber: emulator-5554\nprofileapp: false\ndevlang: js\nWeb Selected: false\nadb.exe\ncom.orgname.EmployeeDirectory\nemulator-5554\n5554\nLaunching emulator\n* daemon not running; starting now at tcp:5037\n* daemon started successfully\nerror: device 'emulator-5554' not found\nerror: device 'emulator-5554' not found\nWaiting for HOME to launch\nWaiting..\n- waiting for device -\n \nIf I open a command prompt and type \"adb devices,\" it outputs this:\nList of devices attached\n \nIf I launch Nexus_5X_API_26 through Android Studio and then run the same command, it outputs this:\nList of devices attached\nemulator-5554  device\n \nPreviously I was having this same problem, except that the command was outputting \"emulator-5556\" and I don't know why, but a Windows reboot set it back to \"emulator-5554\" but didn't solve the problem.\n \nI tried deleting the AVD and emulator profile and recreating them, but it didn't help.\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Android Emulator",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j15BPSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Meenhaz Mishra (Kony IT Services)",
+        "date": "August 17, 2018 4:00 PM",
+        "quesTitle": "We are using Estimote beacons and the functionality is implemented with the help of FFI. We want to track if a notification was triggered while the app is in killed State. Can you please suggest a way to track it?",
+        "quesDetails": "Estimote basically uses corelocationServices and they wake up the app . So, our code is not able to distinguish if the app is in killed state or if its in foreground state.\n",
+        "tags": [
+            "Visualizer",
+            "APP",
+            "Local Notifications Sample Application",
+            "Foreground State",
+            "Estimote Beacons"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j11RBSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "EDGAR diaz (cgg)",
+        "date": "August 16, 2018 3:18 PM",
+        "quesTitle": "Problem executing preview APP",
+        "quesDetails": "Hello, I created a simple app where I added a form, the QR Reader component and a text area where I want to show the data read by the QR Reader, I validated my snippet where I assign the value read to the textbox property and it says it's okay, , however , I can't run the App neither by cloud or by emulator, When I try it by cloud, the visualizer just closes itself, and by emulator I get the following:\n \nThe following error occurred while executing this line:\nC:\\\\Users\\\\phoen\\\\KonyVizEWS\\\\temp\\\\TestDirectory\\\\fpreview\\\\android\\\\fpapp.xml:2858: exec-shell returned: 1\nAnt build error=The following error occurred while executing this line:\nC:\\\\Users\\\\phoen\\\\KonyVizEWS\\\\temp\\\\TestDirectory\\\\fpreview\\\\android\\\\fpapp.xml:2858: exec-shell returned: 1\nThe following error occurred while executing this line:\nC:\\\\Users\\\\phoen\\\\KonyVizEWS\\\\temp\\\\TestDirectory\\\\fpreview\\\\android\\\\fpapp.xml:2858: exec-shell returned: 1\nFailed to build apk file. See console for more details\n \nHope somebody can help me out here.\nIm using Galaxy S7 Edge for the visualizer and a Nexus 4 AVD\n",
+        "tags": [
+            "Visualizer",
+            "APP",
+            "QR Reader Component",
+            "QR Reader",
+            "Ios",
+            "Apk File"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000j0eHMSAY",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            },
+            {
+                "keyword": "error",
+                "count": 4
+            }
+        ]
+    },
+    {
+        "name": "balaji maddirala (kony)",
+        "date": "August 15, 2018 11:34 AM",
+        "quesTitle": "How to overcome EYE icon and CROSS (X) symbol in IE browser",
+        "quesDetails": "#Informational Post​ \nBy default IE browser will provide CROSS icon for normal text box and EYE icon for password text box. To over come this in Kony we can use custom CSS.\n \nYou need to add below piece of snippet under label skin which is forked for desktop web.\nFor password textbox:-\ninput::-ms-reveal {\ndisplay: none;\n}\nFor normal textbox:-\ninput::-ms-clear {\ndisplay: none;\n}\nFor your reference please find the attached sample app.\n \n \n \n \n \n \n \n \n",
+        "tags": [
+            "Informational Post",
+            "Visualizer",
+            "IE",
+            "EYE Icon",
+            "EYE"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000gu8zbSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hemadri Thanneru (AETNA)",
+        "date": "August 10, 2018 8:54 AM",
+        "quesTitle": "When i convert the flex container to flex scroll container the segment inside is goes disappearing",
+        "quesDetails": "When i convert the flex container to flex scroll container the segment inside is goes disappearing\n",
+        "tags": [
+            "Visualizer",
+            "Flex Container",
+            "Flex",
+            "Scroll"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000iGEdhSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Shaik Mohammad Jabiulla (Kony)",
+        "date": "August 10, 2018 8:38 AM",
+        "quesTitle": "Eye icon should not be displayed at all for password field in the Internet Explorer",
+        "quesDetails": "#Informational Post​ \nObserve the same behavior in the native HTML too for IE browser. To resolve the issue, we can use custom CSS. Here we are using textbox and marked it as secure, which will mask the character. If we use the below custom CSS for textbox, it will work in native HTML but not in Kony.\ninput::-ms-reveal { display: none; }\n \nTo remove or hide the eye icon from the textbox in Kony, we need to create a label skin and fork the skin for desktop web and copy the below content in the customer CSS box.\n input::-ms-reveal { display: none; }\nCreating a label skin with the custom CSS will resolve your problem.\n",
+        "tags": [
+            "Informational Post",
+            "Visualizer",
+            "Password Field",
+            "Internet Explorer",
+            "Css"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000iGEcASAW",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Javier Jesus Alvarez Montenegro (Qualifacts)",
+        "date": "August 9, 2018 9:48 PM",
+        "quesTitle": "Kony Visualizer Enterprise doesn't recognize an Android tablet.",
+        "quesDetails": "I have a problem when I try to configure my actual device, specs below, KVE doesn't recognize it.\n \n\nSpecs\nDescription: Samsung Galaxy Tab A\nModel: SM-P350\nAndroid Version: 6.0.1 API 23\n \nKony Visualizer Enterprise Edition.\nVersion 8 Service Pack 2 Fix Pack 15.\n \nI've tried running it on Android Studio and everything has been fine.\n \n\n \nAny ideas?\nIf you wish any additional info, please let me know.\n \nThank you in advance.\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Kony Visualizer Enterprise",
+            "Actual Device"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000iGBKySAO",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Chandramouli raju (hcl)",
+        "date": "August 9, 2018 11:29 AM",
+        "quesTitle": "Will Android App Built on Kony Studio 6.5 support Android 9.0 Devices?",
+        "quesDetails": "Kony Studio Version 6.5.3\n",
+        "tags": [
+            "Visualizer",
+            "Android App",
+            "Studio Version",
+            "Android",
+            "6.5"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fswQHSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Al Sanchez (InTandem)",
+        "date": "August 20, 2018 8:07 PM",
+        "quesTitle": "How to build a complex user interface for dynamic content?",
+        "quesDetails": "I'm using a segment widget with a template to populate text fields with dynamic data from an API. To make sure the text fields are not going to overlap with another text fields in Flex options I'm using prefered width and height. Is there any other way to get done a solution for autogrow? I'd like to know if there is any other possible way?\n",
+        "tags": [
+            "Visualizer",
+            "Responsive Text Fields",
+            "Text",
+            "Responsive Layout",
+            "Mobile Application",
+            "Responsive"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fstMqSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ajmal KV (MOI - Qatar)",
+        "date": "August 8, 2018 9:46 AM",
+        "quesTitle": "How to convert image url to base64",
+        "quesDetails": "I want to convert image url to base64 .. how to achieve this\n",
+        "tags": [
+            "Visualizer",
+            "Base64",
+            "Image"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsaErSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "nurul najihah rohmat (rhb)",
+        "date": "August 8, 2018 3:35 AM",
+        "quesTitle": "Custom Web Browser Error Message",
+        "quesDetails": " \nHow to custom Error Message here?\nif web failed to load, i want to be \"404 not found\"\n",
+        "tags": [
+            "Visualizer",
+            "Web",
+            "Web Browser Error Message",
+            "Error Message",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsZFkSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sekhar Pradhan (Kony IT Services Pvt Ltd)",
+        "date": "August 7, 2018 2:02 PM",
+        "quesTitle": "Android build failure in Kony 8.2.0 while executing this line:\nD:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\build.xml:2938",
+        "quesDetails": "While doing the android build it's getting failed.\nBelow are the error log.\n \nThe following error occurred while executing this line:\\nD:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\build.xml:2938: Replace: source file D:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\outputAPKVariants.properties doesn\\'t exist\nAnt build error=The following error occurred while executing this line:\\nD:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\build.xml:2938: Replace: source file D:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\outputAPKVariants.properties doesn\\'t exist\nThe following error occurred while executing this line:\\nD:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\build.xml:2938: Replace: source file D:\\\\workspace_Kony8_2_0\\\\temp\\\\Sample\\\\build\\\\luaandroid\\\\outputAPKVariants.properties doesn\\'t exist\nPackage Generation failed for platform Android.\nBuild Generation Status\nAndroid: Failed\n \nPFA logs.\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "PFA"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsHHqSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Shashi Kumar Kurakula (Customer)",
+        "date": "August 7, 2018 10:48 AM",
+        "quesTitle": "Unable to build android application in kony Visualizer 8.2.x",
+        "quesDetails": "Hi I am trying to build andorid application with Kony Visualizer 8.2.x. please find below log:\neclipse.buildId=4.3.2.M20140221-1700\njava.version=1.8.0_151\njava.vendor=Oracle Corporation\nBootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US\nFramework arguments: -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio -keyring /Users/shashikumarkurakula/.eclipse_keyring -showlocation\nCommand-line arguments: -os macosx -ws cocoa -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio -keyring /Users/shashikumarkurakula/.eclipse_keyring -showlocation\n \nError\nTue Aug 07 16:03:42 IST 2018\nHTTP GET on http://www.google.com failed . Details - No route to host (Host unreachable)\n \njava.net.NoRouteToHostException: No route to host (Host unreachable)\nat java.net.PlainSocketImpl.socketConnect(Native Method)\nat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\nat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\nat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\nat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\nat java.net.Socket.connect(Socket.java:589)\nat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)\nat org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)\nat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)\nat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)\nat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)\nat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)\nat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)\nat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)\nat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\nat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)\nat com.kony.studio.Proxy.excute(Proxy.java:91)\nat com.kony.studio.Proxy.excute(Proxy.java:60)\nat com.kony.studio.StudioContext.isInternetReachable(StudioContext.java:1295)\nat com.pat.tool.keditor.tasks.AndroidPackageManager.setCommonAntProperties(AndroidPackageManager.java:756)\nat com.pat.tool.keditor.tasks.AndroidPackageManager.execute(AndroidPackageManager.java:165)\nat com.pat.tool.keditor.tasks.Task.executeWithStatus(Task.java:260)\nat com.pat.tool.keditor.utils.KJob.run(KJob.java:80)\nat org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)\n \nNote: When clicked the link: http://www.google.com from Kony Console log its opening google is opening in web browser\n \nThank you,\nRegards,\nShashi kumar\n",
+        "tags": [
+            "Visualizer",
+            "Android Application",
+            "APPLICATION",
+            "US",
+            "Kony Visualizer",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsDynSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lakshmi Vajrapu (Kony)",
+        "date": "August 7, 2018 6:45 AM",
+        "quesTitle": "Not able to get kony print console logs from 8.2.x version in Xcode.",
+        "quesDetails": "This is an #Informational Post​ \nWe are not able to see the logs in kony print statements in Xcode console for release mode in 8.2.13 version.\n \nAs per process standardisation, debug print logs will be visible in debug mode only, in release mode logs will be restricted and wont be showed in Xcode console.\n \nBelow are the steps to get the logs in debug mode:\n \n--> In visualizer build the application for debug mode.\n--> After launching of Xcode, goto to edit schema and select run section at left end\n--> Select Debug from dropdown. \nPlease find screenshots from the attachments for your reference.\n \n \n \n \n",
+        "tags": [
+            "Informational Post",
+            "Visualizer",
+            "Xcode",
+            "Print",
+            "Kony Print",
+            "Kony Print Logs",
+            "Debug",
+            "Debug Mode"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fsDVlSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Adarsh TG (Infosys)",
+        "date": "August 6, 2018 6:54 AM",
+        "quesTitle": "Using trial version how to publish project on premise in Kony visualizer and also link the same to kony fabric on premise instead of publishing in Kony cloud ?",
+        "quesDetails": "I'm using Kony Visualizer trail version and facing issue in linking visualizer and fabric. Is this functionality available in trail version?\n",
+        "tags": [
+            "Visualizer",
+            "Trial Version",
+            "Kony Cloud"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000frrRSSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Takehiko Kan (SoftBank Telecom)",
+        "date": "August 2, 2018 3:44 PM",
+        "quesTitle": "How can I change the Keyboard's word on iOS and Android Using Visualizer Enterprize V8",
+        "quesDetails": "I'd like to change the Keyboard's word \"Done\" to Japanese.\n",
+        "tags": [
+            "Visualizer",
+            "Keyboard's Word",
+            "Using Visualizer Enterprize V7",
+            "V8",
+            "7.X",
+            "Visualizer Enterprise",
+            "Translation"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fr8RoSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martin Krischik (KPT/CPT)",
+        "date": "August 2, 2018 9:57 AM",
+        "quesTitle": "How to update my Visualiser Enterprise Licence",
+        "quesDetails": "Our Licence has run out recently. Of course we did get new Licences but I have problems applying those new Licences.\n \nWhen starting Kony Visualiser Enterprise i am not presented with the following login dialog:\n \n\n \nBut the login is always rejected. It should be noted that there is no indication to which server I should log in. Considering we have an on promise setup with multiple development server this is very bad user experience.\n \nIf I skip the login and try to build my application I am presented with yet another dialog:\n \n\n \nWhich brings me back to the first login dialog.\n \nI am a paying customer and I have just lost half a work day on your copy protection.\n \nWhat do i have to do to get my Visualiser Enterprise working again so I can be productive?\n",
+        "tags": [
+            "Visualizer",
+            "Update",
+            "New Licences",
+            "Visualiser Enterprise Licence",
+            "Enterprise",
+            "Kony Visualiser Enterprise",
+            "Copy Protection"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fr1ttSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Deni E Santoso (self employed)",
+        "date": "August 2, 2018 7:50 AM",
+        "quesTitle": "Can i import android layout in Kony ?",
+        "quesDetails": "Hi, did Kony support to import a xml-based android layout that created in Android Studio ? i Have create a layout that consist of text, button, and other elements. I wonder if that kony support to read my xml so i don't need to re-create those element in kony workspace.\n \nAny help will be much appreciated, thanks.\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Create",
+            "Android Layout",
+            "Xml"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fr1iPSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Praveen Raju (Truetech)",
+        "date": "August 2, 2018 7:15 AM",
+        "quesTitle": "OnHover segment in desktop application should display popup on respective row?",
+        "quesDetails": "I wanted the achive the design as shown in attachment. OnHover of the information icon on segment i wanted to display the popup.\nWhat is the best way to do this?\n",
+        "tags": [
+            "Visualizer",
+            "Best Way",
+            "Respective Row",
+            "OnHover Segment"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fr1fpSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Namit Madan (GE)",
+        "date": "August 1, 2018 6:27 AM",
+        "quesTitle": "Unable to launch application in iPhone from iPhone's safari browser (browser to app launch)",
+        "quesDetails": "HI Team,\n \nI am unable to launch the application in iPhone (if installed) from iPhone's safari browser. I have configured deep linking for iOS by setting scheme. So, requesting you to help in resolving this issue.\n \nRegards,\nOmkar\n",
+        "tags": [
+            "Visualizer",
+            "App Launch",
+            "Safari",
+            "Iphone"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fqd7ASAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Saranjeet Bepari (ADCB)",
+        "date": "July 31, 2018 1:15 PM",
+        "quesTitle": "API - for scroll to first in segment",
+        "quesDetails": "is there any API to scroll to first element in Segment ( table view) ?\n",
+        "tags": [
+            "Visualizer",
+            "Table View",
+            "Segment",
+            "API"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fqHYZSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martins Vitols (Accenture)",
+        "date": "July 31, 2018 8:32 AM",
+        "quesTitle": "Why callout still shows when I have set showCallout to false?",
+        "quesDetails": "Here are the pin object example\nlet tempPin = {\n id : item.id,\n lat: item.coordinates.lat,\n lon: item.coordinates.lng,\n name: item.name,\n desc: item.description,\n showCallout : false,\n meta: {\ncolor: \"green\",\nlabel: \"A\"\n } \n};\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Pin Object Example"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fqFh6SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "arjun arjun (redcaso)",
+        "date": "July 30, 2018 9:51 AM",
+        "quesTitle": "I want to know that in Kony how we can get the current location name or address for Android devices.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Current Location"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpslbSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Eduardo Eduardo (无)",
+        "date": "July 30, 2018 6:59 AM",
+        "quesTitle": "How to change the widget in segment's template skin?",
+        "quesDetails": "I design a page like below picture, when I select the first row, the row background change to grey.\nHow I can get the widget in segement template? change it's skin?\nIs there any demo? Thanks\n\n",
+        "tags": [
+            "Visualizer",
+            "Widget",
+            "Design Page",
+            "Segment's Template Skin"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpsWWSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Marat Matosov (Confidential)",
+        "date": "July 30, 2018 12:47 AM",
+        "quesTitle": "KONY Platform Interoperability (Native Apps <===> KONY )",
+        "quesDetails": "Hi Everybody,\n \n1. If I have a code (or library) I previously developed in Objective-C, Swift or Java/Kotlin ..\nCan I re-use this library in my KONY project?\n \n2. Could this code (or library) (question. #1) only consist of Bussiness logic or could it also include customized/extended Native UI components?\n(Let's say a specific \"Login\" page component ?)\n \n3. Opposite direction question: I have an application developed using KONY . Can I wrap a part of this app somehow (as a Native OS library, for example) to be re-used in my iOS or Android native code apps?\n \nThank you 😃\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Java",
+            "KONY Platform Interoperability"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fprqBSAQ",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 1
+            }
+        ],
+        "secList": []
+    },
+    {
+        "name": "Javier Palacios (Accenture)",
+        "date": "July 27, 2018 3:21 PM",
+        "quesTitle": "Can we configure in the code which resources to include in the apk and which ones not to include even if we share the same source code?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Code",
+            "Source Code",
+            "Resources",
+            "Images",
+            "APK"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpZh8SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Eugene Nikolsky (SoftServe)",
+        "date": "July 27, 2018 2:43 PM",
+        "quesTitle": "Widget's absolute position calculation",
+        "quesDetails": "Hi guys,\n \nThere is a necessity for us to determine absolute position of the widget on the screen. Widget can be contained within a FlexScrollCintainer.\nBut it seems like the following functions/property getters don't work:\nFlexScrollContainer.contentOffsetMeasured // prop, returns object with x and y as the empty objects: { \"x\": {}, \"y\":{} }\n \nWidget.convertPointToWidget(point, toWidget) // neither modifies the point nor returns relevant value: { \"x\": {}, \"y\":{} }\n \nWidget.convertPointFromWidget(point, toWidget) // the same as previous\nPlatforms checked: Android, iOS\nDoes anyone know how to workaround it?\n",
+        "tags": [
+            "Visualizer",
+            "Absolute Position",
+            "Position Calculation",
+            "Widget",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpXNESA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Naresh Eega (Chevron)",
+        "date": "July 27, 2018 9:39 AM",
+        "quesTitle": "Kony print statements not coming in debug logs iPhone.",
+        "quesDetails": "Hi Team,\nThough I build the project in debug mode , kony print statements are not coming in xcode debug logs. Earlier I got the logs but I didnt check from which version of visulizer this issue is coming.\n \nI configured the iPhone simulator in visualizer , building the project and running the simulator at a time by using \"Run as\" option available in product menu.\n \nCan you please let me know how can I get kony print statements.\n \nIn xcode run option set to \"Krelease\" other than this \"Kprotected\" and some other options are there.\n \nVIsualizer versoin :8.2.13\nXcode 9.4.1.\nMac os : 10.13.5 (High sierra)\n \nThanks,\nNaresh\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Naresh",
+            "Kony Print Statements"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpTMVSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "YI Hou (3ti)",
+        "date": "July 27, 2018 7:20 AM",
+        "quesTitle": "The problem of Kony IDE running ios simulator?",
+        "quesDetails": "Hi, why is that always happened to fail to launch application through Kony IDE ios simulator when using the marketplace component with photos.\n",
+        "tags": [
+            "Visualizer",
+            "Marketplace Component",
+            "Kony IDE",
+            "Ios Simulator"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpT00SAE",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Michael Boyd (Kony)",
+        "date": "July 27, 2018 2:46 AM",
+        "quesTitle": "How to import AAR file as Native Function API for Android",
+        "quesDetails": "When you import a 3rd party SDK the only choice is zip. I copied the AAR file to the customlibs android folder but do not see it when I try to Add. How do you import an SDK that is in the AAR format?\n",
+        "tags": [
+            "Visualizer",
+            "Import",
+            "NFI",
+            "Android",
+            "AAR",
+            "SDK"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpSagSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ismael Romero (Corporacion sybven)",
+        "date": "July 26, 2018 5:07 PM",
+        "quesTitle": "example of CollectionView Widget?",
+        "quesDetails": "hi team there is some functional example of CollectionView Widget\n",
+        "tags": [
+            "Visualizer",
+            "Widget",
+            "CollectionView Widget"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fpINLSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Harsh S (URL CRop)",
+        "date": "July 26, 2018 8:43 AM",
+        "quesTitle": "How to use XML images in Android app guys? Please let me know steps or give link for documentation. Thanks.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Xml"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fp8OCSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gopal Raju (SapientRazorfish)",
+        "date": "July 26, 2018 6:55 AM",
+        "quesTitle": "IE11 navigation is too slow",
+        "quesDetails": "In IE11, while navigating to a page with multiple nested flexContainers, it takes at lease 10-15 seconds to load. This works perfectly on all other browsers (chrome, firefox etc). Is there solution for this?\n",
+        "tags": [
+            "Visualizer",
+            "Navigation",
+            "IE11 Navigation"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fp8DPSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sushil Jadhav (NA)",
+        "date": "July 26, 2018 2:57 AM",
+        "quesTitle": "How to change skins at run time.",
+        "quesDetails": "I want to implement below scenario in kony.\n \nI want to change all skin for male and female at run time\nIf user select gender as\"MALE\" then skins should be different. and if user select Gender \"Female\" all skins should be different.\n \nHow should i implement it.\n",
+        "tags": [
+            "Visualizer",
+            "Run Time",
+            "User",
+            "Visualizer Enterprise",
+            "Skins"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000fp7wNSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Erick monge (Customer)",
+        "date": "July 25, 2018 6:43 PM",
+        "quesTitle": "For Movil, how can I share a location but also offer the user the option he chooses between google maps or waze?",
+        "quesDetails": "The idea is to click on a button to expand the options\n",
+        "tags": [
+            "Visualizer",
+            "Waze",
+            "Google",
+            "Google Maps",
+            "Location"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dek0ISAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ravi khandelwal (Oceaneering)",
+        "date": "July 25, 2018 12:39 PM",
+        "quesTitle": "While I am capturing the picture from camera widget, Those captured Images will save in gallery. But i don't want to save them in gallery. How can we achieve that.\n\nPlease suggest.",
+        "quesDetails": "While I am capturing the picture from camera widget, Those captured Images will save in gallery. But i don't want to save them in gallery. How can we achieve that.\n \nPlease suggest.\n",
+        "tags": [
+            "Visualizer",
+            "Camera Widget",
+            "Photo Gallery",
+            "CAMERA"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deZMDSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Al-Hussein Dimyati (PST)",
+        "date": "July 25, 2018 11:04 AM",
+        "quesTitle": "i made a skin for a text box and when i run the program the text box appear as no skin in the default skin",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Text Bo",
+            "Skin"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deYYeSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "DamanKony Dev (Customer)",
+        "date": "July 25, 2018 6:22 AM",
+        "quesTitle": "Hi,\nI have a text area in visualizer. im trying to scroll in android not working.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Textarea"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deXoMSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Yutaka Noguchi (Systena)",
+        "date": "July 25, 2018 2:14 AM",
+        "quesTitle": "I want to know how to use Object Service Data Model Class",
+        "quesDetails": "Hello.\n \nI made a model class like the attached image.\nHowever,I couldn't get the use it answer though I investigated it.\nCould you give me sample code to run this model class?\nhttp://docs.kony.com/konylibrary/visualizer/kony_ref_arch_api/Content/MVVM_Overviews_CreateApp.htm\n \nKonyVisualizer Version 8 Service Pack 2 Fix Pack 8.\n \nThanks for the help.\n",
+        "tags": [
+            "Visualizer",
+            "Object",
+            "Model Class",
+            "Service"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deXHcSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Marcos Rodriguez (Customer)",
+        "date": "July 24, 2018 7:53 PM",
+        "quesTitle": "Segments",
+        "quesDetails": "Hi\nI'm working in MVC project on kony visualizer\ni want to change a property like change the src of an image or an skin in a button from template segment in onRowClick action.\n",
+        "tags": [
+            "Visualizer",
+            "MVC Project"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deOlbSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Tihomil Kulev (Customer)",
+        "date": "July 24, 2018 2:28 PM",
+        "quesTitle": "Problem with NFI and iOS",
+        "quesDetails": "Hello,\n \nI'm using https://basecamp.kony.com/s/article-detail/a046A000001lyauQAA/barcode-scanner-sample-app-using-nfi this as an example or barcode scanning using AVFoundation on iOS.\n \nThe problem I have is that after the first scan, if I try to make another one the application is crashing. After some debugging, I think the problem is with how Kony is releasing resources for the native classes, but I don't have an idea how to proceed.\n \nHave anyone worked with this and know any probable solution?\n \nThanks!\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "NFI",
+            "Ios"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deD6ESAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "杨 大 (kkkyyy)",
+        "date": "July 24, 2018 1:10 PM",
+        "quesTitle": "The following error occurred while executing this line:\nC:\\\\Users\\\\Administrator\\\\KonyVizEWS\\\\temp\\\\ceshi\\\\build\\\\luaandroid\\\\build.xml:2841: exec-shell returned: 1",
+        "quesDetails": "The following error occurred while executing this line:\\nC:\\\\Users\\\\Administrator\\\\KonyVizEWS\\\\temp\\\\ceshi\\\\build\\\\luaandroid\\\\build.xml:2841: exec-shell returned: 1\nAnt build error=The following error occurred while executing this line:\\nC:\\\\Users\\\\Administrator\\\\KonyVizEWS\\\\temp\\\\ceshi\\\\build\\\\luaandroid\\\\build.xml:2841: exec-shell returned: 1\nThe following error occurred while executing this line:\\nC:\\\\Users\\\\Administrator\\\\KonyVizEWS\\\\temp\\\\ceshi\\\\build\\\\luaandroid\\\\build.xml:2841: exec-shell returned: 1\nPackage Generation failed for platform Android.\n \n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Error",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000deAgTSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "yyyddd1986@126.com yyyddd1986 (翔傲信息科技有限公司)",
+        "date": "July 24, 2018 6:08 AM",
+        "quesTitle": "Exception in executing gradle download build script.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Gradle",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000de8bxSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rajendraprasad Kalluri (Kony)",
+        "date": "July 23, 2018 7:14 AM",
+        "quesTitle": "Push Notifications call backs : GCM (vs) FCM",
+        "quesDetails": "This is an #Informational Post​ \n \nThree scenarios when a mobile device receives a push notification and below things happens on click of the notification in the notification tray :\n \nGCM :\n \nApp is in the foreground : onlinenotification call back gets executed \nApp is in the background : onlinenotification call back gets executed \nApp is not running : offlinenotification call back gets executed \n \n \nFCM : \n \nonlinenotification call back gets executed in all the 3 scenarios\n \nApp is in the foreground : onlinenotification call back gets executed \nApp is in the background : onlinenotification call back gets executed \nApp is not running : onlinenotification call back gets executed\n \n \nI have used Visualizer Version 8 Service Pack 2 Fix Pack 9 to build my apk file.\n \n \nThanks !!\n \nRajendra Kalluri\n",
+        "tags": [
+            "Informational",
+            "Visualizer",
+            "FCM",
+            "GCM",
+            "Push Notification",
+            "Informational Post"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ddbXdSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gary Dyksman (Freelance)",
+        "date": "July 19, 2018 5:45 PM",
+        "quesTitle": "Kony Login Component and Kony Fabric issues",
+        "quesDetails": "I am evaluating Kony as a mobile app platform but i am struggling to get the very basics running. I requested a Enterprise trial license, so while waiting for that i have started using the Starter Edition.\nI have started with the Login component, and linked it the the Kony User Repository, i have published it to the Kony App Preview, becasue i can't find a better way of debugging an App. But when i click on the Login button nothing happens. What am i missing? or what am i doing wrong?\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Starter Edition",
+            "Kony User Repository"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dcqveSAA",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 3
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Bug",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Naga Sudhakar (Cognizant)",
+        "date": "July 19, 2018 2:06 PM",
+        "quesTitle": "How to detect remove unused widgets, skins and studioactions",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Unused Widgets",
+            "Skins"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dckNESAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "lutfi alfa (indonesia)",
+        "date": "July 19, 2018 6:39 AM",
+        "quesTitle": "ERROR APK ONLINE PDF VIEWER",
+        "quesDetails": " \nI want to ask, i found a problem on apk android i made, my goal is i want to display pdf viewer on kony, but i found error in picture 1.\nfollowing attachment of my coding on kony visualizer, picture 2\n \nbut if the kony visualizer viewer is running normally, picture 3.\n \nplease provide solution immediately\n\n",
+        "tags": [
+            "Visualizer",
+            "Online PDF Viewer",
+            "APK ONLINE PDF VIEWER",
+            "Apk Android",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dchKySAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Manogya Baranwal (Cognizant)",
+        "date": "July 18, 2018 1:18 PM",
+        "quesTitle": "How to call and update other form after successful response of an integration service",
+        "quesDetails": "Hi,\n \nI have two Forms, Form1 and Form2. My requirement is to call an integration service in Form1 and on successful response of that need to update UI of Form 2 with that response and navigate to Form2.\n \nI tried this but in that case this.view is not working in Form2Controller and showing error: \"depmaps.slice is not a function\".\n \nAlso tried to first navigate to Form2 and override onNavigate and in that used pauseNavigation and after updating Form2 UI with response, used resumeNavigation function but no success, Form2 is not displaying in this case. \n \nPlease help me out to achieve this. It will be great if any sample code can be provided.\n \n \nThanks.\n \n",
+        "tags": [
+            "Visualizer",
+            "Integration Service",
+            "Successful Response",
+            "Mvc Architecture"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dcP2iSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Paul Herbert (Kony)",
+        "date": "July 17, 2018 5:54 PM",
+        "quesTitle": "I'm getting the following error when trying to start Visualizer:",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dcE5oSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Godfrey Fletcher (Customer)",
+        "date": "July 16, 2018 9:32 PM",
+        "quesTitle": "cannot uninstall",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dc0KQSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Evan Palmer (Kony)",
+        "date": "July 16, 2018 4:11 AM",
+        "quesTitle": "Why won't my Local Preview load on my iPhone?",
+        "quesDetails": "When I try to get a local USB Preview of my Kony app on my iPhone, it hangs indefinitely. The logs at \n \n/Users/[username]/Kony Visualizer/vizdata/logs/onyvizenterprise.log\n \nrepeats the same error:\n \n[2018-07-16 12:36:54.359] [ERROR] vide - error on 2018-07-16 12:36:54.359 KONYFPUSBService[4764:840295] Failed to connect to device #108: Error Domain=PTUSBHubError Code=3 \"connection refused\" UserInfo={NSLocalizedDescription=connection refused}\n \nUntil I manually kill the app and the KONYFPUSBService service.\n \nCloud preview works fine.\n \nThanks for the help.\n",
+        "tags": [
+            "Visualizer",
+            "LOGS",
+            "Local Preview",
+            "USB Preview",
+            "Visualizer Enterprise",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dbhjLSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rajesh Parmar (CAPGEMINI)",
+        "date": "July 13, 2018 11:43 PM",
+        "quesTitle": "Animation using flex scroll container and segment",
+        "quesDetails": "Hi,\n \ni want to to achieve the account transaction animation behaviour as per attached gif image.\n \nplease let me know if it is possible to achieve and how? If any sample application will be good.\n \nnote: my segment transaction has dock section header.\n \nthanks\nrajesh\n \n",
+        "tags": [
+            "Visualizer",
+            "Gif Image",
+            "Animation",
+            "Flex"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dbJfDSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Naveen Kumar (Customer)",
+        "date": "July 13, 2018 7:22 AM",
+        "quesTitle": "I want to create a custom map alert on click of the pin on the map",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Custom Map",
+            "MAP"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000db3ugSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sirisha Munala (Kony)",
+        "date": "July 12, 2018 8:07 PM",
+        "quesTitle": "Facing \"Unable to get request token with provided Kony Fabric details.\" error while connecting to Mobile fabric from Visualizer.",
+        "quesDetails": "This is an #Informational Post​ post\n \nThe issue is because of the proxy not being configured properly.\n \n1) To resolve the issue, the below URL's need to be white listed from the network.\n \nhttps://manage.kony.com/\nhttps://api.kony.com/ \nhttps://visualization.kony.com/\nhttps://prototypetransit.kony.com.s3.amazonaws.com\nhttps://accounts.auth.konycloud.com\n \n2) Also, add the below command in the eclipse.ini file.\n \n-Dkony.ignoreCertificateErrors=true \n \nThe eclipse.ini file is present in the below location.\n \nFor windows: Visualizer installation folder/Kony_Visualizer_Enterprise/eclipse.ini\n \nFor Mac: The file name is eclipse-orig.ini . This is present in Visualizer Installation folder/ Kony_Visualizer_Enterprise/ Right click on Eclipse.app/ show package contents/ eclipse-orig.ini\n \n3) Restart the Visualizer after adding the above line.\n",
+        "tags": [
+            "Visualizer",
+            "Informational Post",
+            "Fabric",
+            "Proxy"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dasonSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ravinder beecham (Kony labs)",
+        "date": "July 16, 2018 8:17 AM",
+        "quesTitle": "In iOS- How to achieve form Transtion without animation.",
+        "quesDetails": "This is #Informational Post​ \n \nTo achieve the form transition without animation in iOS, use the following piece of code in the form's preShow.\n \n<formname>.defaultAnimationEnabled = false;\neg: frmHome.defaultAnimationEnabled = false;\n \n",
+        "tags": [
+            "Informational Post​ ",
+            "Visualizer",
+            "Animation",
+            "Form",
+            "Informational Post"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000dahEcSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "LOKESH ahuja (birlasoft)",
+        "date": "July 11, 2018 6:44 AM",
+        "quesTitle": "I want to logout the user on app exit or we can say on init of app i want user to login into the app everytime. I am unable to invalidate session .",
+        "quesDetails": "please tell me how to invalidate the session of user.\nI tried kony.application.invalidateSession but it is not supported for android and ios.\nThen i tried to logout the user on app exit event :\nvar callbacks = {\nonactive:test,oninactive:test1,onbackground:test2,onforeground:test3,onappterminate:logout};\nkony.application.setApplicationCallbacks(callbacks);\n \n \n \nBut it does not work for me. The control does not execute the code written in logout method.\n \n Kindly suggest the right way to achieve this.\n \nThanks\nLokesh\n",
+        "tags": [
+            "Visualizer",
+            "App Exit",
+            "Android",
+            "Logout Method",
+            "App Exit Event"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgrMZSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Yuji Shudo (NTT DATA corporation)",
+        "date": "July 10, 2018 9:18 AM",
+        "quesTitle": "Import Error",
+        "quesDetails": "I am looking at the \"I am looking at the reference book and trying out its contents.\" and trying out its contents.\n​\nI tried to import \"com.konymp.login_.zip\" into \"Components\", but I could not do it.\n \nI do not know what is the cause.\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Reference Book"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgZy7SAE",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Robert Moiles (Texas Mutual Insurance Company)",
+        "date": "July 9, 2018 8:07 PM",
+        "quesTitle": "Why is Visualizer trying to download files from http://www.google.com?",
+        "quesDetails": "I am getting the following error when building an Android app that has worked as is before moving to a Windows 10 machine and upgrading to Version 8 Service Pack 2 Fix Pack 11  \n \nHTTP GET on http://www.google.com failed . Details - Connect to www.google.com:80 [www.google.com/216.58.194.132] failed: Connection timed out: connect\nException occured, please see the console log for more details.\n \nSetting the proxy doesn't fix it.\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "V8 SP2",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgV06SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Anil Javali (NWM)",
+        "date": "July 9, 2018 6:33 PM",
+        "quesTitle": "Kony Visualizer v8.0.1 crashes while uninstalling on Windows 10. Please help.\n\nthanks\nAnil",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Windows",
+            "8.0.1"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgS1VSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Bilal El Abd (ITQ)",
+        "date": "July 9, 2018 2:44 PM",
+        "quesTitle": "Am calling the following inside a javascript in visualizer to get the information from database but its giving an error message \"cannot read property ínvokeOperation' of null\"",
+        "quesDetails": "//Get the user account\n \nfunction getUser()\n{\n     //Sample code to initialize Kony Fabric Client\n \n     var appkey = '942171770a8d3306c74a5135422928bb';\n     var appsecret = 'a6831da8090988ec26e9f778752fe626';\n     var serviceURL = 'https://100023908.auth.konycloud.com/appconfig';\n    \n  \n     var client = new kony.sdk();\n     client.init(appkey, appsecret, serviceURL, function(response) {\n        \n        }, function(error) {\n \n       });      \n \n         \n      var integrationClient = null;\n      var serviceName = \"AzureDBConnector\";\n      var operationName = \"dbo_getpassword\";\n      var params = { \"userIdValue\": \"Bilal\"};\n      var headers = null; //If there are no headers,pass null\n      \n      \n      try\n      {\n       integrationClient = client.getIntegrationService(serviceName);\n      }\n      catch (exception)\n      {\n      }\n  \n      integrationClient.invokeOperation(operationName, headers, params ,\n        function (result)\n        {\n         alert(\"Integration Service Response is :\" + JSON.stringify(response));\n        },\n \n        function (error)\n        {\n        }\n \n      );\n \n}\n \n \n",
+        "tags": [
+            "Visualizer",
+            "Integration Service Response",
+            "Property ÍnvokeOperation",
+            "Database",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgKgJSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ns naveen (Kony IT services)",
+        "date": "July 9, 2018 3:11 PM",
+        "quesTitle": "How to play youtube link in desktop web using video widget.",
+        "quesDetails": "I have placed the video widget in responsive desktop/ web form.\nIn video properties/WebM URl I gave youtube link https://youtu.be/6kqIMnFp2aY.\nwhen I run the app it is not playing the video.\nIf I share a MP4 url video is playing.\n \nDid any one try to play youtube video in web/desktop form?\n",
+        "tags": [
+            "Visualizer",
+            "Video Widget",
+            "Desktop Web",
+            "Youtube Link"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bgGYNSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Aleksei Melezhik (Customer)",
+        "date": "July 5, 2018 3:15 PM",
+        "quesTitle": "Any restriction on Kony project naming?",
+        "quesDetails": "Hi! For the last 4 months trying to implement headless build for various kony projects I have been encountering pretty strange error. The generic description of this issue is following:\n \n \nIf I have project named $project, the headless build very often refuses to build with the message:\n \nresource \"/$project\" is not open.\n \n_From my experience_ it happens for the project with name having Camel case strings or _may be_ quote long strings, examples:\n \nFooBarBazFooBarBaz\nTheProjectWithVeryLongName\n \n \nOnce I rename the project to something more concise and lowercase the same build succeeds:\n \nfoobar\nshort_name\n \n \nThis makes it more complicated that this error happens on build server and does not appear on other, while configuration remains the same.\n \n \nI have already highlighted this error in my previous ports\n \n \nRegards\n \nAlexey\n \nPS I'd be happy to get a feedback from someone who maintain/develop headless build in Kony company. I find this issue pretty annoying :))\n \n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Kony Project Naming"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfg3sSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Thien Chau (nashtech)",
+        "date": "July 5, 2018 11:14 AM",
+        "quesTitle": "Error when running a simple application",
+        "quesDetails": "I just created a simple application and run by pressing Run As > Choose the simulator\nBut I got the unclear error like the image\nPlease help me if you got same issue before\n \n\n \n \n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Simple Application",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfbb8SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Alaa Hassan (Customer)",
+        "date": "July 5, 2018 11:12 AM",
+        "quesTitle": "Hi Everyone :\nhow to solve this error \"ciShare: couldn't publish the prototype. An error occured while uploading\". this occuring when I am trying publish my application . Please help me with this",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Cishare",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfbZCSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Marjan Rafati (K2Fly)",
+        "date": "July 11, 2018 3:44 AM",
+        "quesTitle": "Is it possible to install an app on iOS/Android device and debug from Visualizer?",
+        "quesDetails": "And how can we get the .ipa/.apk file to install the app on device?\n",
+        "tags": [
+            "Visualizer",
+            "IPA",
+            "Debug"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfZlVSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Praveen Somasundaram (Customer)",
+        "date": "July 4, 2018 6:51 AM",
+        "quesTitle": "Idle timeout functionality works for first time",
+        "quesDetails": "i have written idle timeout functionality using kony API in postapp init such a way that it will be redirected automatically to home page. This works only for the first time but when you navigate to someother page, its not coming to Home page again.( Implemented for DesktopWEB )\n",
+        "tags": [
+            "Visualizer",
+            "Kony Api",
+            "Idle Timeout Functionality",
+            "Home Page"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfSvnSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Amar Kumar (Enterprise Touch)",
+        "date": "July 3, 2018 11:36 AM",
+        "quesTitle": "Can not able to build WAR file for Desktop web",
+        "quesDetails": "Hi,\n \nI am trying to build the .war file but it shows error like \"build\\\\wap\\\\build.xml\" file does not exist.\n \nI tried from File>Generate EAR  here also i am getting error like FileNotFoundException. \n \nMy kony visualizer version is : 7.3 enterprise edition.\nI have attached the scree screen shot of the error that i am getting.\nPlease suggest a way to solve it.\n \nThanks.\n \n",
+        "tags": [
+            "Visualizer",
+            "Desktop Web",
+            "Enterprise Edition",
+            "War",
+            "Generate EAR",
+            "War File",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfAbZSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sneha Sreekumar (Adcb)",
+        "date": "July 3, 2018 10:15 AM",
+        "quesTitle": "How to get the focus to go to next textbox in the screen on clicking the \"Next button\" on the keyboard in iPhone?",
+        "quesDetails": "I am using Kony Visualizer 8.2.6. For the textbox I have set Keyboard action label as \"Next\" for iPhone and android. Its working correctly in android but in iPhone when I click on the Keyboard Next button, the keyboard gets dismissed and focus does not go to the next textbox.\n",
+        "tags": [
+            "Visualizer",
+            "Focus",
+            "Textbox"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bfACBSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Vignesh Mariyappan (Customer)",
+        "date": "July 2, 2018 11:43 AM",
+        "quesTitle": "I have an issues while fetching the key and value from payload in push notification for android. I am able to receive the push notification but could not fetch the title and description from the Mobile Fabric console and show it on real device.",
+        "quesDetails": "Visualize version -8.2\nTesting devices : samsung j7, MI NOTE4\nfind the below attached files push message picture and edited push config file.\nKindly provide the solution.\n",
+        "tags": [
+            "Visualizer",
+            "Samsung J7",
+            "Push Notification",
+            "VERSION",
+            "Notifications",
+            "Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000beq7HSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Igor Tsapko (deepcode)",
+        "date": "July 2, 2018 7:23 AM",
+        "quesTitle": "Error when update",
+        "quesDetails": "When I try to update Visualizer (Windows), in console I see an error:\ndo viz upgrade\nUpgrade response:{\"SERVICE_NAME\":\"OPEN_INSTALLATION_WIZARD\",\"MSG_ID\":22,\"MSG_TYPE\":\"RESPONSE\",\"ORIGINAL_REQUEST\":{\"SERVICE_NAME\":\"OPEN_INSTALLATION_WIZARD\",\"MSG_ID\":22,\"MSG_TYPE\":\"REQUEST\",\"DATA\":{\"downloadurl\":\"http://download.kony.com/visualizer_enterprise/80/site-8.2.10.xml\"},\"CURRENT_PROJECT_NAME\":\"Sample\",\"CURRENT_PROJECT_CATEGORY\":\"app\"}}\nNo repository found at http://download.kony.com/visualizer_enterprise/80/site-8.2.10.xml.\nWhen I click on this link, I see this page: https://www.kony.com/error.html\n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Update",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bep0oSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ron reyes (N/A)",
+        "date": "June 29, 2018 2:30 PM",
+        "quesTitle": "How to open PhoneBook in Android and iOS using NFI",
+        "quesDetails": "Hi Guys,\n​\nJust want to know how to open android and ios phone book using NFI.\nI managed to open phone book in android but wasn't able to get the contact I selected in the phone book. Please help.\n​\nI was able to open phonebook in android using these codes. But don't know how to determine the contact I selected and the data.\nopenContacts: function(){\n    let KonyMain = java.import(\"com.konylabs.android.KonyMain\");\n    let Intent = java.import(\"android.content.Intent\");\n    let File = java.import(\"java.io.File\");\n    let Uri = java.import(\"android.net.Uri\");\n    let ContactsContract = java.import(\"android.provider.ContactsContract\");\n \n    let ArrayList = java.import('java.util.ArrayList');\n    let intentList = new ArrayList();\n    let contextObject = KonyMain.getActivityContext();\n    let contactListIntent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);\n \n    intentList.add(contactListIntent);\n    let chooserIntent = Intent.createChooser(intentList.remove(0), \"\");\n    contextObject.startActivity(chooserIntent);\n  },\nIn iOS i have no idea how to do it using NFI.​\n​\nThanks\n",
+        "tags": [
+            "Visualizer",
+            "NFI",
+            "Android",
+            "JAVAscript",
+            "Ios",
+            "Phonebook"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000bYtNCSA0",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Maria B (Rentokil)",
+        "date": "June 28, 2018 9:10 PM",
+        "quesTitle": "How to trigger touch/click event on form from front-end?",
+        "quesDetails": "Hello.\n \nI am looking to access a form on the front-end (i.e., through the console in a browser) to fill in the value for a textbox and select a value from a drop-down menu. Both of the following lines of JavaScript seem to work:\n \ndocument.getElementById('textboxID').value = 'my new value';\ndocument.getElementById('dropdownmenuID).selectedIndex = newIndex;\n \nHowever, when I click the submit/action button for the form, I receive an error message that the values are empty (i.e., no change/same as they were on page load). It's only after I click on the textbox and the drop-down menu using my mouse that the values are registered on the page and I can successfully submit the form.\n \nIs there a way to programmatically trigger the event that allows the page to recognize a change in the form values?\n \nAny help is very appreciated. Thank you kindly.\n",
+        "tags": [
+            "Documentation",
+            "Click Event",
+            "Click",
+            "Form",
+            "Access Form",
+            "Select Value",
+            "JAVAscript",
+            "Html Javascript Code",
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a3X1XSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Thunder Poet (Thunder Associates)",
+        "date": "June 28, 2018 4:48 PM",
+        "quesTitle": "Just installed Kony Visualizer (not Enterprise)\n\nI keep looking for some sort of Download for FABRIC, cannot find it.\nI want to connect to a localhost MySQL server on my own computer.\n\nThank you!",
+        "quesDetails": "",
+        "tags": [
+            "Fabric",
+            "Visualizer",
+            "Old Product"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a3PCYSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Mashael Marzoog (saudia airlines)",
+        "date": "June 28, 2018 7:56 AM",
+        "quesTitle": "Face id Authentication",
+        "quesDetails": "Dears,\n \nI have question regarding authentication using Face id, Could I use the below function to authenticate using Face id ?\n \n      var deviceModel = kony.os.deviceInfo().model;\n      var trimDeviceModel = deviceModel.toLowerCase().replace(/\\s/g,'');\n   if (trimDeviceModel == \"iphonex\"){\nvar config = {\"promptMessage\" : fnGeti18nValue(\"faceid.authenticate\"), \"fallbackTitle\":\"\"};\n    kony.localAuthentication.authenticate(constants.LOCAL_AUTHENTICATION_MODE_TOUCH_ID,statusCB,config);\n   }else{\nvar config = {\"promptMessage\" : fnGeti18nValue(\"touchid.authenticate\"), \"fallbackTitle\":\"\"};\nkony.localAuthentication.authenticate(constants.LOCAL_AUTHENTICATION_MODE_TOUCH_ID,statusCB,config);\n}\n \nRegards,\n \nMashael\n",
+        "tags": [
+            "Visualizer",
+            "Authentication",
+            "Var DeviceModel",
+            "Face Id Authentication",
+            "Facial Recognition"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a2lyqSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "MUJEEB RAHIMAN NELLIYALI (MOI)",
+        "date": "June 28, 2018 3:50 AM",
+        "quesTitle": "kony visualizer not working in samsung s4 :- perform preview - run and try again message is giving while running the application as local",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Preview"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a2l0WSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rumpa Kundu (Cognizant)",
+        "date": "June 27, 2018 11:53 AM",
+        "quesTitle": "Android build is failing in Kony Visualizer 8",
+        "quesDetails": "I am using Android Studio 3.1.3 with latest android SDK and wanted to upgrade the project in Kony 8 but build is failing due to the below error. Please find the below logs for more details.\nError:\n[exec-shell] \\tAttribute application@allowBackup value=(false) from AndroidManifest.xml:6:214-243\n[exec-shell] \\tis also present at [:syncv2library-release:] AndroidManifest.xml:17:9-35 value=(true).\n[exec-shell] \\tSuggestion: add tools:replace=\\\"android:allowBackup\\\" to element at AndroidManifest.xml:6:5-68:16 to override.\n[exec-shell]\n[exec-shell] FAILURE: Build failed with an exception.\n[exec-shell]\n[exec-shell] - What went wrong:\n[exec-shell] Execution failed for task :processDebugManifest.\n[exec-shell] > Manifest merger failed with multiple errors, see logs\n[exec-shell]\n[exec-shell] - Try:\n[exec-shell] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.\n[exec-shell] :processDebugManifest\n[exec-shell] AndroidManifest.xml:81:2-92 Warning:\n[exec-shell] \\tElement uses-permission#android.permission.ACCESS_NETWORK_STATE at AndroidManifest.xml:81:2-92 duplicated with element declared at AndroidManifest.xml:78:2-75\n[exec-shell] AndroidManifest.xml:87:7-67 Warning:\n[exec-shell] \\tElement uses-permission#android.permission.VIBRATE at AndroidManifest.xml:87:7-67 duplicated with element declared at AndroidManifest.xml:85:7-67\n[exec-shell]\n[exec-shell] See //g.co/androidstudio/manifest-merger', 'URL')\">http://g.co/androidstudio/manifest-merger for more information about the manifest merger.\n[exec-shell]\n[exec-shell] :processDebugManifest FAILED\n[exec-shell]\n[exec-shell] BUILD FAILED\n[exec-shell]\n[exec-shell] Total time: 37.722 secs\nThe following error occurred while executing this line:build/luaandroid/build.xml:2654: exec-shell returned: 1\nAnt build error=The following error occurred while executing this line:/luaandroid/build.xml:2654: exec-shell returned: 1\nThe following error occurred while executing this line:/build/luaandroid/build.xml:2654: exec-shell returned: 1\nPackage Generation failed for platform Android.\nBuild Generation Status\nAndroid: Failed\nApplication\nTotal time taken: 122583 ms\n<----------- Build Generation job is completed--------------->\n \n",
+        "tags": [
+            "Base Camp",
+            "Android",
+            "Visualizer",
+            "V8"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a2NmWSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "DILLIP KUMAR (Customer)",
+        "date": "June 27, 2018 9:17 AM",
+        "quesTitle": "Can we use window.navigator.msSaveOrOpenBlob in kony desktop web development.",
+        "quesDetails": "Can we use window.navigator.msSaveOrOpenBlob in kony desktop web development.\n",
+        "tags": [
+            "Visualizer",
+            "Web",
+            "Desktop Web"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a2N3xSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Josephine Perez (BDO Unibank Inc.)",
+        "date": "June 26, 2018 2:45 AM",
+        "quesTitle": "How could we increase the target version in our kony visualizer 7.3 to Android 8.0 (API level 26)?",
+        "quesDetails": "kony Visualizer 7.3. We were informed that on our next deployment, the target for our android app should be Android 8.0 (API level 26) or else, we wont be able to deploy our application. As you can see in attached file, the highest API level is 23 (Andriod 7). I already tried to update my sdk but did not increase the target in kony visualizer.\n",
+        "tags": [
+            "Visualizer",
+            "Google",
+            "Target Version",
+            "Digital Banking",
+            "Banking"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a1nnbSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sai Rahul Prasad Nagumantri (Kony India Pvt. Ltd.)",
+        "date": "June 25, 2018 5:53 AM",
+        "quesTitle": "How to view PDF in Kony Android WebView/Browser ?",
+        "quesDetails": "This is an #Informational Post​ \n \n \nFirstly Kony/Android Browser don't have the capability of loading the pdf. So for viewing the PDF files in the Browser / WebView one has to go by using the following steps:\n \nvar myPdfUrl = \"Your PDF url\"\nvar url = \"http://docs.google.com/gview?embedded=true&url=\" + myPdfUrl;\nAfter giving the above link to the browser widget we will be able to view the PDF in WebView.\n \nFor Example, if the PDF url is : \"http://www.pdf995.com/samples/pdf.pdf\"\nthen,\n \nvar myPdfURL = \"http://www.pdf995.com/samples/pdf.pdf\";\nvar url = \"http://docs.google.com/gview?embedded=true&url=\"+myPdfURL;\n \nThe above steps will help in resolving the issue of viewing PDF in Kony Browser/Webview in Android.\n",
+        "tags": [
+            "Visualizer",
+            "PDF",
+            "Android",
+            "Android WebView",
+            "Browser Widget",
+            "Informational Post"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a1TUVSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "June 21, 2018 9:30 AM",
+        "quesTitle": "Hi i am try to change the app version in project setting in Visualizer enterprise but not opening in my system",
+        "quesDetails": "Step to Reproduce\nrelaunch the enterprise\nchange the workspace\nbut still not opening in project setting\n",
+        "tags": [
+            "Visualizer",
+            "Visualizer Enterprise",
+            "App Version",
+            "Project Setting"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a0kNiSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Kako Kvantaliani (neXus)",
+        "date": "June 20, 2018 2:13 PM",
+        "quesTitle": "Hi,\n\nJust wondering why this code does not work?\n\nbome is a form\nbtn1 is a button\ntxt1 is a text box\n\nTrying to put value in the text field on the button\n\nbome.btn1.onClick = function () { bome.btn1.text = bome.txt1.text;}",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Code",
+            "Form",
+            "Text Field",
+            "Textbox"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000a0EYpSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rohit Pandit (AETNA)",
+        "date": "June 19, 2018 7:23 PM",
+        "quesTitle": "Adding new widgets to the existing form not working appropriately",
+        "quesDetails": "Hi Team,\n \nI have an existing form and I have added new widgets containing flexcontainer, lbl, btn & richtext.\nAll these changes are reflecting & working fine when build from my local.\nHowever I need to check in those changes to my repository. To check in new widgets, I have copied the entire form.sm folder, just in case i miss out on anything.\nAfter updating the repo with the new code/widgets, I tried to run it over my local and to my surprise, the form started clocking as soon as first widget of the form is modified in the module.\nIf I replace the new form with the old one in the same workspace, it starts working fine.\nI tried to check the device logs, it clocks while modifying the lbl on the form in one of my modules and throws an exception as:\n[ 06-19 14:35:16.430 20834:20889 D/KONYJNI ]\n>>>>>>> NG::Getting : Form2.lblHeader <<<<<<<\n[ 06-19 14:35:16.430 20834:20889 D/KONYJNI ]\nNamedGetter(EXIT_VIA) with return value}\n[ 06-19 14:35:16.431 20834:20889 D/StandardLib ]\nError in module [ exception occured :: ] - fn - [memberInfoServiceSuccesCallBack] : {}\n \nPlease guide me throough.\n \nThanks\nRohit\n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Form",
+            "New Widgets"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XUpi6SAD",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "David Rowe (HIAA)",
+        "date": "June 16, 2018 3:17 PM",
+        "quesTitle": "Is it possible to pass the result of a callback function to the main function? Specifically when connecting to KonyFabric.",
+        "quesDetails": "My function is as follows:\n \nfunction fabricTest() {\n \ttry {\n    \tKNYMobileFabric = new kony.sdk();\nKNYMobileFabric.init(appKey, appSecret, serviceURL, successCallback, errorCallback);\n  }\n  catch(err) {\n   \talert(\"Error\");\n  }\n  function successCallback(res) {   \n   \ttry {     \nserviceName = \"XXXXXXXXX\";\nintegrationObj = KNYMobileFabric.getIntegrationService(serviceName);\noperationName = \"queryXXXXX\";\ndata= {\"searchValue\": \"=\" + 'YYY'};\nheaders= {};\nintegrationObj.invokeOperation(operationName, headers, data, operationSuccess, operationFailure);\n    }\n \tcatch(err) {\n   \talert(\"Error\");\n  \t}\n  }\n  \tfunction errorCallback(res) {\n  \talert(\"Error\");\n}\nfunction operationSuccess(res) {\n   \talert(res);\n   \n  }\nfunction operationFailure(res) {\n \talert(\"Error.\");\n  } \n}\n \nI'd like to get the result (res in operationSuccess) like the following, so that I can use it outside the function:\n \nResult = fabricTest();\n",
+        "tags": [
+            "Visualizer",
+            "Function",
+            "Callback Function",
+            "Main Function"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XUGUGSA5",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Paul Ainsworth (Monkey Nuts)",
+        "date": "June 15, 2018 10:52 AM",
+        "quesTitle": "Can Kony Back End Services be deployed directly to Mobile Fabric via the Visualizer?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Kony Back End Services",
+            "Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XU0rKSAT",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Markus Dormann (Siemens)",
+        "date": "June 15, 2018 10:35 AM",
+        "quesTitle": "is there a simple way to find out, if the device has an internet connectivity?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Internet Connectivity"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XU0p4SAD",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "himanshu sharma (birlasoft)",
+        "date": "June 15, 2018 7:35 AM",
+        "quesTitle": "I have imported the accordion library ( which i downloaded from kony market ) but i am unable to use it properly .",
+        "quesDetails": "What i assume how it will work is \" Row expansion and collapse will be taken care automatically \" and also when i am adding the accordion only 1 header and 1 row is shown ,no master data is available , so how can i add other headers and rows.  \n",
+        "tags": [
+            "Visualizer",
+            "Master Data"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XU0cUSAT",
+        "hidList": [
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "accordion",
+                "count": 2
+            }
+        ],
+        "secList": []
+    },
+    {
+        "name": "Natarajan Selvarasu (UST Global)",
+        "date": "June 15, 2018 2:31 AM",
+        "quesTitle": "image from Kony resources to Android native custom widget",
+        "quesDetails": "Hi Team,\n​\nWe are creating custom widget in Android platform. How to set available kony project image resource ​in Android. Please share sample code snippet.\n​\nThanks,\nNatarajan S​\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Custom Widget",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XU0HqSAL",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "James Borromeo (Customer)",
+        "date": "June 15, 2018 2:28 AM",
+        "quesTitle": "Any Way to Get a List of All Widgets in a Form via Code?",
+        "quesDetails": "Hi Community,\n \nIs there any way I can get a list or array of all widget names of a form via code? I tried the \".widgets\" property but it only returned the direct child widgets. I need a list of all widgets.\n \nThanks,\nJames\n \n \n \n",
+        "tags": [
+            "Visualizer",
+            "Code",
+            "Form",
+            "Widget Names"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XU0HRSA1",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hari Krishnan (TrueTechsolutions)",
+        "date": "June 13, 2018 11:16 AM",
+        "quesTitle": "Kony Visulizer Debugger is not working",
+        "quesDetails": "I took an android build with debug mode, after install the build I started debug mode but it didn't open chrome with debug screen and I manually tried the debug by using following llink \"chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9222\".\nIt showing as \"Debuggging connection was closed. Reason: Websocket is disconnected reconnection when ready by reopening DevTools\". PFA\n",
+        "tags": [
+            "Visualizer",
+            "Visulizer Debugger",
+            "Android",
+            "Debug Mode"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XTSZZSA5",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Subasree S (Org)",
+        "date": "June 13, 2018 6:31 AM",
+        "quesTitle": "Android build fails in V8.2. Please find below the logs and request help on the same",
+        "quesDetails": "[exec] [exec-shell] FAILURE: Build failed with an exception.\n[exec] [exec-shell]\n[exec] [exec-shell] - What went wrong:\n[exec] [exec-shell] A problem occurred configuring root project \\'autodownload\\'.\n[exec] [exec-shell] > Could not resolve all files for configuration \\':classpath\\'.\n[exec] [exec-shell] > Could not resolve com.android.tools.build:gradle-core:3.0.1.\n[exec] [exec-shell] Required by:\n[exec] [exec-shell] project : > com.android.tools.build:gradle:3.0.1\n[exec] [exec-shell] > Could not resolve com.android.tools.build:gradle-core:3.0.1.\n[exec] [exec-shell] > Could not get resource \\'https://jcenter.bintray.com/com/android/tools/build/gradle-core/3.0.1/gradle-core-3.0.1.pom\\'.\n[exec] [exec-shell] > Could not GET \\'https://jcenter.bintray.com/com/android/tools/build/gradle-core/3.0.1/gradle-core-3.0.1.pom\\'.\n[exec] [exec-shell] > Connection reset\n[exec] [exec-shell]\n[exec] [exec-shell] - Try:\n[exec] [exec-shell] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.\n[exec] [exec-shell]\n[exec] [exec-shell] - Get more help at https://help.gradle.org\n[exec] [exec-shell]\n[exec] [exec-shell] BUILD FAILED in 16s\n[exec]\n[exec] BUILD FAILED\n[exec]E:\\\\kony\\\\KonyVisualizerEnterprise8.2.0\\\\Kony_Visualizer_Enterprise\\\\configuration\\\\org.eclipse.osgi\\\\bundles\\\\475\\\\1\\\\.cp\\\\luaandroid\\\\extres\\\\gradle_dependencies.xml:255: The following error occurred while executing this line:\n[exec]E:\\\\kony\\\\KonyVisualizerEnterprise8.2.0\\\\Kony_Visualizer_Enterprise\\\\configuration\\\\org.eclipse.osgi\\\\bundles\\\\475\\\\1\\\\.cp\\\\luaandroid\\\\extres\\\\gradle_dependencies.xml:307: The following error occurred while executing this line:\n[exec]E:\\\\kony\\\\KonyVisualizerEnterprise8.2.0\\\\Kony_Visualizer_Enterprise\\\\configuration\\\\org.eclipse.osgi\\\\bundles\\\\475\\\\1\\\\.cp\\\\luaandroid\\\\extres\\\\gradle_dependencies.xml:169: exec-shell returned: 1\n[exec]\n[exec] Total time: 18 seconds\nException in executing gradle download build script.\n \n",
+        "tags": [
+            "Visualizer",
+            "Gradle",
+            "Android",
+            "V8 SP2",
+            "Visualizer Enterprise"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XTRrSSAX",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ramesh kumar (PSECU)",
+        "date": "June 12, 2018 3:40 PM",
+        "quesTitle": "how to run protected mode built app on jailbroken device.",
+        "quesDetails": "Hi,\nRecently, we have received couple of feedbacks in app-store about users not able to run our app on their jailbroken device.\nWe are aware of the fact that it's a security restriction to not allow this.However,\n1)is it possible to configure any setting to allow the protected apk/IPA to run in jailbroken device.\n \n2)if we build in unprotected mode, will our binary be completely exposed to security threats?\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "IPA",
+            "Jailbroken Device"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XTGB2SAP",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "cedric.legendre cedric.legendre (Customer)",
+        "date": "June 12, 2018 1:29 PM",
+        "quesTitle": "Browser widget vertical scrolling not working inside a fixed height div",
+        "quesDetails": "Hello,\nI need to render a custom offline map inside a browser widget.\nBut i have 2 problems :\nThe first is that the vertical scrolling seems to be hooked. The problem can be rerpoduced in a simple div :\n<div class=\"wrapper\">\n    <div class=\"content\">\n    </div>\n</div>\nbody {\n    height: 100%;\n    margin: 0px;\n    padding: 0px;\n    width: 100%;\n}\n.wrapper {\n    height: 350px;\n    overflow: auto;\n}\n.content {\n    height: 15000px;\n    font-size: 26px;\n    width: 1500px;\n    color: white;\n    background: hotpink;\n}\nThe second is, if i do a pinch inside the div, the vizualer app crash.\nThe chromium process throws:\nTrying to make virtual context current without decoder.\n \nThe browser is a top level widget, with 100% width, and 100% height.\nAlso, the problem can be seen by loading Google Maps in the browser widget\nhttps://www.google.com/maps\n \nThank you\n",
+        "tags": [
+            "Visualizer",
+            "Height Div",
+            "Google",
+            "Browser Widget",
+            "MAP"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XTCSnSAP",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Aboubacar Doucoure (Customer)",
+        "date": "June 11, 2018 11:57 AM",
+        "quesTitle": "Hello,\n\nIn the documentation it says kony.db.openDatabase returns the unique ID of the database.\nIn my tests, it returns a mysterious CallbackObject.\nI've tried kony.db.openDatabaseSync too with the same results.",
+        "quesDetails": "const dbName = config.dbName\nconst version = config.version\nconst displayName = config.displayName\nconst estimatedSize = config.estimatedSize\nconst databaseObjectId = kony.db.openDatabaseSync(dbName, version, displayName, estimatedSize);\n \n",
+        "tags": [
+            "Visualizer",
+            "Documentation",
+            "Kony.db",
+            "Textbox",
+            "API"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XSqy4SAD",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Dinesh Kumar Elangovan (HCL)",
+        "date": "June 12, 2018 12:33 PM",
+        "quesTitle": "Getting SQLiteTimeout exception when the internet is poor on all childapps with EMM 4.1.0.13 and Encrypt Sqlite DB true , Can you please suggest why are we getting this exception and how can fix this issue or overcome this issue with existing EMM 4.1.0.13",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Encrypt Sqlite DB",
+            "EMM"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XSqBqSAL",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Augustine George (Cognizant)",
+        "date": "June 9, 2018 12:59 PM",
+        "quesTitle": "How can I get the current controller in an app like the way we can get the current Form.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Reference Archtiecture",
+            "Controller Extension",
+            "Form",
+            "Current Controller",
+            "Controllers"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000XSlWNSA1",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lakshmi Prasanna (Kony)",
+        "date": "September 14, 2018 12:03 PM",
+        "quesTitle": "We are facing a crash issue on using map widget in Visualizer 8.2",
+        "quesDetails": "We are able to see the following logs with the map widget :\n \n Attempt to invoke virtual method 'boolean com.konylabs.api.ui.hn.ji()' on a null object reference\njava.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.konylabs.api.ui.hn.ji()' on a null object reference.\n \nWe have migrated from 7.3 to 8.2 visualizer.\nWe never faced the crash in 7.3.\n \nPlease let us know how this can be handled.\n",
+        "tags": [
+            "Visualizer",
+            "Crash Issue",
+            "Map Widget",
+            "Mao Widget"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mNR1bSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Barinder Marhok (NexGenSensors)",
+        "date": "September 14, 2018 3:58 PM",
+        "quesTitle": "Multiple In Line buttons with icons, swipe buttons on mobile segments.",
+        "quesDetails": "I am new on Kony platform and trying to understand the capabiltiies.\nWhat I need is to have multiple in line action buttons (icons preferred for saving space) in a tabular format for web/desktop views. \n \nFor the mobile version, I would prefer buttons only becoming visible on swiping the item (like Gmail). I cannot see such examples in trainings or marketplace apps. Some guidance on how to do it would be great.\n \nThanks\n",
+        "tags": [
+            "Visualizer",
+            "Line Action Buttons",
+            "Kony",
+            "Swipe Buttons",
+            "Line Buttons"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000mNYXaSAO",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "tabs (icon)",
+                "count": 1
+            }
+        ],
+        "secList": []
+    },
+    {
+        "name": "Kanakadurgarao Neelam (Customer)",
+        "date": "September 24, 2018 6:16 PM",
+        "quesTitle": "Hi I would like to prevent few modules from loading when the application loads (SPA). Can we do this in Kony?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Kony Javascript",
+            "SPA",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000peP5tSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "kranthi kumar (new)",
+        "date": "September 21, 2018 1:36 PM",
+        "quesTitle": "am unable to validate my app preview, it showing \"Android home is not given\" am unable to find path for it..",
+        "quesDetails": "am a beginner\n",
+        "tags": [
+            "Visualizer",
+            "App Preview",
+            "Android",
+            "Preview"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000oq4j0SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "kannan veeraraghavan (Customer)",
+        "date": "September 20, 2018 8:58 PM",
+        "quesTitle": "visualizer shortcuts to search resource files, switch between tabs, perspective etc",
+        "quesDetails": "need to know visualizer shortcuts for mac and windows to search resource files, switch between opened tabs, perspective etc\n",
+        "tags": [
+            "Visualizer",
+            "Visualizer Shortcuts",
+            "Resource Files"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o7wRoSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Alejandro Plakinoff (corporacion sybven)",
+        "date": "September 20, 2018 7:10 PM",
+        "quesTitle": "Hello,\n\nHow can I select an appmenu option by code? I need to focus on an item of the appmenu by code.\n\nThank you very much.",
+        "quesDetails": " \nI have tried using this: kony.application.setAppMenuFocusByID(\"payments\"); where, \"payments\" is the id of the option in the appmenu that I want to select by code.\n \nThis only executes the action associated with the appmenu but does not focus on it.\n",
+        "tags": [
+            "Visualizer",
+            "Appmenu Option",
+            "AppMenu",
+            "Focus"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o7sq3SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "srinivas guduri (kalpah innovations pvt ltd)",
+        "date": "September 20, 2018 10:39 AM",
+        "quesTitle": "How to fetch data from a service(MySql database) in to app?",
+        "quesDetails": "\nHi Developers,\ni have integrated a custom MySql database as a service and its working pretty good. i have published , initialised the service called \"UserData\". I'm calling that service in a conditional statement and that service( Asynchronous ) has a callback method in it . now my issue is how to fetch that response(JSON) data in that call back method.\nThanks.\n \n",
+        "tags": [
+            "Visualizer",
+            "Data",
+            "Conditional Statement",
+            "Service",
+            "SNIST"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6akdSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sridhar sandru (Customer)",
+        "date": "September 20, 2018 9:41 AM",
+        "quesTitle": "I am importing 6.5 project into 8.2 and facing the issue attached.\n\nCould you please take a look into it.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "V8 SP2",
+            "6.5",
+            "Importing Project"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6aYXSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Manjeet Harsh (Kony)",
+        "date": "September 20, 2018 8:41 AM",
+        "quesTitle": "Visualizer not showing welcome screen",
+        "quesDetails": "Visualizer (v8.2.0) suddenly stopped launching welcome screen and stuck on launching screen attached.\nI have cleaned up Visualizer. I have tried launching Vizualiser using bat file but still same issue. Can anyone please help me to find the soultion for this. PFA logs.\nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Response Code",
+            "Welcome Screen",
+            "PFA"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6aLnSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Mohammed Abdul Malik (Emaar Economic City)",
+        "date": "September 18, 2018 1:44 PM",
+        "quesTitle": "I have PDF and other format files coming in response as Base 64 string. Can someone provide the FFI code for both iPhone and Android which can take the input as Base64 String and display the files to the user.",
+        "quesDetails": "I have PDF and other format files coming in response as Base 64 string. Can someone provide the FFI code for both iPhone and Android which can take the input as Base64 String and display the files to the user.\n",
+        "tags": [
+            "Visualizer",
+            "Base64 String",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o5bTbSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jacquline Joseph (Cognizant Technology solution)",
+        "date": "September 18, 2018 1:34 PM",
+        "quesTitle": "Ant build error=exec-shell returned: 1",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Ant",
+            "Error",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o5UZRSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Swapneil Basutkar (None)",
+        "date": "September 18, 2018 7:35 AM",
+        "quesTitle": "after creating username and password credentials in kony fabric and further publishing it, the login is not working when I am using it in kony visualizer app preview. I have refreshed the app and everything is looking good except the login.",
+        "quesDetails": "This is when I did test login in fabric\n\nI am getting this error even when the email and password are right.\nwhat is the reason behind this not working?\n",
+        "tags": [
+            "Fabric",
+            "Profile Attributes",
+            "Visualizer",
+            "SNIST"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o5BO4SAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hugo Leite (Sommet-Education)",
+        "date": "September 21, 2018 1:17 PM",
+        "quesTitle": "More than one file was found with OS independent path",
+        "quesDetails": "Hi everyone, I'm trying to compile MarketPlace Component (BarcodeScanner) and I'm getting the following when building for Android.\nFAILURE: Build failed with an exception.\nWhat went wrong:\nExecution failed for task \\':transformResourcesWithMergeJavaResForRelease\\'.\nMore than one file was found with OS independent path \\'jsr305_annotations/Jsr305_annotations.gwt.xml\\'\n:transformResourcesWithMergeJavaResForRelease FAILED\n \nMy minimum and target SDK are 23 Does anyone knows what could be the issue?\nRegards,\n \nHugo Leite\n",
+        "tags": [
+            "Visualizer",
+            "Barcode Scanner",
+            "Marketplace",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000opoRPSAY",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 4
+            },
+            {
+                "keyword": "failure",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hugo Leite (Sommet-Education)",
+        "date": "September 21, 2018 12:53 PM",
+        "quesTitle": "BarcodeScanner - Android Build Error",
+        "quesDetails": "Dear Team, \n\ntrying to compile for Android and I'm getting the following: \nFAILURE: Build failed with an exception.\n[exec-shell]\n[exec-shell] - What went wrong:\n[exec-shell] Execution failed for task \\':transformResourcesWithMergeJavaResForRelease\\'.\n[exec-shell] > More than one file was found with OS independent path \\'jsr305_annotations/Jsr305_annotations.gwt.xml\\'\n[exec-shell]\n[exec-shell] - Try:\n[exec-shell] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.\n[exec-shell]\n[exec-shell] - Get more help at https://help.gradle.org\n[exec-shell]\n[exec-shell] BUILD FAILED in 1m 4s\n[exec-shell] :transformResourcesWithMergeJavaResForRelease FAILED\n\n\nMy minimum and target SDK are 23\n\nDoes anyone knows what is the issue?\n\nRegards, \n\nHugo Leite\nShow More\nShow More\n",
+        "tags": [
+            "Barcode/ QR Code Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000opcXTSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hugo Leite (Sommet-Education)",
+        "date": "September 21, 2018 8:00 AM",
+        "quesTitle": "BarcodeScanner - Error - Result: 173",
+        "quesDetails": "Dear Team, \nthe barcode scanner is really something that we would like to use in our next app release. I have been trying to create a dummy app using the component Barcode Scanner but when launching the emulator I have the following error: \n\n[exec-shell] Result: 173 \n\nI'm using the latest Version of Kony Visualizer Enterprise Edition\nVersion 8 Service Pack 2 Fix Pack 21 \nand XCODE Version 10.0 (10A255)\n\nThank you in advance for your help. \n\nHugo Leite\n",
+        "tags": [
+            "Marketplace",
+            "V8 SP2",
+            "Barcode Scanner",
+            "QR Barcode Scanner",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YvPSAU",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "September 21, 2018 6:17 AM",
+        "quesTitle": "Hi Imported Kony Market place component in to Visualizer starter 8.2 butin component i insert the form it not showing \"inserto\" option added the Screenshot",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "V8 SP2",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YZOSA2",
+        "hidList": [
+            {
+                "keyword": "market place",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "September 24, 2018 9:31 PM",
+        "quesTitle": "Remove White inner shadow in flex scroll container in android",
+        "quesDetails": "Why is there a white inner shadow coming in flex scroll container for Android? How can we remove it ? Ataching a video for reference.\n",
+        "tags": [
+            "Visualizer",
+            "Shadow",
+            "Android",
+            "White Inner Shadow",
+            "FLEX SCROLL CONTAINER"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000pgT9USAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "September 24, 2018 5:31 PM",
+        "quesTitle": "Is there any possible to check the development platform in kony",
+        "quesDetails": "Example: i had one android application developed by android in kony i have to check if its android platform go to google playstore or else go to kony\n",
+        "tags": [
+            "Visualizer",
+            "Development Platform",
+            "Android Application",
+            "Android",
+            "Playstore"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000peJxESAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Aniket Raut (Customer)",
+        "date": "September 24, 2018 12:31 PM",
+        "quesTitle": "Issue while creating windows build with Visualiser 8.2.6.\nApp not running on windows, request you take the WeBex Session to check the issue.",
+        "quesDetails": "I have created Android and iOS build, but facing issue while creating build for windows, Even I have install all necessary component required to generate windows build.\nMobile No : 9867799620\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Windows",
+            "V8 SP2",
+            "Ios",
+            "Build"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000pX4PcSAK",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "September 21, 2018 9:57 PM",
+        "quesTitle": "Does Rich text affects performance of App ?",
+        "quesDetails": "Does using too many richtext in form ( or App in general ) affect the performance of the App ?\n",
+        "tags": [
+            "Visualizer",
+            "Text",
+            "APP",
+            "Performance",
+            "Richtext"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000os0e3SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "September 21, 2018 9:42 PM",
+        "quesTitle": "Arranging different Labels to form a paragraph",
+        "quesDetails": "I have a paragraph with words having different font weights , so i will have to use different labels.How can i arrange them so that it follows each other and a part of the label goes to the next line ,not the whole label for small screens.Attaching screenshot for reference.\n \nfor example - for the screenshot attached , i will have to add 3 labels - \"Please enter the\",\"One time Password\",\" sent to your mobile number (0867)\"\n \nThis can achieved partially by giving width as prefered. But for smaller screens the \"One Time Password \" would completely come to the next line and not continue in the first line which ends up leaving huge gaps on the right part of first line.\n \n \nAny help in this appreicated\n",
+        "tags": [
+            "Visualizer",
+            "Label",
+            "Form",
+            "Different Font Weights",
+            "Time Password",
+            "Flexible Label Group"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000os0BqSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "September 21, 2018 7:50 AM",
+        "quesTitle": "Scroll to a certain position in a flex scroll container or scroll to a certain row in a segment?",
+        "quesDetails": "So i want to create an UI where on clicking of a certain row of segment ( or a part of scroll container ) that part snaps to the top of the page . Any idea on how to implement this ?\n",
+        "tags": [
+            "Visualizer",
+            "Certain Position",
+            "Certain Row",
+            "Segment",
+            "FLEX SCROLL CONTAINER"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YsaSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "bhuvaneswari premkumar (fyusion infotech)",
+        "date": "September 21, 2018 6:04 AM",
+        "quesTitle": "Visualizer code is not reflecting in the debugger",
+        "quesDetails": "My visualizer code is not reflecting in the debugger after is restarted the visualizer and also app code is not working and showing the undefined value\n",
+        "tags": [
+            "Visualizer",
+            "Visualizer Code",
+            "Kony Debugger"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YWjSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Roelof Koelewijn (REDORA)",
+        "date": "September 21, 2018 5:10 AM",
+        "quesTitle": "How to rename an existing directory??",
+        "quesDetails": "I'm trying to rename a directory I created, but I can't get it to work I've tried examples from the documentation:\n \nvar myDirectoryCaseConcept = kony.io.FileSystem.getFile(fileList.item(i).fullPath);\n             if(myDirectoryCaseConcept.exists()){\n              var myFileLoc = path +\"/concepts/\" + caseToSend;\n              var myFile = new kony.io.File(myFileLoc).createFile();\n              var newFile = new kony.io.File(myFileLoc).rename(result.caseId);\n              if(newFile)\n              {\n                kony.print(\"renaming file with name successfull with extension\");\n              }\n              else \n              {\n                kony.print(\"renaming file failed for name without Extension\");\n              }\n \nIs there a step I need to take differently because it is a directory I'm trying to rename?\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Rename Directory"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YMUSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "September 21, 2018 5:04 AM",
+        "quesTitle": "Without Mobile Fabric Directly call the Service Url In the application It will work or Not ??",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Mobile Fabric",
+            "Service Url"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8YLqSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martin Nugraha (Self Employee)",
+        "date": "September 21, 2018 3:34 AM",
+        "quesTitle": "How to import CocoaPods to Kony XCode Project (VMAppWithKonylib)?",
+        "quesDetails": "HI, I want to ask about Cocoa Pods on Kony..\nIs there any possible using existing CocoaPods File and compress it to Zip File with Wrapper FFI? If it is possible, is there any steps / instructions on this?\nThank you.. 😁\n",
+        "tags": [
+            "Visualizer",
+            "Xcode",
+            "FFI",
+            "CocoaPods Integration",
+            "Cocoa Pod"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o8107SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "balaji maddirala (kony)",
+        "date": "September 20, 2018 1:54 PM",
+        "quesTitle": "Images are not loaded in a form for android platform!!!!! \nOOM(out of memory issue in logcat)",
+        "quesDetails": "#Informational Post​ \n \nWhen we see any images are not loaded in lower end devices and from the logs it is showing OOM errors.\n \nThe sample error log is below:-\nE/art(462): Throwing OutOfMemoryError \"Failed to allocate a 24209292 byte allocation with 8388608 free bytes and 14MB until OOM\"\n09-15 04:38:20.036: D/skia(462): --- allocation failed for scaled bitmap\n09-15 04:38:20.036: D/KonyMain(462): OOM************************************\n09-15 04:38:20.036: D/KonyMain(462): Image is not retrievable\n09-15 04:38:20.036: D/KonySkin(462): Image not found in resource/drawable-*\n \nOutOfMemoryError(OOM) is the most common problem occurred in android while especially dealing with bitmaps. This error is thrown by the Java Virtual Machine (JVM) when an object cannot be allocated due to lack of memory space and also, the garbage collector cannot free some space.\nFor more understanding please go through the below posts.\nhttps://stackoverflow.com/questions/32244851/androidjava-lang-outofmemoryerror-failed-to-allocate-a-23970828-byte-allocatio/35242067\nhttps://stackoverflow.com/questions/31555408/android-throwing-outofmemoryerror-failed-to-allocate-a-164-byte-allocation-with\n \nTo overcome this you can resize your images with respect to devices.\nTo create alternative bitmap drawables for different densities, you should follow the 3:4:6:8:12:16 scaling ratio between the six primary densities. \nFor example, if you have a bitmap drawable that's 48x48 pixels for medium-density screens, all the different sizes should be:\n \n>36x36 (0.75x) for low-density (ldpi)\n>48x48 (1.0x baseline) for medium-density (mdpi)\n>72x72 (1.5x) for high-density (hdpi)\n>96x96 (2.0x) for extra-high-density (xhdpi)\n>144x144 (3.0x) for extra-extra-high-density (xxhdpi)\n>192x192 (4.0x) for extra-extra-extra-high-density (xxxhdpi)\n \nFor more understanding please go through the below link.\nhttps://developer.android.com/training/multiscreen/screendensities#TaskProvideAltBmp\n \nAs you need to create the image with respect to the device density and then create the different folder as below. \n \n drawable-xxxhdpi/\n  awesome-image.png\n drawable-xxhdpi/\n  awesome-image.png\n drawable-xhdpi/\n  awesome-image.png\n drawable-hdpi/\n  awesome-image.png\n drawable-mdpi/\n  awesome-image.png\nThanks,\nBalaji.\n",
+        "tags": [
+            "Informational Post",
+            "Visualizer",
+            "Android Platform",
+            "OOM",
+            "Out Of Memory",
+            "Android",
+            "Images",
+            "Java"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6djESAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "September 20, 2018 10:24 AM",
+        "quesTitle": "which plugin to take ios build extract Vmappkonywithlib in kony visualizer 8.2\ni had com.kony.ios_8.2.0.v201804041534.jar this plugin But had 7.0 version it different version plugins are there example:iam using 7.3 ios plugin version ios54",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Plugins"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6ahASAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "September 20, 2018 9:22 AM",
+        "quesTitle": "How to see the plugins versions in Kony Visualizer 8.2",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "V8 SP2",
+            "Plugins"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6aTrSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Aniket Raut (Customer)",
+        "date": "September 20, 2018 6:55 AM",
+        "quesTitle": "I have created FFI for iOS, function with callBack. When I tried to build application build failed cause of callBack. Request you to provide assistance for implementing callback from iOS FFI in Kony.",
+        "quesDetails": "Kony Visualsizer version : 8.2.6\niOS : Objective-C\n \nMy Mobile No : 9867799620\n",
+        "tags": [
+            "Visualizer",
+            "FFI",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6ZZlSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "September 19, 2018 4:07 PM",
+        "quesTitle": "evaluateJavascript function not showing up in browser widget.",
+        "quesDetails": "I am trying to implement the hybrid native communication by using evaluateJavascript function of a browser widget. But the function is not popping up while using browser widget. Also, getting an error while using it manually. Attaching screenshots for reference.\nAny help is appreciated.\n",
+        "tags": [
+            "Visualizer",
+            "EvaluateJavascript Function",
+            "Native",
+            "Browser Widget"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000o6IgLSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    }
+]

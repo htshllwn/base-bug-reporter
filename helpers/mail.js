@@ -69,7 +69,7 @@ var sendBugsMail = function(newQuestions, mailConfig, filterConfig, recipients){
         }
 
         var mailOptions = {
-            from: mailConfig.auth.user,
+            from: "no-reply-upgrades@kony.com",
             to: recipients,
             subject: 'Bug Report : ' + newQuestions.length + " question(s) raised",
             text: emailBody
