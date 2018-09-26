@@ -271,5 +271,45 @@
             }
         ],
         "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-738"
+    },
+    {
+        "name": "Evans Langat (Incentro)",
+        "date": "September 25, 2018 5:26 PM",
+        "quesTitle": "Adding a component from marketplace to a form on my project is stuck at \"Adding dependencies to project...\"",
+        "quesDetails": "e.g. imported the \"PDF Viewer \" component from marketplace into my libraries and on dragging onto the From canvas - been over an hour and still \"Adding dependencies to project...\"\nUsing Visualizer 8.2.16\nTried with other components and get the same behavior\n",
+        "tags": [
+            "Visualizer",
+            "Component",
+            "Marketplace",
+            "PDF Viewer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000pwyjuSAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 2
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "pdf viewer",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "stuck",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-740"
     }
 ]

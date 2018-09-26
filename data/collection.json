@@ -3307,8 +3307,23 @@
         "secList": []
     },
     {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "September 25, 2018 9:26 PM",
+        "quesTitle": "How to change status bar color in iPhone?",
+        "quesDetails": "I'm able to change the status bar color in android by frm.statusbarcolor = \"colorcode\". But I found that doesn't work for iPhone. What's the way to achieve the same in iPhone?\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Status Bar Color",
+            "Color"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000q3UxdSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
         "name": "Evans Langat (Incentro)",
-        "date": "September 25, 2018 5:49 PM",
+        "date": "September 25, 2018 5:26 PM",
         "quesTitle": "Adding a component from marketplace to a form on my project is stuck at \"Adding dependencies to project...\"",
         "quesDetails": "e.g. imported the \"PDF Viewer \" component from marketplace into my libraries and on dragging onto the From canvas - been over an hour and still \"Adding dependencies to project...\"\nUsing Visualizer 8.2.16\nTried with other components and get the same behavior\n",
         "tags": [
@@ -3338,26 +3353,16 @@
                 "count": 1
             }
         ],
-        "secList": []
-    },
-    {
-        "name": "Arindam Ganguly (Moonraft)",
-        "date": "September 25, 2018 9:49 PM",
-        "quesTitle": "How to change status bar color in iPhone?",
-        "quesDetails": "I'm able to change the status bar color in android by frm.statusbarcolor = \"colorcode\". But I found that doesn't work for iPhone. What's the way to achieve the same in iPhone?\n \nThanks!\n",
-        "tags": [
-            "Visualizer",
-            "Status Bar Color",
-            "Color"
-        ],
-        "link": "https://basecamp.kony.com/s/question/0D56A00000q3UxdSAE",
-        "hidList": [],
-        "priList": [],
-        "secList": []
+        "secList": [
+            {
+                "keyword": "stuck",
+                "count": 1
+            }
+        ]
     },
     {
         "name": "Kony User (N/a)",
-        "date": "September 26, 2018 9:49 AM",
+        "date": "September 26, 2018 9:26 AM",
         "quesTitle": "Visualizer@AWS",
         "quesDetails": "Hi,\nI have a few questions regarding Kony Visualizer on AWS.​\n​\n​Is it possible for a non-programmer to get Kony Visualizer on AWS running and create an app to publish on Google Play / Apple App (eg. create a shopping app)?\n​\nIs it possible to use Kony Visualizer on AWS and connect with external API services or have to use MobileFabric?\n​\nThanks for any input in advance!​\nShow More\nShow More\n",
         "tags": [
@@ -3372,7 +3377,7 @@
     },
     {
         "name": "Biswaranjan Lenka (moonraft)",
-        "date": "September 26, 2018 1:49 AM",
+        "date": "September 26, 2018 2:26 AM",
         "quesTitle": "how to make phonenumber displayed in a page as alink so that if i click on the phone numbe it should oprn in the dial pad",
         "quesDetails": "",
         "tags": [
@@ -3381,6 +3386,21 @@
             "Dial Pad"
         ],
         "link": "https://basecamp.kony.com/s/question/0D56A00000q5N4ESAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "September 26, 2018 12:49 PM",
+        "quesTitle": "Anyone share the kony Line Chart mvc code pattern I tried the free form chart code it throwing error \"kony.ui.Chart2D3D\" constructor is not defined",
+        "quesDetails": " kdv_createChartWidget:function()\n{\n  var chartObj = this.kdv_createLineChartJSObject();\n   \n  var chartWidget =this.kony.ui.Chart2D3D({\n \"id\": \"chartid\",\n \"isVisible\": true\n  }, {\n \"widgetAlignment\": constants.WIDGET_ALIGN_CENTER,\n \"contentAlignment\": constants.CONTENT_ALIGN_MIDDLE_LEFT,\n \"containerWeight\": 100\n },\n chartObj);\n//   return chartWidget;\n this.view.FlexContainer0fe790221500040.add(chartWidget);\n  return chartWidget;\n},\n \n//creating chart object with chart properties and chart data...\nkdv_createLineChartJSObject:function()\n{\n  var chartJSObj ={\n    \"chartProperties\":{\n      \"chartHeight\": 50,\n      \"drawEntities\":[\"axis\",\"grid\",\"lineChart\"],       \n\"lineChart\":{\n\"columnId\": [0],\n\"animations\": {\n\"onInitAnimation\": true,\n},\n\"graphType\": \"normal\",\n\"lineType\": \"normal\",\n\"dataAlignToAxis\": [\"primaryYAxis\"],\n\"plotMissingValues\": \"assumeZero\",\n/////////linchart line config\n\"line\": {\n\"color\": [\"0xaaaaaaff\"],\n\"width\": [1],\n\"transparency\": [0],\n},\n/////////line chart marker config\n\"plotPoints\": {\n\"visible\": true,\n\"colorIndicator\": \"columns\",\n\"marker\": {\n\"type\": [\"circle\"],\n\"fillType\": \"color\",\n},\n\"color\": [\"0x2a99ceff\"],\n\"transparency\": [0],\n\"size\": [8],\n},\n/////////linechart datalabels config\n\"dataLabels\": {\n\"visible\": true,\n\"indicators\": [\"numberValue\"],\n\"separator\": \"space\",\n\"placement\": \"left\",\n\"orientationAngle\": 0,\n\"font\": {\n\"size\": [14],\n\"family\": [\"Verdana\"],\n\"style\": [\"Bold\"],\n\"color\": [\"0xaaaaaaff\"],\n\"transparency\": [0]\n},\n},\n}\n    },\n    \"chartData\":{\n      \"columnNames\":{\n        \"values\":[\"Deposit\", \"Cash\", \"Credit\", \"Target\"]\n      },\n      \"rowNames\":{\n        \"values\":[\"row1\",\"row2\",\"row3\",\"row4\"]\n      },\n      \"data\":{\n        \"Deposit\":[234, 236, 224, 244],\n\"Cash\":[524, 512, 514, 526], \n\"Credit\":[344, 335, 336, 334], \n\"Target\":[120, 120, 120, 120],\n      }\n    }\n  };\n  return chartJSObj;\n}\n \n });\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Free Form Chart Code",
+            "Line Chart"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qHs0qSAC",
         "hidList": [],
         "priList": [],
         "secList": []
