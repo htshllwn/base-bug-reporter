@@ -3305,5 +3305,84 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "Evans Langat (Incentro)",
+        "date": "September 25, 2018 5:49 PM",
+        "quesTitle": "Adding a component from marketplace to a form on my project is stuck at \"Adding dependencies to project...\"",
+        "quesDetails": "e.g. imported the \"PDF Viewer \" component from marketplace into my libraries and on dragging onto the From canvas - been over an hour and still \"Adding dependencies to project...\"\nUsing Visualizer 8.2.16\nTried with other components and get the same behavior\n",
+        "tags": [
+            "Visualizer",
+            "Component",
+            "Marketplace",
+            "PDF Viewer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000pwyjuSAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 2
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "pdf viewer",
+                "count": 1
+            }
+        ],
+        "secList": []
+    },
+    {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "September 25, 2018 9:49 PM",
+        "quesTitle": "How to change status bar color in iPhone?",
+        "quesDetails": "I'm able to change the status bar color in android by frm.statusbarcolor = \"colorcode\". But I found that doesn't work for iPhone. What's the way to achieve the same in iPhone?\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Status Bar Color",
+            "Color"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000q3UxdSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Kony User (N/a)",
+        "date": "September 26, 2018 9:49 AM",
+        "quesTitle": "Visualizer@AWS",
+        "quesDetails": "Hi,\nI have a few questions regarding Kony Visualizer on AWS.​\n​\n​Is it possible for a non-programmer to get Kony Visualizer on AWS running and create an app to publish on Google Play / Apple App (eg. create a shopping app)?\n​\nIs it possible to use Kony Visualizer on AWS and connect with external API services or have to use MobileFabric?\n​\nThanks for any input in advance!​\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "AWS",
+            "Google"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qGU7xSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Biswaranjan Lenka (moonraft)",
+        "date": "September 26, 2018 1:49 AM",
+        "quesTitle": "how to make phonenumber displayed in a page as alink so that if i click on the phone numbe it should oprn in the dial pad",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Click",
+            "Dial Pad"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000q5N4ESAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]

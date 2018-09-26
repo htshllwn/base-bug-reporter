@@ -80,4 +80,8 @@ nmRes.then(function(res){
 
     console.log('res: ' + res.length);
     console.log('tempRes: ' + tempRes.length);
-});
+})
+    .catch(function(err) {
+        console.log('nmRes catch. ERROR: ');
+        console.log(err);
+    });

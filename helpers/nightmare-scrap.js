@@ -154,6 +154,7 @@ var promise = new Promise(function(resolve, reject) {
             } catch (error) {
                 console.log('Error in nightmare-scrap.js');
                 console.log(error);
+                reject('Could NOT Scrap');
             }
         }
     }
