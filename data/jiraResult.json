@@ -311,5 +311,43 @@
             }
         ],
         "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-740"
+    },
+    {
+        "name": "Tetsuro Okabe (Kony)",
+        "date": "September 27, 2018 11:30 AM",
+        "quesTitle": "It doesn't show the any animation.",
+        "quesDetails": "I downloaded this component and imported into my Visualizer Enterprise 8 SP2 FP20 today. I created a new project in Kony Reference Architecture and created a new form \"Form1\". I drag and dropped the skeletonscreen component on the form. I didn't change anything in the property pane and there is no any other widget on the form.\nI run this app and tested it on Visualizer Preview on my iPhone Xs Max. The preview app shows a complete white screen without any movement. I also tested it on Visualizer Preview on my Nexus 5X android phone and got the same result. I built it and run on xcode on my iPhone and the result is the same. \nCould you help me to find out what's wrong?\nShow More\nShow More\n",
+        "tags": [
+            "Skeleton Screen",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qWCJZSA4",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "skeleton screen",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Hang",
+                "count": 1
+            },
+            {
+                "keyword": "Hang",
+                "count": 1
+            },
+            {
+                "keyword": "wrong",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-748"
     }
 ]

@@ -18,7 +18,6 @@ secondaryWords = [
     "Idle",
     "No response",
     "Not responding",
-    "Hang",
     "Detach",
     "Remove",
     "Loss",

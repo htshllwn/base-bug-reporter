@@ -36,9 +36,9 @@ var raiseIssues = function(newQuestions){
                                         "value":  "Regression" //"UAT"
                                     },
                 "assignee":{
-                                "name":  "prabhakar.katlakunta", //"UAT",
-                                "key": "prabhakar.katlakunta",
-                                "emailAddress": "prabhakar.katlakunta@kony.com"
+                                "name":  "nutan.karamcheti", //"UAT",
+                                "key": "nutan.karamcheti",
+                                "emailAddress": "nutan.karamcheti@kony.com"
                                     }
             };
     

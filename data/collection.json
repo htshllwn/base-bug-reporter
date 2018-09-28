@@ -3404,5 +3404,216 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "diondre lewis (kony)",
+        "date": "September 27, 2018 3:38 AM",
+        "quesTitle": "Xcodebuild error: SDK cannot be located. What is going on here?",
+        "quesDetails": "I have a kony application, running Xcode on Mac. Getting issues with iphonesimulator not being found. Xcode is present and simulator is there, but kony cannot find it.\n \n[exec-shell] Adding TealiumFFI to FFI_GROUP_SECTION\n[exec-shell] infoplist_configuration.json file found\n[exec-shell] Done.\n[exec-shell] -------------------------------------------------------------------------------------\n[exec-shell] MODE = BUILD -- Building APP files for simulator.\n[exec-shell] -------------------------------------------------------------------------------------\n[exec-shell] xcodebuild: error: SDK \\\"iphonesimulator11.4\\\" cannot be located.\n[exec-shell] Result: 173\nXcode build is successful\n \n \nany ideas on this?\n \nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "SDK"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qPddySAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Visualizer — Henry Chang (N/a)",
+        "date": "September 26, 2018 10:38 PM",
+        "quesTitle": "In Visualizer for AWS, \"Subscribed users\" refers to whom?",
+        "quesDetails": "I apologize beforehand if I post in the wrong channel.\nRegarding Kony Visualizer for Amazon Web Services, in AWS marketplace > Pricing Information> Subscribed users per hour$0.35 /user/hour.\nWho are the \"subscribed users\"? If I make a shopping app, all visitors that sign up to my account will cost me $0.35/hour?\n \nI'm sure that is most likely not the case but I couldn't find detailed information about pricing and need to make sure for cost analysis.\n",
+        "tags": [
+            "Visualizer",
+            "AWS",
+            "Amazon Web Services",
+            "Pricing"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qNJOnSAO",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "wrong",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "September 26, 2018 6:38 PM",
+        "quesTitle": "How to disable loader in android on form navigate?",
+        "quesDetails": "Whenever I'm running the application in Android device, i'm getting a loader in the middle of the screen everytime I try to navigate to a new form (which is not there in iPhone). Is there any way to disable it?\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Form",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qKq1oSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Tetsuro Okabe (Kony)",
+        "date": "September 27, 2018 11:30 AM",
+        "quesTitle": "It doesn't show the any animation.",
+        "quesDetails": "I downloaded this component and imported into my Visualizer Enterprise 8 SP2 FP20 today. I created a new project in Kony Reference Architecture and created a new form \"Form1\". I drag and dropped the skeletonscreen component on the form. I didn't change anything in the property pane and there is no any other widget on the form.\nI run this app and tested it on Visualizer Preview on my iPhone Xs Max. The preview app shows a complete white screen without any movement. I also tested it on Visualizer Preview on my Nexus 5X android phone and got the same result. I built it and run on xcode on my iPhone and the result is the same. \nCould you help me to find out what's wrong?\nShow More\nShow More\n",
+        "tags": [
+            "Skeleton Screen",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qWCJZSA4",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "skeleton screen",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Hang",
+                "count": 1
+            },
+            {
+                "keyword": "Hang",
+                "count": 1
+            },
+            {
+                "keyword": "wrong",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mahesh Thippala (Cognizant)",
+        "date": "September 27, 2018 4:48 PM",
+        "quesTitle": "intent.getData( ) method is returning null in onActivityResult( ) method. (using NFI to access the images from Android Gallery).",
+        "quesDetails": "Hi Team,\n \nI am opening Android images Gallery using NFI, After selecting images onActivityResult( ) method is triggered but I am getting null value in intent.getData( ) function.\n \nfollowing is the code :\n \ndefine({ \nopenGallery:function( )\n  {\n   var KonyMain = java.import('com.konylabs.android.KonyMain');\n   var context = KonyMain.getActivityContext();\n   var MainClass = java.newClass(\"MainClass\",\"java.lang.Object\",[\"com.konylabs.ffi.ActivityResultListener\"],{\n      onActivityResult : function(requestCode,resultCode,intent) {\n       if(resultCode==KonyMain.RESULT_OK){\n        try {\n          \n         alert(intent.getData());\n     \n         } catch (exception) {\n         alert(exception.message);\n        }\n       }else{\n         var toast2 = new kony.ui.Toast({\"text\":\"Images selection Fail\",\"duration\":2000});\n   \t toast2.show();\n       }\n      }\n     });\n     \n   var intentClassObj = new MainClass();\n   var Intent = java.import('android.content.Intent');\n   var i = new Intent( );\n   i.setAction(Intent.ACTION_GET_CONTENT);\n   i.setType(\"image/*\");\n   \n   i.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);\n   context.registerActivityResultListener(123, intentClassObj);\n \tcontext.startActivityForResult(i,123);\n  },\n });\n \n \nThanks,\nMahesh T\n",
+        "tags": [
+            "Visualizer",
+            "NFI",
+            "Android",
+            "Android Gallery"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qZVlNSAW",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Mahesh Thippala (Cognizant)",
+        "date": "September 27, 2018 12:30 PM",
+        "quesTitle": "Unable to Override onActivityResult( ).",
+        "quesDetails": "Just for sample I am displaying Toast message, I am unable to override the onActivityResult( ) method, getting crash.\n",
+        "tags": [
+            "Visualizer",
+            "Override OnActivityResult",
+            "Toast Message",
+            "NFI",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qX6uTSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Pavithree Shetty (Moonraft Innovation Labs)",
+        "date": "September 27, 2018 12:30 PM",
+        "quesTitle": "How do i customize slider widget in kony?",
+        "quesDetails": " \nI have to customize the slider widget to achieve the below attached format. Is there any way i can achieve this?\n",
+        "tags": [
+            "Visualizer",
+            "Widget",
+            "Slider Widget",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qWyt0SAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Katya Taran (King & Wood Mallesons)",
+        "date": "September 27, 2018 10:30 AM",
+        "quesTitle": "How to get selected image object from kony.io.FileSystem.browse and assign it to an image widget?",
+        "quesDetails": "I am having trouble finding how to get the image file that a user would have selected once kony.io.FileSystem.browse function has been called. I'd like to get the image selected and display it in an existing image widget on my Web/Desktop app.\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Image",
+            "Image Widget",
+            "Image Object"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qRb36SAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Swapneil Basutkar (None)",
+        "date": "September 28, 2018 8:17 AM",
+        "quesTitle": "version control giving error",
+        "quesDetails": "How to upload the app on github? when i click on window/version control visualizer gives me this error.\n\n",
+        "tags": [
+            "Visualizer",
+            "Version Control Visualizer",
+            "Version Control",
+            "VERSION"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qbIxhSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "September 28, 2018 6:30 AM",
+        "quesTitle": "PDFViewer crashes on iPad",
+        "quesDetails": "Hi,\nI imported the PDFViewer widget. It works ok on mobiles (iOS and Android), but crashes on iPad without any messages. The whole Visualizer shuts downs once a form with the PDFViewer opens. Is there reason for that?\n",
+        "tags": [
+            "Visualizer",
+            "PDFViewer Crashes",
+            "CRASHES",
+            "PDFViewer Carshed"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qbILdSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jonathan Lison (BIDMC)",
+        "date": "September 27, 2018 9:30 PM",
+        "quesTitle": "Having trouble migrating an old mobile project to Response Web Desktop (\"defaultTheme does not exist\")",
+        "quesDetails": "There's an old project in Kony V7 that I didn't make, but I am trying to migrate it to Responsive Web Desktop.\n \nI have taken these steps:\nImported the old project into Kony V8SP2\nAllowed it to be automatically converted to a V8SP2 project\nConfirmed that the mobile build still works\nWent to project settings, enabled Responsive Web\nAdded a new blank form to the Responsive Web Desktop channel\nBuild\n \nThe build fails. This occurs near the end of the console output:\n \n[echo] New structure ------------\n[echo] themenames defaultTheme\nThe following error occurred while executing this line:\\nC:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\build\\\\desktopweb\\\\build.xml:450: The following error occurred while executing this line:\\nC:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\build\\\\desktopweb\\\\build.xml:453: C:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\jsoutput\\\\desktopweb\\\\defaultTheme does not exist.\nAnt build error=The following error occurred while executing this line:\\nC:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\build\\\\desktopweb\\\\build.xml:450: The following error occurred while executing this line:\\nC:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\build\\\\desktopweb\\\\build.xml:453: C:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\jsoutput\\\\desktopweb\\\\defaultTheme does not exist.\nThe following error occurred while executing this line:\\nC:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\build\\\\desktopweb\\\\build.xml:450: The following error occurred while executing this line:\\nC:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\build\\\\desktopweb\\\\build.xml:453: C:\\\\Users\\\\jlison\\\\KonyVizEWS\\\\temp\\\\openblock\\\\jsoutput\\\\desktopweb\\\\defaultTheme does not exist.\nPackage Generation failed for platform .\n",
+        "tags": [
+            "Visualizer",
+            "Mobile",
+            "Old Mobile Project",
+            "Responsive Web",
+            "Response Web Desktop",
+            "Desktop Web"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qb3zKSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]
