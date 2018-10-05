@@ -3615,5 +3615,424 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "Barim 5 (Customer)",
+        "date": "September 28, 2018 10:30 PM",
+        "quesTitle": "I wanted to see if there is someone who is willing to give a personal training in a 1-1 setting on Kony platform over skype or zoom for a reasonable hourly rate.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Personal Training",
+            "Skype"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qbiH8SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Pavithree Shetty (Moonraft Innovation Labs)",
+        "date": "September 28, 2018 8:30 PM",
+        "quesTitle": "How do i disable enableReordering property of a particular rowtemplate in a segment?",
+        "quesDetails": " \nIn the below attached screenshot, I have used segment with a row template and enableReordering is set to true for the segment. But i have to disable reordering property when the first row is dragged (Savings). onRowClick() wouldn't work because i have to invoke a function not on rowClick but on dragging the row(onTouchStart or onTouchMove), How do i achive this?\n\n",
+        "tags": [
+            "Visualizer",
+            "Particular Rowtemplate",
+            "Property",
+            "Row Template"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qbeZQSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Subhajit Saha (Kony Inc.)",
+        "date": "September 28, 2018 6:30 PM",
+        "quesTitle": "OneDrive integration with Kony app",
+        "quesDetails": "Hi,\nHave any of you, implemented OneDrive integration with Kony app for iOS and Android?\n \nRegards, \n",
+        "tags": [
+            "Visualizer",
+            "NFI",
+            "OneDrive",
+            "IOS FFI",
+            "NFI IOS",
+            "FFI",
+            "Ios",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qbOYJSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gupta kancharla (Kony)",
+        "date": "September 29, 2018 9:30 AM",
+        "quesTitle": "Do any project implemented (APK Expansion Files) option for supporting larger apk's",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Expansion Files",
+            "APK Expansion Files",
+            "Larger APK Size"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qbuP7SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "James Borromeo (Customer)",
+        "date": "October 1, 2018 9:39 AM",
+        "quesTitle": "Can I use and customize this in a free form project?",
+        "quesDetails": "I'd like to use this for a free form project. Is it possible? If so, I'd like to know if there are special procedures I need to do to use and customize it. Thanks!\n",
+        "tags": [
+            "Date Range Picker",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rRObMSAW",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jarrod Harper (Vermont Electric Power Co.)",
+        "date": "October 2, 2018 11:29 PM",
+        "quesTitle": "How do you programmatically block a user's account in the Kony user Repository after a certain number of failed login attempts?",
+        "quesDetails": "We have an app that is using the Kony User Repository for its integration service. The user repository appears to allow an infinite number of failed logon attempts. I can manually edit a user's details and set their account to \"Blocked\". Is there any method to set a user's account status to \"Blocked\" programmatically in Visualizer?\n \nAllowing an infinite number of failed logon attempts is a poor security practice.\n",
+        "tags": [
+            "Visualizer",
+            "Kony User",
+            "Integration Service",
+            "Repository",
+            "Identity Service",
+            "Kony User Repository",
+            "Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rkeTMSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "October 2, 2018 8:29 PM",
+        "quesTitle": "How to save a file in Download in kony?",
+        "quesDetails": "I need to save a file in 'downloads' folder of mobile (in both Android and iPhone). What's the way to achieve that?\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Save File"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000riubDSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martin Krischik (KPT/CPT)",
+        "date": "October 2, 2018 3:29 PM",
+        "quesTitle": "Why is the internationalisation popup not opening correctly",
+        "quesDetails": "The i18n popup isn't opening correctly any more and shows only an empty popup:\n \n\nAll I can do is cancel the popup at which time a previous hitten progress popup is shown:\n \n\nwhich prevents any further any usage. I checked the log and there is nothing there 😫.\n",
+        "tags": [
+            "Visualizer",
+            "Internationalization Popup",
+            "Visualizer 7",
+            "Internationalisation Popup",
+            "I18n Popup",
+            "Visualizer Enterprise 7",
+            "Using Visualizer Enterprize V7",
+            "Internationalization"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000riSqsSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martin Nugraha (Self Employee)",
+        "date": "October 2, 2018 12:29 PM",
+        "quesTitle": "I want to ask about KNYDatabaseAPI iOS",
+        "quesDetails": "Hi,\nWhen I try to build my app. And it show error like screenshot below \nMy app is forced close because symbol not found KNYDatabaseAPI. referenced from CMS.framework. What is that? And if you know how to solve this? I really need help for solve this issue. I am so confused.\nThank you . 😃\n",
+        "tags": [
+            "Visualizer",
+            "KNYDatabaseAPI",
+            "KNY",
+            "Ios",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rgptZSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Latest Android Target and 64-bit Device Support in Kony Visualizer 7.2.1 — Bhavesh Jain (Kony)",
+        "date": "October 2, 2018 10:29 AM",
+        "quesTitle": "site to update the Visualizer plugins",
+        "quesDetails": "Kony hot fix site to update/download the plugins is not working:\nhttp://download.kony.com/studio/70/hotfixmacsite.xml\n \n",
+        "tags": [
+            "Visualizer",
+            "Visualizer Plugins"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rfk9qSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rajnish Sharma (Customer)",
+        "date": "October 2, 2018 10:29 AM",
+        "quesTitle": "Check box with Label design not reflected in iPad \n\nLabel would be in Arabic text",
+        "quesDetails": "I attached screenshot of visualizer and iPad design\n",
+        "tags": [
+            "Visualizer",
+            "Label",
+            "Label Design",
+            "Arabic Text"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rffP7SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Leszek Mzyk (Customer)",
+        "date": "October 1, 2018 1:15 PM",
+        "quesTitle": "Fabric manual initialization",
+        "quesDetails": "I am trying to manually initialize kony fabric from Visualizer:\nI am creating a new project in Visualizer and calling following code\nvar client = new kony.sdk();\n \nclient.init(\n  myAppKey,\n  myAppSecret,\n  myServiceUrl,\n  suc=>{\n    alert(`success ${suc}`);\n  },\n  err=>{\n    alert(`error: ${err}`);\n  });\nand I am getting an error inside kony sdk:\nReferenceError: java is not defined\n  at createInstance (kony_sdk.js:9270:43)\n  at Object.import (kony_sdk.js:9277:28)\n  at Object.kony.sdk.httpIntegrity.getHTTPIntegrityManager (kony_sdk.js:9287:71)\n  at Object.kony.sdk.httpIntegrity.removeIntegrityCheck (kony_sdk.js:9311:50)\n  at processServiceDocMap (kony_sdk.js:643:44)\n  at kony.sdk.initWithServiceDoc (kony_sdk.js:508:16)\n  at kony_sdk.js:455:47\n  at HttpRequest.localRequestCallback (kony_sdk.js:8469:45)\nAm I missing some important step when trying to do manual initialization?\n \n \nAs a side note - we have a working project that does the manual init also, and when debugging i can see in console that `java ` is defined, whereas in my clear project when typing `java` in debugger console I am getting\nVM66:1 Uncaught ReferenceError: java is not defined\nA\n \nShow More\nShow More\n",
+        "tags": [
+            "Fabric",
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rT8IESA0",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "October 1, 2018 12:12 PM",
+        "quesTitle": "How to download a segment data as pdf (or any other format) in kony?",
+        "quesDetails": "Please refer to the above image. Now imagine there's a button at the bottom say 'Download', on clicking of what I need to have a copy of the segment in my gallery or local storage in pdf (or any other format). What's the probable way to achieve that?\nPlease Note taking a screenshot won't work in this case, as the segment many have more data and I need to scroll to the end to reach to the last/latter items. I need to have all the data available in the segment in my downloaded copy.\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "Segment",
+            "Local Storage",
+            "Segment Data"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rSdFiSAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Santosh Sarangi (TATAPOWER-DDL)",
+        "date": "October 1, 2018 9:56 AM",
+        "quesTitle": "Unable to set selectedKey for listbox in segment",
+        "quesDetails": "Hi,\nI have segment which contains 10 listbox, Im able to set master data for the list box but not able to set selectedKey.\n \nHere is my code\nvar dropDownData1 =[[\"Select\",\"--Select--\"],\n                    [\"OK\",\"OK\"],\n                    [\"NOT OK\",\"NOT OK\"],\n                    [\"NA\",\"NA\"]];\nvar segArray = [];\t  \nfor(var i=0; i<10; i++){\n  var segData = {\n          \"lstVanAudit\":{\"masterData\":dropDownData1,selectedKey:dropDownData1[0][0]}\n        };\n    segArray.push(segData);\n }\n this.view.segVanAudit.setData(segArray);\n \n",
+        "tags": [
+            "Visualizer",
+            "Segment",
+            "Var SegArray",
+            "Master Data",
+            "Listbox"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rRThbSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Mustafa Al-Salhi (PST)",
+        "date": "October 1, 2018 8:05 AM",
+        "quesTitle": "how i can set Template to a header and another Template to item in a Segment?",
+        "quesDetails": "i want to set Template for a header of segment has label and image from fabric and another Template in same segment, How.\nthis is my try\n selfMain.view.segFrm2.widgetDataMap = {lblTitle:\"title\",lblHeader:\"pageTitle\",logo:\"pageLogo\",template:\"SegTem\"};\n selfMain.view.segFrm2.widgetDataMap = {lblTitle:\"title\",lblHeader:\"pageTitle\",logo:\"pageLogo\",template:\"SegTem\"};\nselfMain.view.segFrm2.widgetDataMap ={,lblHeader:\"pageTitle\",logo:\"pageLogo\",template:\"segSec\"};\nNote : point 2 has two line.\nShow More\nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Header",
+            "Template"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rQOISSA4",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Restu Baliantara (infosys)",
+        "date": "October 1, 2018 6:59 AM",
+        "quesTitle": "Can I add babel plugin? Im using kony 8 that support es 6 but few of phone type on android dont support es 6",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Phone Type",
+            "ES 6",
+            "Babel",
+            "Plugins"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rPqYfSAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rakan Bilbeisi (Jordan Ahli Bank)",
+        "date": "September 30, 2018 10:00 PM",
+        "quesTitle": "How to import api response data into segment?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Api Response Data",
+            "API",
+            "Banking"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rKxL1SAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "kranthi kumar (new)",
+        "date": "September 30, 2018 6:36 PM",
+        "quesTitle": "how can I access textbox in forms for the addition of two numbers and next form i want result ?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Access Textbox",
+            "Textbox"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rFFOFSA4",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "N S (myco)",
+        "date": "September 30, 2018 11:41 AM",
+        "quesTitle": "Inexplicable code snippet generated by Visualizer for navigation",
+        "quesDetails": "Have an app with a few screens and had defined navigation between the screens using click on actions in Visualizer. In this particular app I noticed that the automatic code snippet generated included { frmscreen.show } for navigation purposes. This code snippet generated an error in the app.\nNow, a couple of days later on reading the app code again the code snippet has reverted back to the usual { kony.mvc.Navigation(\"screen\") }\nAm left wondering on what could have caused the automatic code snippet to change unusually and then revert back to normal.\n \n",
+        "tags": [
+            "Visualizer",
+            "Inexplicable Code Snippet",
+            "Inexplicable Code",
+            "Code",
+            "Action",
+            "Code Snippet"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000qe9XgSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sasidhar Ghanapuram (KonyLabs)",
+        "date": "October 3, 2018 1:30 PM",
+        "quesTitle": "Can we get rich UI ..? My client requires rich 3D UI with a clear division with a white line and shades between the blocks of the chart,.",
+        "quesDetails": "undefined\n",
+        "tags": [
+            "Pie Chart – Partial Data",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rsVoKSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sasidhar Ghanapuram (KonyLabs)",
+        "date": "October 3, 2018 12:30 PM",
+        "quesTitle": "Hi..",
+        "quesDetails": "undefined\n",
+        "tags": [
+            "Pie Chart – Partial Data",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rsVnbSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Drew Campbell (Sealed Air Corporation)",
+        "date": "October 4, 2018 3:30 AM",
+        "quesTitle": "How do I upload an image from iOS app to AWS S3?",
+        "quesDetails": "I am currently using the aws-sdk imported into Visualizer to try and upload images to an s3 bucket. I know my configuration is fine for the AWS upload, because am putting .csv files into a different folder within the same bucket in another part of the code. And with the code below, image uploads from an Android device actually upload the converted base64 string successfully. However, if I try to upload from an iOS device with the code below, I get 'Networking Error'. Here is the code:\n \nAWS.config.update({\n accessKeyId: <accessKeyId>,\n secretAccessKey: <secretAccessKey>,\n region: <region>\n});\n \nvar rawImg = this.view.Picture.rawBytes;\nvar b64img = kony.convertToBase64(rawImg);\n \nvar bucketImage = new AWS.S3();\n \nvar paramsImage = {\n \tBucket: <bucket-name>,\n \tKey: \"images/imageB64.jpg\",\n \tContentType: 'image/jpg',\n \tBody: b64img\n}\n \nbucketImage.putObject(paramsImage, function(err,res){\n if (err) {\nalert(err);\n }\n else {\nalert('Success');\n }\n});\n",
+        "tags": [
+            "Visualizer",
+            "AWS S3",
+            "Android",
+            "AWS",
+            "Ios",
+            "S3 Bucket"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rsvosSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Philip Baruc (Kony.com)",
+        "date": "October 4, 2018 1:30 AM",
+        "quesTitle": "How can you capture the click event of a button that is embedded in a SegmentUI row. It appears that the only events you can capture from a widget in a segment row is the whole row itself but not on individual elements in the segmented row.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Click Event",
+            "Segment Row"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rssg4SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Philip Baruc (Kony.com)",
+        "date": "October 5, 2018 1:26 AM",
+        "quesTitle": "AppMenu on Android Native. I can't seem to make the app menu appear on Android Native, but it shows up fine on Android SPA/IphoneSpa/iphone native. Suggestions?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Android Native",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtEmUSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "SRINAG BODA (KONY INC)",
+        "date": "October 4, 2018 7:26 PM",
+        "quesTitle": "Android & iOS FFI : How to send and read raw bytes captured from camera widget to an FFI?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Raw Bytes",
+            "Camera Widget",
+            "Android & IOS"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rt1q8SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Singaramani Thangavel (Cognizant)",
+        "date": "October 4, 2018 7:26 PM",
+        "quesTitle": "[Solved] In-app PDF Viewer using Google Docs API - No FFI",
+        "quesDetails": "#Informational Post​ \n \nPDF Viewer: \nWant to display PDF within the app? Don't want to use FFI?\n \nHere is the solution.\nDownload the attached project and modify as per your requirement.\n \nPass your online PDF or DOC URL, Google docs render it for you.\n \nPros:\n* Opens within app form\n* Works even if no PDF viewer is installed locally\n* Easy to implement\n* NO FFI\n* Works in both Android, IOS\n \nCons:\n* Supports only online documents\n* Needs internet\n \n\n \n\n \n \nThanks,\nSingaramani\n",
+        "tags": [
+            "Informational Post",
+            "Visualizer",
+            "PDF Viewer",
+            "Google",
+            "Informational Pos"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rt0B1SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]

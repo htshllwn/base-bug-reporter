@@ -35,6 +35,7 @@ var promise = new Promise(function(resolve, reject) {
             
             try {
                 
+                var elementWait = ".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article";
                 
                 // console.log('URL : ' + url);
                 var nightmare = Nightmare(nmConfig);
@@ -44,8 +45,8 @@ var promise = new Promise(function(resolve, reject) {
                 .click("span.cuf-sortLabelTriggerWrapper")
                 .wait("li.uiMenuItem")
                 .click("li.uiMenuItem")
-                .wait(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > a.cuf-feedElement-wrap > article")
-                .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > a.cuf-feedElement-wrap > article")
+                .wait(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
+                .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
                 .then(function(res) {
                     if(res){
                         // console.log('First Post Found in ' + url.href + ' ... ');
@@ -155,6 +156,7 @@ var promise = new Promise(function(resolve, reject) {
                 console.log('Error in nightmare-scrap.js');
                 console.log(error);
                 reject('Could NOT Scrap');
+                return nightmare.end(); 
             }
         }
     }
@@ -220,7 +222,7 @@ function extractDate(data1) {
 
 function postExists2(nightmare, ind, itemsArray)
 {
-    var classPath = `.cuf-feed > .cuf-feedElementIterationItem:nth-child(${ind}) > .cuf-element > a.cuf-feedElement-wrap > article.cuf-feedItem`;
+    var classPath = `.cuf-feed > .cuf-feedElementIterationItem:nth-child(${ind}) > .cuf-element > article.cuf-feedItem`;
     // console.log(classPath);
     return nightmare
         .exists(classPath) //again this will return a boolean so we can check if the button exists
@@ -254,7 +256,7 @@ function postExists2(nightmare, ind, itemsArray)
                             // var element = document.querySelector(cP);
                             // console.log('parameter passed is ---+' + ind + '+---');
                             var tempInd = ind;
-                            var element = document.querySelector(`.cuf-feed > .cuf-feedElementIterationItem:nth-child(${tempInd}) > .cuf-element > a.cuf-feedElement-wrap > article`);
+                            var element = document.querySelector(`.cuf-feed > .cuf-feedElementIterationItem:nth-child(${tempInd}) > .cuf-element > article`);
                             if(element == null){
                                 return { error: "Element NULL"};
                             } else {
