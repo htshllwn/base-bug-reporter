@@ -4034,5 +4034,133 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "October 7, 2018 6:14 PM",
+        "quesTitle": "Check if a textbox is focused or not ?",
+        "quesDetails": "How do i check if a textbox is in focus or not? do we have a property like isFocused ?\n",
+        "tags": [
+            "Visualizer",
+            "Textbox",
+            "Focus"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtnmBSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Saranjeet Bepari (ADCB)",
+        "date": "October 7, 2018 5:14 PM",
+        "quesTitle": "Import custom css file to desktop spa app",
+        "quesDetails": "How to import/add custom css file to kony project.\n \nThanks,\nJRH\n",
+        "tags": [
+            "Visualizer",
+            "Import Custom Css File",
+            "Desktop SPA",
+            "JRH"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtniWSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Saranjeet Bepari (ADCB)",
+        "date": "October 7, 2018 3:14 PM",
+        "quesTitle": "Callback for compoent onViewCreated",
+        "quesDetails": "Hi Team,\nis there any callback event for component view is created and placed on form like in TemplateController methods?\n \nThanks,\nJRH\n",
+        "tags": [
+            "Visualizer",
+            "Component",
+            "OnViewCreated"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtnfSSAQ",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "October 7, 2018 2:14 PM",
+        "quesTitle": "How to fix the keyboard seek",
+        "quesDetails": "Once i focus on input, only half of it is visible and the rest is covered by the keyboard itself. How can i fix this. Can i control the seek so that when i focus on an input it seeks to a position where input is always above the keyboard . Attaching a video and screenshot of the problem\n \nThanks,\nAshish\n",
+        "tags": [
+            "Visualizer",
+            "Focus"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtneFSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Philip Baruc (Kony.com)",
+        "date": "October 5, 2018 6:49 PM",
+        "quesTitle": "Iphone native doesn't seem to honor the zoom level I set in visualizer. I've tried to set it to all different zoom levels but the map always appears to be zoomed out as far as possible. But on android it works fine. Anyone else experience this problem?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Different Zoom Levels",
+            "Zoom Level"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtZX1SAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "N S (myco)",
+        "date": "October 5, 2018 3:03 PM",
+        "quesTitle": "Hi Kony Team,\nWould like to ask about the best approach to bind cpp libraries to javascript using Viz.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Viz",
+            "Kony Team"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtRwQSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Bademiya S (Kony)",
+        "date": "October 5, 2018 12:37 PM",
+        "quesTitle": "How to display only back arrow for the back bar button item present in IOS titlebar?",
+        "quesDetails": "This is #Informational Post​ \nThere will be usecases where a user wants to display only the back arrow but not \"Back\" text in the title bar. If you are looking for the same requirement, then this post is for you.\n \nCase !: If the previous form does not have navigation bar. \n    Example: Landing Screen is the current screen where you want to implement the feature and previous form is Login form which does not have navigation bar.\n \nSteps:\n    1.Download a back arrow image and import it in resources.\n    2.Enable \"Title bar\" for required screen by choosing from the properties pane listed for Form.\n    2.Click on title bar present on form and select NavigationBar.\n    3.Switch 'Hides Back Button' property to 'On'.\n    4.Select MasterData and Add left bar button item by click on '+' button present above Left Bar Button Items section.\n    5.Select type as image from the dropdown and set its value to required back arrow image and click Apply.\n    6.Now you can click on back arrow image on form and set an action to navigate to previous form.\n \nCase 2: If the previous form has a navigation bar.\n \nSteps:\n    1.To set the back arrow feature to current from,open the MasterData of previous form's NavigationBar.\n    2.Add 'Back Bar Button Item' and select type as title and leave its value as blank.\n \n \nHere previous form refers to the form from which you have navigated to current from in the UI Flow.\n",
+        "tags": [
+            "Informational Post",
+            "Visualizer",
+            "Navigation Bar",
+            "Ios",
+            "Bar Button Item",
+            "Title Bar"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtN6lSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ajmal KV (MOI - Qatar)",
+        "date": "October 8, 2018 12:18 pm",
+        "quesTitle": "Native function API Missing Reason ?? How to add it manually",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "API Missing Reason",
+            "Native Function Api"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtq9dSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]

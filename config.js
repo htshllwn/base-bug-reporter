@@ -8,6 +8,7 @@ config['urls'] = require(cfLoc + '/urls');
 config['filter'] = require(cfLoc + '/filter');
 config['mail'] = require(cfLoc + '/mail');
 config['recipients'] = require(cfLoc + '/recipients');
+config['queriesRecipients'] = require(cfLoc + '/queries-recipients');
 
 
 module.exports = config;

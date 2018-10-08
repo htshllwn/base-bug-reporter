@@ -4,6 +4,7 @@ var statsHelper = require('./helpers/stats');
 var fs = require('fs');
 var _ = require('lodash');
 var PNG = require('pngjs').PNG;
+var noOfCalls = 0;
 
 var collectionLoc = config.folders.dataDir + config.folders.jiraColLoc;
 if(!fs.existsSync(collectionLoc)){
@@ -126,8 +127,15 @@ var polarAreaChartOptions = {
     }
 }
 
-generateChart(generatecolumnChartOptions(priStats, 'Primary Keyword Stats'), 1280, 720, 'testimage.png');
-generateChart(generatecolumnChartOptions(secStats, 'Secondary Keyword Stats'), 1280, 720, 'testimage2.png');
+generateChart(generatecolumnChartOptions(priStats, 'Primary Keyword Stats'), 1280, 720, './data/testimage.png')
+.then((res) => {
+    console.log(res);
+});
+generateChart(generatecolumnChartOptions(secStats, 'Secondary Keyword Stats'), 1280, 720, './data/testimage2.png')
+.then((res) => {
+    console.log(res);
+});
+
 // generateChart(pieChartOptions, 1280, 720, 'testimage2.png');
 // generateChart(polarAreaChartOptions, 1280, 720, 'testimage3.png');
 
@@ -135,7 +143,8 @@ function generateChart(chartOptions, width, height, imgPath) {
     // canvas size
 var chartNode = new ChartjsNode(width, height);
 // console.log(chartNode)
-return chartNode.drawChart(chartOptions)
+return new Promise((resolve, reject) => {
+    chartNode.drawChart(chartOptions)
 .then(function() {
     var chartInstance = chartNode._chart;
     // console.log(chartInstance);
@@ -154,7 +163,7 @@ return chartNode.drawChart(chartOptions)
     // write to a file
     chartNode.writeImageToFile('image/png', imgPath)
         .then(()=>{
-            console.log('Ho gaya');
+            // console.log('Ho gaya');
             fs.createReadStream(imgPath)
             .pipe(new PNG({
                 colorType: 2,
@@ -167,10 +176,13 @@ return chartNode.drawChart(chartOptions)
             .on('parsed', function() {
                 this.pack().pipe(fs.createWriteStream(imgPath));
                 console.log('Written to file')
-                return 'DONE';
+                // return 'DONE';
+                resolve(++noOfCalls);
             });
         });
     })
+})
+
 }
 
 

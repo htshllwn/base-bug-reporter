@@ -5,6 +5,7 @@ var _ = require('lodash');
 var hidKeywords = require('./keywords/hidden');
 var priKeywords = require('./keywords/primary');
 var secKeywords = require('./keywords/secondary');
+var queriesKeywords = require('./keywords/queries');
 
 var filterData = require('./helpers/filter-data');
 
@@ -15,6 +16,7 @@ if(!fs.existsSync(config.folders.dataDir)){
 var nmRes = require('./helpers/nightmare-scrap');
 var jiraRes = require('./helpers/jira');
 var mail = require('./helpers/mail');
+var dateHelper = require('./helpers/date');
 
 
 //--------------------------------------------------------//
@@ -46,8 +48,30 @@ nmRes.then(function(res){
     // console.log('Removed Questions : ' + removedQuestions.length);
 
     var filteredResult = filterData(newQuestions, hidKeywords, priKeywords, secKeywords);
+    // var filteredResult = [];
     console.log('Filtered Results : ' + filteredResult.length);
 
+    var queriesData = _.differenceBy(newQuestions, filteredResult,'quesTitle');
+    var queries = filterData(queriesData, hidKeywords, priKeywords, queriesKeywords);
+    console.log('Queries Results : ' + queries.length);
+
+    //--------------------------------------------------------//
+    //------------Send the queries Results to PMs-------------//
+    //--------------------------------------------------------//
+    var queryLoc = config.folders.dataDir + config.folders.queryColLoc;
+    if(!fs.existsSync(queryLoc)){
+        queryCollection = []
+    } else {
+        queryCollection = JSON.parse(fs.readFileSync(queryLoc));
+    }
+    queryCollection = queryCollection.concat(queries);
+    fs.writeFileSync(queryLoc, JSON.stringify(queryCollection, null, 4));
+
+    mail.sendMail(queries, config.mail, config.filter, config.queriesRecipients, "Query")
+    .then(function(mailResult){
+        console.log('Query sendMail resolved');
+        // console.log(mailResult);
+    });
     //--------------------------------------------------------//
     //------Raise Issues in JIRA for the filtered Results-----//
     //--------------------------------------------------------//
@@ -68,9 +92,9 @@ nmRes.then(function(res){
             //--------------------------------------------------------//
             //-----------------------Send Mail------------------------//
             //--------------------------------------------------------//
-            mail.sendBugsMail(jiraResult, config.mail, config.filter, config.recipients)
+            mail.sendMail(jiraResult, config.mail, config.filter, config.recipients, "Bug")
                 .then(function(mailResult){
-                    console.log('sendBugsMail resolved');
+                    console.log('Bug sendMail resolved');
                     // console.log(mailResult);
                 });
 
@@ -80,6 +104,7 @@ nmRes.then(function(res){
 
     console.log('res: ' + res.length);
     console.log('tempRes: ' + tempRes.length);
+    dateHelper.writeLastDate();
 })
     .catch(function(err) {
         console.log('nmRes catch. ERROR: ');

@@ -41,10 +41,14 @@ var promise = new Promise(function(resolve, reject) {
                 var nightmare = Nightmare(nmConfig);
                 await nightmare
                 .goto(url.href)
-                .wait("span.cuf-sortLabelTriggerWrapper")
-                .click("span.cuf-sortLabelTriggerWrapper")
-                .wait("li.uiMenuItem")
-                .click("li.uiMenuItem")
+                // .wait("span.cuf-sortLabelTriggerWrapper")
+                // .click("span.cuf-sortLabelTriggerWrapper")
+                // .wait(".feeds-sorter-trigger")
+                // .click(".feeds-sorter-trigger")
+                // .wait("li.uiMenuItem")
+                // .click("li.uiMenuItem")
+                // .wait(".feeds-sorter-option")
+                // .click(".feeds-sorter-option")
                 .wait(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
                 .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
                 .then(function(res) {

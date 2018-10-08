@@ -5,5 +5,6 @@ module.exports = {
     dataDir: path.join(CWD, 'data'),
     collectionLoc: '/collection.json',
     lastDateLoc: '/lastDate.json',
-    jiraColLoc: '/jiraResult.json'
+    jiraColLoc: '/jiraResult.json',
+    queryColLoc: '/queryResult.json'
 }
