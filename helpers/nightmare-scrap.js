@@ -43,19 +43,21 @@ var promise = new Promise(function(resolve, reject) {
                 .goto(url.href)
                 // .wait("span.cuf-sortLabelTriggerWrapper")
                 // .click("span.cuf-sortLabelTriggerWrapper")
-                // .wait(".feeds-sorter-trigger")
-                // .click(".feeds-sorter-trigger")
+                .wait("#input-" + 1)
+                .click("#input-" + 1)
                 // .wait("li.uiMenuItem")
                 // .click("li.uiMenuItem")
-                // .wait(".feeds-sorter-option")
-                // .click(".feeds-sorter-option")
-                .wait(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
-                .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
+                .wait("#input-1-1")
+                .click("#input-1-1")
+                .wait("ul.compactFeedList > li:nth-child(1)")
+                .exists("ul.compactFeedList > li:nth-child(1)")
+                // .wait(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
+                // .exists(".cuf-feed > .cuf-feedElementIterationItem:nth-child(1) > .cuf-element > article")
                 .then(function(res) {
                     if(res){
-                        // console.log('First Post Found in ' + url.href + ' ... ');
+                        console.log('First Post Found in ' + url.href + ' ... ');
                         // console.log(res);
-                        return postExists2(nightmare, 1, []);         
+                        return postExists2(nightmare, 1, 1, []);         
                     } else {
                         console.log('First Post NOT Found in ' + url.href + ' ... ');
                         console.log(res);
@@ -129,12 +131,12 @@ var promise = new Promise(function(resolve, reject) {
                         }
             
                         
-                        // console.log("name : -- " + name + " --");
-                        // console.log("date : -- " + date + " --");
-                        // console.log("quesTitle : -- " + quesTitle + " --");
-                        // console.log("quesDetails : -- " + quesDetails + " --");
-                        // console.log("tags : -- " + tags + " --");
-                        // console.log("link : -- " + link + " --");
+                        console.log("name : -- " + name + " --");
+                        console.log("date : -- " + date + " --");
+                        console.log("quesTitle : -- " + quesTitle + " --");
+                        console.log("quesDetails : -- " + quesDetails + " --");
+                        console.log("tags : -- " + tags + " --");
+                        console.log("link : -- " + link + " --");
             
                         var fetchedTempData = {name,date,quesTitle,quesDetails,tags,link};
                         fetchedData.push(fetchedTempData);
@@ -224,43 +226,60 @@ function extractDate(data1) {
     return date;    
 }
 
-function postExists2(nightmare, ind, itemsArray)
+function postExists2(nightmare, ind, inputCount, itemsArray)
 {
-    var classPath = `.cuf-feed > .cuf-feedElementIterationItem:nth-child(${ind}) > .cuf-element > article.cuf-feedItem`;
+    var classPath = 'ul.compactFeedList > li:nth-child(' + ind + ')';
+    // var classPath = `.cuf-feed > .cuf-feedElementIterationItem:nth-child(${ind}) > .cuf-element > article.cuf-feedItem`;
+    var articlePath = `article.cuf-feedItem`;
     // console.log(classPath);
     return nightmare
+        .wait("#input-" + inputCount)
+        .click("#input-" + inputCount)
+        .wait("#input-" + inputCount + "-1")
+        .click("#input-" + inputCount + "-1")
+        .wait('ul.compactFeedList > li:nth-child(' + 1 + ')')
         .exists(classPath) //again this will return a boolean so we can check if the button exists
         .then(function(result)
         {
             if(result)
             {
-                // console.log('Post '+ind+' Exists');
+                console.log('Post '+ind+' Exists');
                 return nightmare
-                    .exists(classPath + " .moreLabel")
-                    .then(function(res) {
-                        // console.log("Show More Tags found for Post " + ind);
-                        if(res) {
-                            return nightmare
-                                .click(classPath + " .moreLabel")
-                                .exists(classPath + " .cuf-more")
+                    .wait('ul.compactFeedList > li:nth-child(' + ind + ') a.compactFeedElement')
+                    .click('ul.compactFeedList > li:nth-child(' + ind + ') a.compactFeedElement')
+                    .wait(articlePath)
+                    .then(function(res){
+                        console.log('articlePath res = ' + res + ' END');
+
+                        return nightmare
+                        .exists(articlePath + " .moreLabel")
+                        .then(function(res) {
+                            if(res) {
+                                console.log("Show More Tags found for Post " + ind);
+                                nightmare
+                                    .click(articlePath + " .moreLabel")
+                                    .then(function(res){})
+                                return nightmare
+                                .exists(articlePath + " a.cuf-more")
                                 .then(function(res) {
-                                    // console.log("More Post Content found for Post " + ind);
                                     if(res) {
-                                        nightmare.click(classPath + " .cuf-more")
+                                        console.log("More Post Content found for Post " + ind);
+                                        nightmare.click(articlePath + " .cuf-more")
                                     }
                                     return true;
                                 })
-                        }
-                        return true;
+                            }
+                            return true;
+                        })
                     })
                     .then(function(res) {
-                        // console.log("More Labels expanded : " + res);
+                    // console.log("More Labels expanded : " + res);
                         return nightmare.evaluate(function(ind) {
                             // elements = Array.prototype.slice.call(document.querySelector(cP));
                             // var element = document.querySelector(cP);
                             // console.log('parameter passed is ---+' + ind + '+---');
                             var tempInd = ind;
-                            var element = document.querySelector(`.cuf-feed > .cuf-feedElementIterationItem:nth-child(${tempInd}) > .cuf-element > article`);
+                            var element = document.querySelector('article.cuf-feedItem');
                             if(element == null){
                                 return { error: "Element NULL"};
                             } else {
@@ -270,12 +289,15 @@ function postExists2(nightmare, ind, itemsArray)
                                                 .map(function(child){ return { data: child.innerText } } ),
                                 };
                             }
-                             
+                                
                         }, ind)
-                        // .run(function)
                         .then(function(item){
-
-                            // console.log("item " + JSON.stringify(item))
+                            if(!item){
+                                console.log("False item " + JSON.stringify(item));
+                                return postExists2(nightmare, ind, inputCount+1, itemsArray);
+                            }
+                            console.log("item " + JSON.stringify(item))
+                            nightmare.back();
                             var data1 = item.children[0].data;
                             
                             var d1 = Date.parse(extractDate(data1));
@@ -283,14 +305,14 @@ function postExists2(nightmare, ind, itemsArray)
 
                             if(d1 > d2){
                                 itemsArray.push(item);
-                                return postExists2(nightmare,ind+1,itemsArray);
+                                return postExists2(nightmare, ind+1, inputCount+1, itemsArray);
                             }
                             else{
                                 return itemsArray;
                             }
-                        })
+                        });
                     })
-                
+
                 // nightmare.click('.cuf-showMore') //click it again so we can keep moving through the confirmations
                 // return okStillExists(nightmare) //and finally run the function again since it's still here
             } else
@@ -304,7 +326,7 @@ function postExists2(nightmare, ind, itemsArray)
                             // console.log("View More Button Exists");
                             nightmare.click('.cuf-showMore');
                             // console.log("View More Button Clicked");
-                            return postExists2(nightmare,ind,itemsArray);
+                            return postExists2(nightmare, ind, inputCount, itemsArray);
                         }
                         else{
                             // console.log("View More Button NOT FOUND");

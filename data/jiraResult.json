@@ -349,5 +349,45 @@
             }
         ],
         "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-748"
+    },
+    {
+        "name": "Drew Campbell (Sealed Air Corporation)",
+        "date": "October 11, 2018 6:37 PM",
+        "quesTitle": "Barcode/QR Code Scanner widget from marketplace not working after Visualizer 8.3 upgrade on iPhone",
+        "quesDetails": "After upgrading to Visualizer 8.3 and iOS 12 this morning, and then redeploying IPA to Xcode -> running on phone, I can go through my app until I attempt to browse to a Form that contains a barcode scanner. Once I browse to that Form, I get an alert \"Type Error\" saying \"undefined is not an object (evaluating 'tmpController[propName].bind'). If I take the barcode scanner widget off the Form and redeploy, the app is fine. Any idea why this would be occuring?\n",
+        "tags": [
+            "Visualizer",
+            "IPA",
+            "Code Scanner",
+            "QR Code Scanner"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSgKGSA0",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Not working",
+                "count": 1
+            },
+            {
+                "keyword": "error",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-805"
     }
 ]

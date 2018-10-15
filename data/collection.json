@@ -4162,5 +4162,843 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "October 8, 2018 4:30 PM",
+        "quesTitle": "How to add ComboBox",
+        "quesDetails": "Hi, I found in the documentation that there is a Combo Widget, but I cannot find it on my Widget Panel in Visualizer. How do I add it to my screen?\nThank you,\n",
+        "tags": [
+            "Visualizer",
+            "Widget Panel"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtqmaSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 8, 2018 3:30 PM",
+        "quesTitle": "When i add microsoft sql server connection to kony using kony fabric its got error. I attached image file of error",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Image File",
+            "Microsoft Sql Server Connection",
+            "Kony Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtqX1SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "October 9, 2018 4:30 AM",
+        "quesTitle": "Image Ration in Segments",
+        "quesDetails": "Hi, I have two identical images. One is just on a form, the second in a segment. The images sizes are the same and Scale Mode is the same (Maintain Aspect Ratio). The image in the segment is blury and cut. The image on the form looks ok. Can anyone explain why this is happening and how to fix it. Thank you\n",
+        "tags": [
+            "Visualizer",
+            "Image Ration",
+            "Maintain Aspect Ratio",
+            "Image"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru0wOSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "khalid al hadbeh (JAB)",
+        "date": "October 9, 2018 1:30 AM",
+        "quesTitle": "How I can access segment from component module using code",
+        "quesDetails": "i created a form with a segment , i and i am displaying the data normally , now i have a need to rest the segment data by inserting new data once i clicked on button in the component.\n \nso what code logic i need to write , in order to use the segment in the component module .\n \nOr , can is there an option to expose the segment to be like a global , so i can access from component with out issue\n",
+        "tags": [
+            "Visualizer",
+            "Segment",
+            "Access Segment",
+            "Segment Data"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rtyzqSAA",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 4
+            }
+        ],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "R Son (Chevron)",
+        "date": "October 9, 2018 2:30 PM",
+        "quesTitle": "How to setup Single Sign On for users in the organization for the Kony environment?",
+        "quesDetails": "An owner or admin user in each of the Cloud accounts would need to configure the same external identity provider via https://manage.kony.com/console/#/settings/manage-providers.\nKindly provide documentation on this.\n",
+        "tags": [
+            "Visualizer",
+            "Kony Environment",
+            "Cloud Accounts",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru2QtSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "R Son (Chevron)",
+        "date": "October 9, 2018 2:30 PM",
+        "quesTitle": "How to make the Text Area into Read only so that it is not editable or exposed",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Text",
+            "Test Area",
+            "Textarea"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru2QZSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "R Son (Chevron)",
+        "date": "October 9, 2018 2:30 PM",
+        "quesTitle": "How to import Font with file type (.eot) into Kony?",
+        "quesDetails": "Upon trying, the import fails. Is what we are trying even possible with Kony? If yes, what are the steps?\n",
+        "tags": [
+            "Visualizer",
+            "File Type",
+            "Font",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru2QKSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "October 9, 2018 11:30 AM",
+        "quesTitle": "How to get rowIndex in Segment's Template?",
+        "quesDetails": "HI, I would like to call a parent function once an event happens on the segment's item. How do I detect rowIndex from Code Snipped on the template. I.e. this.executeOnParent(\"runSomething\",{row:rowIndex});\nThank you\n \n",
+        "tags": [
+            "Visualizer",
+            "HI",
+            "Segment's Template",
+            "Segment Template's",
+            "Template"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru236SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "German Nina (Customer)",
+        "date": "October 10, 2018 5:30 AM",
+        "quesTitle": "You have 0 days to update.",
+        "quesDetails": "I have Visualizer Enterprise version 8.1.22 and I have a project on that version, currently when I enter to Visualizer it shows me this message \"UPDATE VISUALIZER\" - Kony has some exciting news updates for your. You have 0 days to update, and there is no way to skip, I tried restarting, turning of wifi, etc.\n \nThe problem is that I can't update due my project is in version 8.1.22 and I don't want to update my project.\n \nHow can I close this popup, keep my current version and continue working?\n \nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Update",
+            "Visualizer Enterprise"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ruOPRSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "October 9, 2018 11:30 PM",
+        "quesTitle": "How to get the height of a widget ?",
+        "quesDetails": "How do we get the height of a widget ( flex container ,segment ,etc ) . The height property of the widget is only for setting it. When i tried consoling the height property, i got null\n",
+        "tags": [
+            "Visualizer",
+            "Widget",
+            "Height",
+            "Height Property"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ruDyfSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "October 9, 2018 9:30 PM",
+        "quesTitle": "How do we access the form from a component ?",
+        "quesDetails": "I want to change the status bar color of the form whenever a component is being used ( the component comes into picture after a click in the form ). How can i access the form from the component so that i can change the color of the status bar\n",
+        "tags": [
+            "Visualizer",
+            "Component",
+            "Form",
+            "Status Bar Color"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru9CZSAY",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 4
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "Want",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Biswaranjan Lenka (moonraft)",
+        "date": "October 9, 2018 9:30 PM",
+        "quesTitle": "how to achive pagination in segment vertical scrolling",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Achive Pagination",
+            "Pagination"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru8w6SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hugo Leite (Sommet-Education)",
+        "date": "October 9, 2018 6:30 PM",
+        "quesTitle": "App Icon Android",
+        "quesDetails": "Hi everyone,\nI'm having issues adding the App icon for Android.\nI have followed the documentation:\nhttps://docs.kony.com/konylibrary/visualizer/visualizer_user_guide/Content/Adding_and_Managing_Images.htm#Android\n \n\nThe line entered in Child Tag Entries appears in the middle of nowhere in the AndroidManifest.xml file...\n\nDo you know what I'm doing wrong?\nI'm using Vis 8 sp2 fixpack 22\nRegards,\n \nHugo Leite\n \nShow More\n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Icons"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ru3FkSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "serin shibu (S4M)",
+        "date": "October 10, 2018 4:30 PM",
+        "quesTitle": "cannot publish",
+        "quesDetails": "I cannot publish any app. I keep getting this error:\nCiShare : couldn't publish prototype.An error occurred while uploading. Click Retry to upload again\nThis is the log file\n",
+        "tags": [
+            "Visualizer",
+            "Click",
+            "Click Retry"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ruQHtSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "KALPESH SEVAK (KONY)",
+        "date": "October 10, 2018 11:30 AM",
+        "quesTitle": "App does not run on the simulator; continuously receive the following error:",
+        "quesDetails": " \n[exec-shell] ld: warning: directory not found for option \\'-F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/PrivateFrameworks\\'\n[exec-shell]\n[exec-shell] -- BUILD FAILED --\n",
+        "tags": [
+            "Visualizer",
+            "APP",
+            "Simulator",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ruPjrSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "October 11, 2018 8:01 AM",
+        "quesTitle": "executeOnParent and slidingMenu with target container",
+        "quesDetails": "Hi,\nI have an executeOnParent function in one of my segment's template. It worked fine, until I added the sliding menu from market place. Once I moved all widget to the target container, executeOnParent stopped working. Is there any way around?\n",
+        "tags": [
+            "Visualizer",
+            "Segment's Template",
+            "Target Container"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ruxlASAQ",
+        "hidList": [
+            {
+                "keyword": "market place",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "sliding menu",
+                "count": 1
+            }
+        ],
+        "secList": []
+    },
+    {
+        "name": "Freddy Molina (Customer)",
+        "date": "October 11, 2018 3:30 AM",
+        "quesTitle": "transformClassesWithMultidexlistForDebug FAILED",
+        "quesDetails": "Kony Visualizer 7.3 to Kony Visualizer 8 Version 8 Service Pack 3\n",
+        "tags": [
+            "Visualizer",
+            "FAILED",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rumnTSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Italo Barboza (qualifacts)",
+        "date": "October 11, 2018 2:30 AM",
+        "quesTitle": "I can't install finalizer",
+        "quesDetails": "I am trying to install finalizer according to documentation (https://docs.kony.com/konylibrary/visualizer/visualizer_user_guide/Content/ApplicationSecurity.htm), but I faced with this message \"Didn't find valid finalizer installation.\nWas this script moved?\nDoing nothing.\"\nI am using KonyVisualizer 8.1.2 and Finalizer 9.2.0\n",
+        "tags": [
+            "Visualizer",
+            "User Guide",
+            "SECURITY",
+            "Finalizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rulIQSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 11, 2018 4:30 PM",
+        "quesTitle": "How to fix \"SDK is not initialized ,call init before invoking any operation on asynchronous services\" error occurred when i call asynchronous services on button click",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Button Click",
+            "SDK"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rvXD1SAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "October 11, 2018 3:30 PM",
+        "quesTitle": "Help ! I dont know what is happening to Kony Visualizer Enterprise",
+        "quesDetails": "I was working on my code as usual when suddenly a popup saying \"Logout in progress \" showed up and it is stuck on that screen from that time. I tried restarting Kony a couple of times but it is still stuck at screen. Attaching screenshot for reference.\nPS - It can't be internet problem as it is working totally fine ( I am able to post this question using the same laptop/connection ).\nIt can't be my system config as i am using a Macbook Pro i7 16gb ram.\n",
+        "tags": [
+            "Visualizer",
+            "Kony Visualizer Enterprise",
+            "Kony Visualizer",
+            "MacBook Pro"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rvMjlSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 11, 2018 3:30 PM",
+        "quesTitle": "How we can call a Asynchronous service from a function",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000rvTGFSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 15, 2018 12:48 PM",
+        "quesTitle": "Unhandled Exception : Kony.sdk.getChannelType is not a function . I got this Exception when i published app and viewed in android phone",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Function",
+            "Unhandled Exception"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uHmOQSA0",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 15, 2018 11:46 AM",
+        "quesTitle": "How init is called from kony-sdk.js when a button is clicked",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Button"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uHmF4SAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 15, 2018 9:46 AM",
+        "quesTitle": "How we can download kony-plainJS-sdk from kony fabric console",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uGl91SAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Martin Nugraha (Self Employee)",
+        "date": "October 15, 2018 8:46 AM",
+        "quesTitle": "When I update on Internationalization(i18n) on Kony and build into apk/ipa, it didn't work",
+        "quesDetails": "Hi,\n\nI have problem that when I update on Internationalization(i18n) on Kony and then build into apk/ipa, Internationalization(i18n) didn't work.\nWhat should I do?\nThank you\n",
+        "tags": [
+            "Visualizer",
+            "Internationalization",
+            "Kony",
+            "Problem"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uFoanSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Dennis Gray (Xenith Innovations, LLC)",
+        "date": "October 15, 2018 3:46 AM",
+        "quesTitle": "Cannot assign Kony identity service for travel app, not listed in existing services.",
+        "quesDetails": "Just finished the entire travel app, went to app preview, cannot log into app. Tried going into fabric, republishing the identity service, then refreshing in visualizer, then doing app preview several times, same result. Problem appears to be I cant select Kony User Repository, as does not appear in \"use existing services\" submenu.\n \nWhen I try app preview on my iphone via visualizer iphone app:\nALERT: unhandled Exception: onErrorBallback is not defined.\n \nWhen I was setting up the identity service early on in the design steps, I was not able to \"use existing\" kony user repository (APP>KONYTRAVEL>IDENTITY SERVICE>USE EXISTING) when I'm at this step, the kony user repository is not an option. However, kony user service repository is listed on the segment list under the \"USE EXISTING\" button panel:\n \nNAME/URL/TYPE/SSO/MOD BY/MOD ON\nKony User Repository, https://100025142.auth.konycloud.com/login?provider=userstore, User Store , Disabled, NA07 Oct 2018 18:33 UTC\n \nwhen you click on this option and edit, the user i created appears:\nEMAIL/FIRST NAME/LAST NAME/PHONE (blank)/STATUS\nstudent@kony.com, Kony, Student, active\n \nTEST SIGN IN:\n{\n  \"details\": {\n    \"message\": \"Invalid User Credentials\",\n    \"errcode\": 0,\n    \"errmsg\": \"Invalid User Credentials\"\n  },\n  \"httpstatus\": \"Unauthorized\",\n  \"requestid\": \"1e8ba5e3-2fda-4d0e-97b0-1b7a57e3ceb5\",\n  \"domain\": \"AUTH\",\n  \"code\": -4,\n  \"mfcode\": \"Auth-4\",\n  \"message\": \"Invalid User Credentials\"\n}\n \nlong story short, during module 2 of the KonyTravel App design instructions, 6 minutes, 44 seconds into the video, choose existing services (kony fabric part), when I type \"user\" into the top right search box, the \"kony user repository\" is supposed to show as an option. This doesnt happen in my version.\n \nPlease advise how to fix this, thank you. Dennis\n \n \n \n",
+        "tags": [
+            "Fabric",
+            "APP",
+            "Identity Service",
+            "Identity",
+            "Unhandled Exception"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uD6iTSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Dennis Gray (Xenith Innovations, LLC)",
+        "date": "October 15, 2018 2:46 AM",
+        "quesTitle": "Cannot assign identity service for travel app",
+        "quesDetails": "Just finished the entire travel app, went to app preview, cannot log into app. ALERT: unhandled Exception: onErrorBallback is not defined. When I was setting up the identity service early on in the design steps, I was not able to \"use existing\" kony user repository (APP>KONYTRAVEL>IDENTITY SERVICE>USE EXISTING) when I'm at this step, the kony user repository is not an option. However, kony user service repository is listed on the segment list under the \"USE EXISTING\" button panel:\n \n",
+        "tags": [
+            "Fabric",
+            "APP",
+            "Identity Service",
+            "Identity",
+            "Unhandled Exception"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uD6iOSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Satish Ashwath (East West Bank)",
+        "date": "October 14, 2018 6:46 PM",
+        "quesTitle": "ld: symbol(s) not found for architecture i386",
+        "quesDetails": "Unable to generate iOS build in Xcode 10, facing few files are missing please find the attachments for the same.\n",
+        "tags": [
+            "Visualizer",
+            "Xcode",
+            "Mobile Banking App"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000u4oRHSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "mario bonilla (praemere)",
+        "date": "October 13, 2018 5:48 PM",
+        "quesTitle": "how do users create events that can be shown on timeline",
+        "quesDetails": "need users to create events with specific details relevant to the app. then show all the created events in the timeline\n",
+        "tags": [
+            "Marketplace",
+            "Timeline",
+            "Events",
+            "Specific Details",
+            "Users"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tqLV8SAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Abbas Soloki (KLS)",
+        "date": "October 12, 2018 8:14 PM",
+        "quesTitle": "How do you get data from Fabric to Visualizer (segment)",
+        "quesDetails": "I created a service and I can get the data from the api using Test Fetch on Fabric. How do pass this json data to my Visualizer?\n \nBasically how do I connect the service in the Fabric to Visualizer?\nHow do I call it from Kony Visualizer so I can populate my segment with data from that api Service?\n",
+        "tags": [
+            "Visualizer",
+            "Fabric",
+            "Data",
+            "API",
+            "Json"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tT6mvSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Moz Domains (MozDomains)",
+        "date": "October 12, 2018 5:10 PM",
+        "quesTitle": "Kony DBX",
+        "quesDetails": "Hi!\n \nWe're looking one solution that can help us on creating a FinTech, by my research I checked that the Kony DBX Is also to FinTech.\n \nThe FinTech that we want create in an Online Payment Gateway, that also will allow the P2P transfer, ATM Withdraw, the Pay As Go and the QRcode Payment.\n \nThen I want know if the Kony DBX is the best solution for that, if not witch example and where we can use the Kony DBX?\n \nThank you\n",
+        "tags": [
+            "Digital Banking",
+            "Kony DBX",
+            "Online Payment Gateway"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tT0KMSA0",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ramesh kumar (PSECU)",
+        "date": "October 12, 2018 1:56 PM",
+        "quesTitle": "Embed a Linked Framework in xcode",
+        "quesDetails": "We have added a FFI to support a new feature in our app.As part of the FFI, we have abc.framework. By default,when i build the iOS app,it comes under \"Linked Frameworks\" but the requirement is to have this under \"embedded Framework\".(PFA screenshot)\nHow to achieve this using perl script.\n",
+        "tags": [
+            "Visualizer",
+            "Linked Framework",
+            "Framework"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tStWtSAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 11:53 AM",
+        "quesTitle": "How we can call init before invoking any operation on asynchronous services ?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Asynchronous Services"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqyjSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "shajan shaki (personal)",
+        "date": "October 12, 2018 11:49 AM",
+        "quesTitle": "How can we set the Finalizer PATH ?\n\nWe are trying to build a ipa or Apk file, we are facing finalizer 8.4 not found, If any suggestion Please let me know.\n\nThanks\nshajan",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Finalizer PATH",
+            "Apk File",
+            "Finalizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqwnSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Darpan Gupta (Capgemini)",
+        "date": "October 12, 2018 10:16 AM",
+        "quesTitle": "I am using combo box for showing the date functionality so how to implement the logic of transactions for the last 13 months only based on current date?",
+        "quesDetails": "",
+        "tags": [
+            "Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqSnSAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Moz Domains (MozDomains)",
+        "date": "October 12, 2018 8:38 AM",
+        "quesTitle": "Hi!\n\nThe Kony DBX provide the plataform already developed or I need do it on Visualizer?\n\nIf provide the developed, how can I get this, and if have cost, how much it cost, is possible i have trial of DBX?\n\nTHanks",
+        "quesDetails": "",
+        "tags": [
+            "Digital Banking",
+            "Kony DBX"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqITSA0",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Visualizer — Philip Nordenfelt (Kony)",
+        "date": "October 12, 2018 7:59 AM",
+        "quesTitle": "Build error - iOS compilation",
+        "quesDetails": "Please help me figure out the following issue when building: \n \nThe following error occurred while executing this line: /Users/phil/KonyVizEWS/temp/EmpDirAdmin/build/server/iphonebuild.xml:984: The following error occurred while executing this line: /Users/phil/KonyVizEWS/temp/EmpDirAdmin/build/server/iphonebuild.xml:986: Warning: Could not find file /Users/phil/KonyVizEWS/EmpDirAdmin/nativebindings/iOS/11.0/Foundation-iOS-11.0.zip to copy.\n",
+        "tags": [
+            "Error",
+            "Build",
+            "Visualizer",
+            "Nativebindings",
+            "Ios"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqFySAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Pavithree Shetty (Moonraft Innovation Labs)",
+        "date": "October 12, 2018 7:28 AM",
+        "quesTitle": "What is the ideal way of changing statusbar color in ios?",
+        "quesDetails": "As shown in the below attached screenshot, i tried changing the statusbar color in ios by setting the background color of the form to required color, But that also changes the color of tab bar in the bottom along with statusbar color. How can i fix this?\n\n",
+        "tags": [
+            "Visualizer",
+            "Status Bar Color",
+            "Ideal Way",
+            "Color"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqD9SAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 7:28 AM",
+        "quesTitle": "How we can call init before performing any operation",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Init Events"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqD4SAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 7:01 AM",
+        "quesTitle": "How we can perform mapping between Asynchronous service and forms",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Asynchronous Service"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSqA0SAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 6:59 AM",
+        "quesTitle": "unhanded Exception:Invalid URL for HttpRequst.open() while performing some function on button click using MF app",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Button Click",
+            "Fabric",
+            "URL"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSq9bSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lavanya Ratnala (Customer)",
+        "date": "October 12, 2018 6:50 PM",
+        "quesTitle": "Kony segment selectedRowIndex API returning as null in iPhone platform if tap on child widget which is in segment.",
+        "quesDetails": "Kony segment selectedRowIndex API returning as null in iPhone platform if tap on child widget which is in segment. Need support on this to resolve this issue.\n",
+        "tags": [
+            "Visualizer",
+            "Iphone",
+            "Segment",
+            "API"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSq8TSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 6:24 AM",
+        "quesTitle": "How to initialise SDK manually for performing some function on button click",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Function",
+            "Button Click"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSq7GSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 5:30 AM",
+        "quesTitle": "How we perform insert operation from MF app to relational database",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "MF",
+            "Relational"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSq2aSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 5:12 AM",
+        "quesTitle": "There is no option for MobileFabric Console from Visualizer",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Console",
+            "Mobile Fabric Console"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSq0jSAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 12, 2018 3:35 AM",
+        "quesTitle": "There is no option for sample code in Horizontal tap menu.I attached screenshot",
+        "quesDetails": "",
+        "tags": [
+            "Fabric",
+            "Code",
+            "MF",
+            "Horizontal Tap Menu",
+            "Sample Code"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSpg5SAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "geuntaek kwon (CHACHA COMMUNICATIONS Co. Ltd.)",
+        "date": "October 12, 2018 2:16 AM",
+        "quesTitle": "What is this error mean? : exec-shell returned: 176",
+        "quesDetails": "When I do 'Run As' and choose the 'Native' tab, this error occur.\n \nThe whole error message is like below:\nexec-shell returned: 176\nAnt build error=exec-shell returned: 176\nexec-shell returned: 176\n",
+        "tags": [
+            "Visualizer",
+            "Error Message",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSpBlSAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Darren Panlaqui (Chevron)",
+        "date": "October 12, 2018 12:46 AM",
+        "quesTitle": "Do FFIs work when an app prototype is viewed in Kony Visualizer App Preview of a mobile phone?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "App Prototype",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSoiySAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Darren Panlaqui (Chevron)",
+        "date": "October 12, 2018 12:44 AM",
+        "quesTitle": "Is there a way to only allow lower casing in any input widgets?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Input Widgets",
+            "Lower Casing"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSoiASAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Mayuresh Parab (Davita)",
+        "date": "October 11, 2018 9:25 PM",
+        "quesTitle": "One sync server in a load balancer setup is not active.",
+        "quesDetails": "We have kony sync service hosted on 2 app servers behind a load balancer.\nThe logs on the syncconsole indicate that all sync request are going to server 1, but none to server 2. All services are running on server 2 so the load balancer continues to send request to it. But no sync operation seems to be happening on server 2. And users are getting error.\n \n \n",
+        "tags": [
+            "Base Camp",
+            "Load Balancer",
+            "Sync Server",
+            "Sync"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSlzTSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Drew Campbell (Sealed Air Corporation)",
+        "date": "October 11, 2018 6:37 PM",
+        "quesTitle": "Barcode/QR Code Scanner widget from marketplace not working after Visualizer 8.3 upgrade on iPhone",
+        "quesDetails": "After upgrading to Visualizer 8.3 and iOS 12 this morning, and then redeploying IPA to Xcode -> running on phone, I can go through my app until I attempt to browse to a Form that contains a barcode scanner. Once I browse to that Form, I get an alert \"Type Error\" saying \"undefined is not an object (evaluating 'tmpController[propName].bind'). If I take the barcode scanner widget off the Form and redeploy, the app is fine. Any idea why this would be occuring?\n",
+        "tags": [
+            "Visualizer",
+            "IPA",
+            "Code Scanner",
+            "QR Code Scanner"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000tSgKGSA0",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Not working",
+                "count": 1
+            },
+            {
+                "keyword": "error",
+                "count": 1
+            }
+        ]
     }
 ]

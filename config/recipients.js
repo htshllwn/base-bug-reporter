@@ -3,7 +3,9 @@ var recipients = [
     "nutan.karamcheti@kony.com",
     "prabhakar.katlakunta@kony.com",
     "vivek.iyer@kony.com",
-    "MarketplacePMs@Kony.com"
+    "MarketplacePMs@Kony.com",
+    "marketplaceassetsdev@Kony.com",
+    "Marketplace-Team@Kony.com"
     // "htshllwn@gmail.com",
 ];
 
