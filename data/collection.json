@@ -5000,5 +5000,97 @@
                 "count": 1
             }
         ]
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 15, 2018 4:30 PM",
+        "quesTitle": "I published asynchronous service and copied sample code , download\nplain-sdk.js and put it in module folder .Whether i need to edit plain-sdk file",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Asynchronous Service",
+            "Sample Code"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uHmhSSAS",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 15, 2018 3:30 PM",
+        "quesTitle": "How asynchronous services is called from function",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Asynchronous Services"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uHmZOSA0",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 16, 2018 9:25 AM",
+        "quesTitle": "Invalid URL for HttpRequest.open(). When i call asynchronous service",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Invalid URL",
+            "URL"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ubzJASAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ning Ye (Fairfax County)",
+        "date": "October 16, 2018 1:27 AM",
+        "quesTitle": "My app failed Apple Store: \n\nWe identified one or more issues with a recent delivery for your app. Please correct the following issues, then upload again. \nNon-public API usage: \nThe app references non-public symbols in _archive_entry_filetype",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Apple Store",
+            "Apple"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uPqO4SAK",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Saranjeet Bepari (ADCB)",
+        "date": "October 15, 2018 10:27 PM",
+        "quesTitle": "Cordova integration build failed for android",
+        "quesDetails": "Hi Team, I am integrating cordova with kony app. I downloaded sample app from kony github from below \nhttps://github.com/mig82/kony-cordova\n \nAndroid build is getting failed with below error\n \nThe following error occurred while executing this line:\\nC:\\\\Users\\\\ADCB\\\\Desktop\\\\MIB-Ws\\\\Sample-Cordova\\\\temp\\\\KonyCordova\\\\build\\\\luaandroid\\\\build-jssource.xml:303: The following error occurred while executing this line:\\nC:\\\\Users\\\\ADCB\\\\Desktop\\\\MIB-Ws\\\\Sample-Cordova\\\\temp\\\\KonyCordova\\\\build\\\\luaandroid\\\\build-cordova.xml:80: Directory does not exist:\n",
+        "tags": [
+            "Visualizer",
+            "Cordova",
+            "ADCB",
+            "Kony Github",
+            "Android",
+            "Cordova Integration"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uOE2qSAG",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 15, 2018 6:27 PM",
+        "quesTitle": "Cannot read property 'getIntegrationService' of null. when i add asynchronous service to fetch employee details. I attached screenshot of my code",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Asynchronous Service",
+            "Employee Details"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uHvg9SAC",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]

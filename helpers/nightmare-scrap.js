@@ -130,13 +130,15 @@ var promise = new Promise(function(resolve, reject) {
                             }
                         }
             
-                        
+                        console.log("-----------------------------------------------------------------");
                         console.log("name : -- " + name + " --");
                         console.log("date : -- " + date + " --");
                         console.log("quesTitle : -- " + quesTitle + " --");
                         console.log("quesDetails : -- " + quesDetails + " --");
                         console.log("tags : -- " + tags + " --");
                         console.log("link : -- " + link + " --");
+                        console.log("-----------------------------------------------------------------");
+                        console.log();
             
                         var fetchedTempData = {name,date,quesTitle,quesDetails,tags,link};
                         fetchedData.push(fetchedTempData);
@@ -144,11 +146,11 @@ var promise = new Promise(function(resolve, reject) {
                         
                     // });
                     }
-                    console.log();
                     console.log("-----------------------------------------------------------------");
                     console.log('Run no : ' + urlsInd + ' at '+url.name+' completed');
                     console.log("Total Results: -- " + fetchedData.length + " --");
                     console.log("-----------------------------------------------------------------");
+                    console.log();
                     // nightmare.end()
                     // resolve(fetchedData);
                     // return fetchedData;
@@ -243,13 +245,14 @@ function postExists2(nightmare, ind, inputCount, itemsArray)
         {
             if(result)
             {
+                console.log("-----------------------------------------------------------------");
                 console.log('Post '+ind+' Exists');
                 return nightmare
                     .wait('ul.compactFeedList > li:nth-child(' + ind + ') a.compactFeedElement')
                     .click('ul.compactFeedList > li:nth-child(' + ind + ') a.compactFeedElement')
                     .wait(articlePath)
                     .then(function(res){
-                        console.log('articlePath res = ' + res + ' END');
+                        // console.log('articlePath res = ' + res + ' END');
 
                         return nightmare
                         .exists(articlePath + " .moreLabel")
@@ -292,12 +295,14 @@ function postExists2(nightmare, ind, inputCount, itemsArray)
                                 
                         }, ind)
                         .then(function(item){
+                            nightmare.back();
                             if(!item){
                                 console.log("False item " + JSON.stringify(item));
                                 return postExists2(nightmare, ind, inputCount+1, itemsArray);
                             }
-                            console.log("item " + JSON.stringify(item))
-                            nightmare.back();
+                            console.log("item " + JSON.stringify(item));
+                            console.log("-----------------------------------------------------------------");
+                            console.log();
                             var data1 = item.children[0].data;
                             
                             var d1 = Date.parse(extractDate(data1));
