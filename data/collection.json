@@ -5092,5 +5092,182 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 16, 2018 5:33 PM",
+        "quesTitle": "I create operation 'create' for inserting data to table .On clicking save button an alert box displayed with message \"Successfully inserted\",but value is not inserted to database. I attached screenshot",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Alert Box",
+            "Data"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uf6mRSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 16, 2018 3:39 PM",
+        "quesTitle": "How we can assign value of a text box from form to variables ?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Text",
+            "Textbox"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uf0dwSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "serin shibu (S4M)",
+        "date": "October 16, 2018 1:39 PM",
+        "quesTitle": "Error in fabric console",
+        "quesDetails": "Everything was working fine a few hours back. But now I keep getting errors when I click on Apps option or when I try to test an integration service response. Here are the error screenshots\n",
+        "tags": [
+            "Fabric",
+            "Integration Service Response",
+            "Errors",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ue3z7SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Narayana A (Truetechsolutions)",
+        "date": "October 16, 2018 1:39 PM",
+        "quesTitle": "Information:\nKony Runtime permission Code for access the External Storage Application",
+        "quesDetails": "function PermissionForExternalStorage() {\n  var optionCam = true;\n  kony.application.requestPermission(kony.os.RESOURCE_EXTERNAL_STORAGE, CallbackforExternalAccesss);\n \n}\n \n \nfunction permissionAlertHandlerforExternalStorage(resp) {\n  if (resp)\n    kony.application.openApplicationSettings(kony.os.RESOURCE_EXTERNAL_STORAGE);\n}\n \nfunction CallbackforExternalAccesss(response) {\n  if (response.status == kony.os.RESOURCE_EXTERNAL_STORAGE) {\n    alert(\"first time permission granted\");\n    kony.location.getCurrentPosition();\n  } else if (response.status == kony.os.PERMISSION_DENIED) {\n    var basicConfig = {\n      alertType: constants.ALERT_TYPE_CONFIRMATION,\n      message: \"Please enable the permission in Device Settings to proceed. Do you want to open settings?\",\n      alertHandler: permissionAlertHandlerforExternalStorage  \n   };\n    kony.ui.Alert(basicConfig);\n  }\n}\n",
+        "tags": [
+            "Visualizer",
+            "EXTERNAL STORAGE",
+            "Kony",
+            "External Storage Application"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000udcumSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Brijesh Chheda (PwC)",
+        "date": "October 16, 2018 12:39 PM",
+        "quesTitle": "Is there any documentation on Secure coding/best practices guidelines/security guidelines while developing application using KONY MAPD",
+        "quesDetails": "",
+        "tags": [
+            "Documentation",
+            "KONY MAPD",
+            "Best Practices Guidelines",
+            "Security Guidelines"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000udXoySAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Edwin Ames (Independence Blue Cross)",
+        "date": "October 17, 2018 2:41 AM",
+        "quesTitle": "My current client wants to add unit-testing to pre-Kony 8 applications. How have people solved this problem?",
+        "quesDetails": "",
+        "tags": [
+            "Base Camp",
+            "Unit Testing"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufMdNSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Samuel Petty (Sealed Air Corporation)",
+        "date": "October 17, 2018 1:41 AM",
+        "quesTitle": "I am trying to set a 5 second snapshot delay on the Camera function. Does anyone know how to do this, your help will be greatly appreciated.",
+        "quesDetails": "",
+        "tags": [
+            "Base Camp",
+            "Camera Function",
+            "Snapshot Delay",
+            "CAMERA"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufLvbSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Roelof Koelewijn (REDORA)",
+        "date": "October 16, 2018 7:41 PM",
+        "quesTitle": "After service pack version 3 upgrade my app is really slow",
+        "quesDetails": "Today I thought I'd give service pack 3 a look everything seemed to be working fine but my application on android is really slow.\n \nI'm getting a lot (hundreds) of log rules concerning SyncV1 they look like this:\n10-16 15:41:54.785: V/SYNCV1(17469): [SYNCV1][Redline 1.0.45][16-10-2018 13.41.54.054 UTC][TRACE][1539697261281-36ef-c27a-aa1b][JSThread][2a4e8cc3ec83bc91][samsung SM-G920F 7.0][js/non-require/KonySyncLib.js][][Object.sync.log.trace][]Entering kony.sync.isNull \n \n \nIs there anything to be done about this?\n",
+        "tags": [
+            "Visualizer",
+            "Sync",
+            "SYNCV1",
+            "V8 SP3",
+            "Performance"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uf8m9SAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lavanya Ratnala (Customer)",
+        "date": "October 17, 2018 10:39 AM",
+        "quesTitle": "Hi,\nI am facing an issue in iPhone as app crashes at on taking the picture but in mac i am not able to get exact logs related to crash , can you please help me in that, it is urgent please respond ASAP.\nThanks in advance,\nLavanya.",
+        "quesDetails": "",
+        "tags": [
+            "Other",
+            "Exact Logs",
+            "App Crashes"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSTYSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "meriana meriana (PT. Infosys)",
+        "date": "October 17, 2018 9:55 AM",
+        "quesTitle": "hello ,\nany body know how to screenshot my screen in mobile?\n\nthank you",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Mobile",
+            "Image",
+            "Screen Shot"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSRrSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ayou ixe (IT Managers)",
+        "date": "October 17, 2018 9:50 AM",
+        "quesTitle": "How does Sandbox storage works in Kony? What are the limitations?",
+        "quesDetails": "Sample scenario : There are 3 Transactions saved in Sandbox that were created 11:00PM of October 16 2018. Upon checking 10:00AM of October 17 2018, the 3 transactions were still there. but when we created another transaction, it erased all the 3 transaction.\n",
+        "tags": [
+            "Base Camp",
+            "Sample Scenario",
+            "Storage",
+            "Sandbox Storage Works",
+            "Visualizer",
+            "Phone Storage",
+            "Sandbox",
+            "Android",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSOdSAM",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]
