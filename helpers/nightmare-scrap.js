@@ -277,7 +277,9 @@ function postExists2(nightmare, ind, inputCount, itemsArray)
                     })
                     .then(function(res) {
                     // console.log("More Labels expanded : " + res);
-                        return nightmare.evaluate(function(ind) {
+                        return nightmare
+                        .wait(articlePath)
+                        .evaluate((ind) => {
                             // elements = Array.prototype.slice.call(document.querySelector(cP));
                             // var element = document.querySelector(cP);
                             // console.log('parameter passed is ---+' + ind + '+---');
@@ -294,7 +296,7 @@ function postExists2(nightmare, ind, inputCount, itemsArray)
                             }
                                 
                         }, ind)
-                        .then(function(item){
+                        .then((item) => {
                             nightmare.back();
                             if(!item){
                                 console.log("False item " + JSON.stringify(item));
