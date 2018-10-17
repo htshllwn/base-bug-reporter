@@ -3,6 +3,7 @@ var recipients = [
     "nutan.karamcheti@kony.com",
     "prabhakar.katlakunta@kony.com",
     "vivek.iyer@kony.com",
+    "mary.greening@kony.com",
     "MarketplacePMs@Kony.com",
     "marketplaceassetsdev@Kony.com",
     "Marketplace-Team@Kony.com"
