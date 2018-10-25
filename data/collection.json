@@ -5269,5 +5269,893 @@
         "hidList": [],
         "priList": [],
         "secList": []
+    },
+    {
+        "name": "DamanKony Dev (Customer)",
+        "date": "October 17, 2018 4:13 PM",
+        "quesTitle": "Xcode system framework",
+        "quesDetails": "Hi,\n I want to configure iOS Xcode system frameworks from kony visualizer. i can see a option in this link\nhttps://docs.kony.com/konylibrary/visualizer/visualizer_user_guide/Content/BuildAnAppForiOS.htm\n\" Automatically Add Required System Frameworks to the XCode Project\". but not working can any one help me to resolve this issue.\n",
+        "tags": [
+            "Visualizer",
+            "System Frameworks",
+            "User Guide",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufT82SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jacquline Joseph (Cognizant Technology solution)",
+        "date": "October 17, 2018 4:08 PM",
+        "quesTitle": "error while invoking service",
+        "quesDetails": " \nI am getting following error while hitting the service. the service has been deployed in my local kony server {\"httpStatusCode\":200,\"cacheid\":\"12f5981df-8253-4e99-84b3-649d785d929e\",\"opstatus\":777777,\"httpresponse\":{\"headers\":{\"Set-Cookie\":\"JSESSIONID=4E2863373541D50055ECA5E7E923EB61; Path=/middleware/; HttpOnly\",\"Access-Control-Allow-Methods\":\"GET, HEAD, POST, TRACE, OPTIONS\",\"X-Kony-RequestId\":\"43726540-8c39-434e-ae65-55cacec8ff77\",\"Server\":\"Apache-Coyote/1.1\",\"X-Kony-Service-Message\":\"\",\"Cache-Control\":\"no-store, no-cache, must-revalidate\",\"Pragma\":\"no-cache\",\"Access-Control-Allow-Origin\":\"*\",\"Transfer-Encoding\":\"chunked\",\"Vary\":\"Accept-Encoding\",\"Date\":\"Mon, 11 Jan 2016 08:32:35 GMT\",\"Content-Encoding\":\"gzip\",\"X-Kony-Service-Opstatus\":\"777777\",\"Content-Type\":\"text/plain;charset=UTF-8\"},\"cookies\":\"JSESSIONID=4E2863373541D50055ECA5E7E923EB61\",\"responsecode\":200,\"url\":\"http://16.180.49.77:8080/middleware/MWServlet\"}}     Please help me to solve the issue\n \n",
+        "tags": [
+            "Base Camp",
+            "Service",
+            "Local Kony Server",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSxJSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Arindam Ganguly (Moonraft)",
+        "date": "October 17, 2018 2:08 PM",
+        "quesTitle": "How to create pdf file in kony",
+        "quesDetails": "I need to create a pdf file as pr the requirements. I came across few posts and saw that there is no direct API for pdf in Kony. Is there any way to integrate NFI and to achieve the same?\n \nThanks!\n",
+        "tags": [
+            "Visualizer",
+            "PDF",
+            "PDF File",
+            "NFI"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSkUSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 17, 2018 2:08 PM",
+        "quesTitle": "Fabric Console Error",
+        "quesDetails": "Everything was working fine a few hours back. But now I keep getting errors when I click  service operations for testing\n",
+        "tags": [
+            "Fabric",
+            "Errors",
+            "Click Service Operations"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSj7SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "meriana meriana (PT. Infosys)",
+        "date": "October 17, 2018 1:08 PM",
+        "quesTitle": "hello,,\n\nany body know how to save image/jpg to pdf in mobile?\n\n\n\n\n\nthank you",
+        "quesDetails": "",
+        "tags": [
+            "Base Camp",
+            "PDF",
+            "Image",
+            "Mobile"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSg3SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 17, 2018 12:08 PM",
+        "quesTitle": "How we can perform validations like checking null ,regular expression for text box",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufSbISAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Prasanth Chunduru (Kony)",
+        "date": "October 24, 2018 5:23 PM",
+        "quesTitle": "Concurrent Looping service in fabric orchestration service",
+        "quesDetails": "How to achieve concurrent looping service in fabric. I want to use a looping service which can loop through multiple records at a time parallelly . I that possible through fabric orchestration service.\n",
+        "tags": [
+            "Fabric",
+            "Fabric Orchestration Service",
+            "Multiple Records",
+            "Service"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wemoRSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jacquline Joseph (Cognizant Technology solution)",
+        "date": "October 24, 2018 4:39 PM",
+        "quesTitle": "How do we resolve issue with Error code:10106",
+        "quesDetails": "In the Console ,we get \"Results fetched is null.' What and Where is the error in the service call\n",
+        "tags": [
+            "Other",
+            "Console",
+            "Error Code",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wemWWSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Santosh Sarangi (TATAPOWER-DDL)",
+        "date": "October 24, 2018 2:39 PM",
+        "quesTitle": "Debugging the android application not working only in kony version 8.3.2",
+        "quesDetails": "Hi,\nI have updated the kony visualizer from version 8.2 to 8.3.2. In 8.2 the debugging is worked fine but in 8.3.2 my code is available in source folder. But the break point which i put in debugging is not reached even though the application is completely executed.\n",
+        "tags": [
+            "Visualizer",
+            "Kony Version",
+            "Android",
+            "Android Application",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wemKMSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Deni E Santoso (self employed)",
+        "date": "October 24, 2018 2:39 PM",
+        "quesTitle": "How to define Header request in Kony Visualizer ?",
+        "quesDetails": "Hi, i have a little trouble when i want to post parameters to Service that has been defined in Kony Fabric. My Service need a header in its request .\n \n\n \nmy service need the input parameters to be defined as application/json, but i cant defined that. As my input parameters is consisting of all-strings, Kony Fabric automatically define my input parameters as text/plain,\n \nas the input header and accepted header didnt match, the server returned me with status code 415.\n \nHow can i define my input parameters in Kony Visualizer as application/json ?\n \nAny help will be much appreciated\n \n",
+        "tags": [
+            "Fabric",
+            "Kony Fabric",
+            "Kony",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wemKHSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Santosh Sarangi (TATAPOWER-DDL)",
+        "date": "October 24, 2018 11:39 AM",
+        "quesTitle": "I am trying to setup Jenkins Autobuild process for Kony Visualizer, Everything is configured as per the Kony article on Jenkins configuration, When I build It is showing building successful, but not able to see [.apk] generated",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Jenkins Autobuild",
+            "Kony Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000welroSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Darren Panlaqui (Chevron)",
+        "date": "October 24, 2018 8:39 AM",
+        "quesTitle": "Is there a way to include files (e.g. JS, CSS, etc.) during app preview in Kony Visualizer App Previewer in mobile?",
+        "quesDetails": "I'm trying to preview the app in my mobile via Kony Visualizer App Previewer but the CSS seems to be not included in the preview as the design of the browser widget is missing.\n",
+        "tags": [
+            "Visualizer",
+            "JS",
+            "Preview",
+            "Css"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wehgDSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Santosh Kumar Gajawada (kony india private limited)",
+        "date": "October 24, 2018 11:39 AM",
+        "quesTitle": "Error in starting services \nReason: The service name is invalid\nMore help is available by typing NET HELPMSG 2185\nError while installing the Kony Fabric(Tomact as a server)",
+        "quesDetails": "This is an #Informational Post​ \n \nUnable to install Kony Fabric on windows with the above error.\nThe root cause of the issue is Kony Fabric(Tomcat as a server) is not installed as a service.\n \nIn order to install tomcat as a service, the machine must have configured with the JRE_HOME or JAVA_HOME appropriately(pre-requites) same with the case of Kony Fabric.\n \nCheck whether the machine is configured with JAVA_HOME and PATH variable accurately in the environment variables or hit \"echo %JAVA_HOME%\" in the CMD\nExample\necho %JAVA_HOME%\n<installed path>\\Java\\jdk\n \nSuggestion: If Visualizer is already installed in the machine then point to the JDK which is installed with the visualizer\nExample\nD:\\KonyVisualizerEnterprise8.1.0.0\\Java\\jdk\n \nThen try reinstalling the Kony Fabric.\n",
+        "tags": [
+            "Informational",
+            "Fabric",
+            "JAVA HOME",
+            "Services",
+            "Kony Fabric",
+            "NET HELPMSG",
+            "Service Name Is Invaild",
+            "Kony",
+            "Informational Post",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wehTnSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Darren Panlaqui (Chevron)",
+        "date": "October 24, 2018 6:39 AM",
+        "quesTitle": "Is there a recommended \"sandbox\" setup for app development in Kony?",
+        "quesDetails": "The sandbox is an environment where users can develop code without disrupting another developer's work.\n \nWill this fall under having multiple Kony Visualization Clouds which can be classified into as dev and production environments? Or is there a better way to do this?\n",
+        "tags": [
+            "Visualizer",
+            "Sandbox",
+            "App Development",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000weedgSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Stefan van der Horst (Telstra)",
+        "date": "October 24, 2018 5:39 AM",
+        "quesTitle": "How to get kony.media.record to work in Visualizer App Preview for Android phone",
+        "quesDetails": "I’m having a little bit of a problem with App Preview on my Android phone and I’m wondering if anyone can please help? I’m trying to use kony.media.record but when I call startRecording I get a permission denied error. I’ve granted access to RECORD_AUDIO in the project settings but noticed the Visualizer app doesn’t have this permission set. I can’t see a way to grant access to the app in my phone settings. The Visualizer app has location access and kony.location works fine. Is there anything I can do get kony.media.record working on the app previewer? Let me know if you need anymore details. Thanks!\n",
+        "tags": [
+            "Visualizer",
+            "App Preview",
+            "Visualizer App",
+            "Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000weLuTSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Jacquline Joseph (Cognizant Technology solution)",
+        "date": "October 23, 2018 9:39 PM",
+        "quesTitle": "what is the solution for Error Code:500",
+        "quesDetails": "Hi,\nI am passing the input params but while hitting the server it always goes to failure response.I found it to be status code 500.Kindly help me with the solution asap\n",
+        "tags": [
+            "Fabric",
+            "Status Code",
+            "Solution",
+            "Error Code",
+            "500"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wdyfSSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "dusan panic (xdata)",
+        "date": "October 23, 2018 9:39 PM",
+        "quesTitle": "Visualizer Enterprise",
+        "quesDetails": "Hi there,\n \nI downloaded and activated trial license for Visualizer Enterprise.\n \nHowever I can't get ENTERPRISE license downloaded from the cloud, i get only STANDARD.\n \nVersion of Visualizer is 7.3! Itested in 8.X (latest one) doesn't work either.\n \nPlease advise what to do?\n \nP.S. I tried everything, from uninstalling removing all folders; rebooting computer...nothing helps, stuck here for few hours with this\n",
+        "tags": [
+            "Visualizer",
+            "Visualizer Enterprise",
+            "7.3",
+            "License"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wdxVGSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "KEERTHANA JK (NESH)",
+        "date": "October 23, 2018 6:39 PM",
+        "quesTitle": "I designed a splash screen with an image(Size: 320*568) but the image doesn't fit the screen for all devices. How can i achieve this?",
+        "quesDetails": "",
+        "tags": [
+            "Base Camp",
+            "Splash Screen",
+            "Image"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wdLCOSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "ayou ixe (IT Managers)",
+        "date": "October 24, 2018 5:36 pm",
+        "quesTitle": "how do I limit a single selection behaviour on row click in a segment?",
+        "quesDetails": "I have a segment with multiple values. I should only be able to select 1 row. If i select a different row, it should automatically unselect the previous selected row and set the current row as the selected value. Currently it allows multiple row selection even if the selection behaviour is set to single selection.\n \nHow do I determine if the row is in the selected or unselected state?\n \n",
+        "tags": [
+            "Visualizer",
+            "Selection Behaviour",
+            "Multiple Values",
+            "Row Click",
+            "Segment",
+            "Segment Row",
+            "Segment Data"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wdK1nSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 24, 2018 5:36 pm",
+        "quesTitle": "Error while customizing Apps",
+        "quesDetails": "I download List Details App from marketplace to my libraries , drag the list details to form1 , edit the listdetailscontroller.js from templates/components but on running there is no data displayed on form1 , it still shows empty ?\n",
+        "tags": [
+            "Visualizer",
+            "Apps",
+            "ListDetails App",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wcgkySAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Wes Johnson (Fuzion Code IP Services)",
+        "date": "October 24, 2018 5:36 pm",
+        "quesTitle": "Code to Insert to enable and send data from phone over BLE or Bluetooth? Found one topic on this but the code files are no longer available.",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "BLE",
+            "Code Files"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wcgYeSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Taku Washio (Softbank)",
+        "date": "October 24, 2018 5:36 pm",
+        "quesTitle": "Did Zoom's behavior of FlexScrollContainer change?",
+        "quesDetails": "In the past, minZoomScale, maxZoomScale were values for the original size.\nIt is now a value for the size at the time of operation.\nTherefore, if you set minZoomScale to 0.5, you can only reduce by 50% with one operation, but if you operate it many times, it will be able to shrink forever.\nI think that this behavior is not intuitive, but who understands why it changed?\nDid Kony announce on this matter?\n",
+        "tags": [
+            "Visualizer",
+            "FlexScrollContainer Change",
+            "Banking",
+            "Zoom"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wcfYiSAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hein Htet Pyi Soe (KLST)",
+        "date": "October 22, 2018 8:16 PM",
+        "quesTitle": "Proper Authorization for Sharepoint GET request",
+        "quesDetails": "Hello,\n \nI'm creating a simple app to retrieve and display content from Sharepoint. I am able to login correctly via the reusableOffice365login default identity service and also receive a token. However, when I try to include it in an integration service GET request, it fails and gives me a \"Invalid issuer or signature.\" error. I have attached some materials below to show how I have configured the identity service and the integration service.\nIdentity Service Config:\n\n \nIntegration Service Configs:\n\n \n\n \nHere is the response that I get back:\n{\n    \"Response\": {\n        \"StatusCode\": 401,\n        \"Status\": \"Error\",\n        \"Headers\": {\n            \"SPIisLatency\": \"6\",\n            \"X-Content-Type-Options\": \"nosniff\",\n            \"WWW-Authenticate\": \"Bearer realm=\\\"a6bc32eb-c255-4c61-9f73-7bb75e882b1e\\\",client_id=\\\"00000003-0000-0ff1-ce00-000000000000\\\",trusted_issuers=\\\"00000001-0000-0000-c000-000000000000@*,D3776938-3DBA-481F-A652-4BEDFCAB7CD8@*,https://sts.windows.net/*/,00000003-0000-0ff1-ce00-000000000000@90140122-8516-11e1-8eff-49304924019b\\\",authorization_uri=\\\"https://login.windows.net/common/oauth2/authorize\\\"\",\n            \"P3P\": \"CP=\\\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\\\"\",\n            \"request-id\": \"58f89a9e-00d3-7000-5dfd-d0913107fcc7\",\n            \"X-FRAME-OPTIONS\": \"SAMEORIGIN\",\n            \"X-MSEdge-Ref\": \"Ref A: AA5042644D6840EFACFE1838D583EADD Ref B: BL2EDGE1006 Ref C: 2018-10-22T19:55:28Z\",\n            \"Date\": \"Mon, 22 Oct 2018 19:55:28 GMT\",\n            \"x-ms-diagnostics\": \"3000006;reason=\\\"Token contains invalid signature.\\\";category=\\\"invalid_client\\\"\",\n            \"MicrosoftSharePointTeamServices\": \"16.0.0.8210\",\n            \"Strict-Transport-Security\": \"max-age=31536000\",\n            \"SPRequestGuid\": \"58f89a9e-00d3-7000-5dfd-d0913107fcc7\",\n            \"X-MS-InvokeApp\": \"1; RequireReadOnly\",\n            \"SPRequestDuration\": \"46\",\n            \"MS-CV\": \"npr4WNMAAHBd/dCRMQf8xw.0\",\n            \"Set-Cookie\": \"SPWorkLoadAttribution=Url=https://mysite.sharepoint.com/sites/mysite/Test/_api/web/lists('86B779B2-72F1-480A-A7E3-D06E3C46F946')/items&AppId=E0D3C05D-9133-40D1-8413-1C4522A4E7C2; expires=Mon, 22-Oct-2018 19:55:58 GMT; path=/\",\n            \"Content-Length\": \"52\",\n            \"X-Powered-By\": \"ASP.NET\"\n        },\n        \"ResponseBody\": \"{\\\"error_description\\\":\\\"Invalid issuer or signature.\\\"}\"\n    }\n}\nMy biggest concern here is that the authorization_uri that comes back is different than the one that I'm able to successfully login with. Does anyone have experience with this? Any suggestions on how I can fix this auth problem?\n",
+        "tags": [
+            "Visualizer",
+            "Identity Service",
+            "Proper Authorization",
+            "ReusableOffice365login Default Identity Service",
+            "Sharepoint GET Request",
+            "Sharepoint"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wca5dSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lawrence Kimaru (Nisort)",
+        "date": "October 22, 2018 7:29 PM",
+        "quesTitle": "I am not an app developer but interested to have an app for a business idea I have. I would like to know if I can get any support from this group to develop the app.",
+        "quesDetails": "",
+        "tags": [
+            "Other",
+            "App Developer",
+            "Business Idea"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wcYk0SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Bisher Nadaf (S4M)",
+        "date": "October 22, 2018 2:04 PM",
+        "quesTitle": "Error when Building Project on emulator after Updating Visualizer",
+        "quesDetails": "I was working with FFI and everything was fine until I had a popup to update Visualizer, When I did, I keep getting this when trying to build on an emulator.\nApplication packaging failed. See console for details.\nStarting Package Generation Process for Job: iPhone\nPerforming iPhone Packaging has started\nException occured, please see the console log for more details.\nisUniversalApp: false\nConsole: Switched to tab \"Console\"\nExecuting build file: /KonyVizEWS/temp/mySecondProject/build/server/build.xml\ninit:\nBuild Generation Status\niPhone: Failed\nApplication [mySecondProject] is pointing to [******] environment but does not involve Service integration.\nTotal time taken: 18981 ms\n<----------- Build Generation job is completed--------------->\nConsole: Switched to tab \"Build\"\nbuildKAR:\ncopyjssrc:\n[echo] Copying javascript files and theme files.\n[copy] Copying 7 files to /KonyVizEWS/temp/mySecondProject/build/server/iphonekbf/javascript/iphone\n[copy] Copying 9 files to /KonyVizEWS/temp/mySecondProject/build/server/iphonekbf/javascript/iphone/startup\ncopywearables:\ncopyssmodules:\n[mkdir] Created dir: /KonyVizEWS/temp/mySecondProject/build/server/iphoneselfsufficientmodules\n[mkdir] Created dir: /KonyVizEWS/temp/mySecondProject/build/server/iphonekbf/selfsufficientmodules\n[copy] Copying 1 file to /KonyVizEWS/temp/mySecondProject/build/server/iphoneselfsufficientmodules\n[echo] /KonyVizEWS/mySecondProject/nativebindings/iOS/11.0/Kony_SyncV2-iOS-11.0.zip\n[copy] Copying 1 file to /KonyVizEWS/temp/mySecondProject/build/server/iphoneselfsufficientmodules\n[echo] /KonyVizEWS/mySecondProject/nativebindings/iOS/11.0/Kony_SDKCommons-iOS-11.0.zip\n[copy] Copying 2 files to /KonyVizEWS/temp/mySecondProject/build/server/iphonekbf/selfsufficientmodules\n[delete] Deleting directory /KonyVizEWS/temp/mySecondProject/build/server/iphoneselfsufficientmodules\ncopyappextensions:\n[echo] ----- --\nprotectedKAR:\nprecompile:\n[echo] No precompile task present\nbuildKAR:\n[echo] Creating iphone kbf KAR file\n[zip] Building zip: /KonyVizEWS/temp/mySecondProject/build/server/iphonekbf/konyappiphone.KAR\n[copy] Copying 1 file to /KonyVizEWS/webapps/mySecondProjectr/kbf\nPerforming iPhone Packaging is successful\nPackage Generation for Job: iPhone is successful\nTime taken for Job iPhone\\': 1781 ms\nConsole: Switched to tab \"Console\"\nAlong with this pop-up\n\n \nI tested to create a new project and run it, it works, but once I use FFI again it behaves this way even If I delete everything in FFI it wouldn't fix it.\n",
+        "tags": [
+            "Visualizer",
+            "Updating Visualizer",
+            "FFI",
+            "Building Project",
+            "V8 SP3"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uhaRMSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Lija Gopi (Customer)",
+        "date": "October 22, 2018 1:09 PM",
+        "quesTitle": "Visualizer 7.2.1 not able to find android sdk android Build failed on mac mahine",
+        "quesDetails": "Team ,\nWe are using kony 7.2.1 for android on mac , but Visualizer is not able to find the android sdk..\nNewly installed Kony Visualizer 7.2.1 on MAC\nandroid studio is working fine and even from Terminal I am able run adb commands without problem.\nGetting error atleast one SDK should be installed to run an application .\nAny help on this.\n \nThanks\n \n",
+        "tags": [
+            "Visualizer",
+            "Android",
+            "Android SDK",
+            "Android Studio",
+            "SDK",
+            "Kony 7.2.1",
+            "Android Sdk Android"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uhM3JSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 22, 2018 12:45 PM",
+        "quesTitle": "How i can include Application from marketplace to Myproject and need to customize the app as per requirements",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Marketplace",
+            "APPLICATION"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000uhEYmSAM",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 2
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            }
+        ],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Ashish Kumar (Moonraft Innovation)",
+        "date": "October 22, 2018 9:06 AM",
+        "quesTitle": "Labels are not on same level . How can this be fixed ?",
+        "quesDetails": "I have to Labels for writing \" USD 67690\" since alphabets have more height than the digits so the idea behind this is the label 1 ( USD) should be small ( 14pt) so that they match the digits ( 67890) which is 16pt. Now to align both the labels i gave center Y of 50% but the label 1 seems a bit lifted. Can someone suggest me what is happening and how can this be fixed ?\nAttaching screenshots for reference\n",
+        "tags": [
+            "Visualizer",
+            "Label"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugfA1SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "sanal xavier (Nuvento)",
+        "date": "October 22, 2018 6:02 AM",
+        "quesTitle": "Unhandled Exception;from1 is not defined",
+        "quesDetails": "When i pass text box value of form1 to js ,its got error.\n \nvar empName=form1.txtEmpName.text;\n",
+        "tags": [
+            "Visualizer",
+            "Pass Text Box Value",
+            "Unhandled Exception"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugegzSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Rajnish Sharma (Customer)",
+        "date": "October 22, 2018 4:57 AM",
+        "quesTitle": "How to remove checkbox group scrolling while we are using single display value in checkbox ?",
+        "quesDetails": "I am a designer using Checkbox view type Switches in form with visualizer\nPlease suggest how to remove scrolling from checkbox\nOrientation (Horizontal)\n",
+        "tags": [
+            "Visualizer",
+            "Checkbox View Type",
+            "Checkbox Group",
+            "Checkbox View Type Switches",
+            "Display Value",
+            "Checkbox"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugebBSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Katya Taran (King & Wood Mallesons)",
+        "date": "October 22, 2018 2:59 AM",
+        "quesTitle": "Generate custom reports based on field values within an object/database table",
+        "quesDetails": "Is it possible to use Kony Reporting to create custom reports that pull data out of our own custom Object/data table?\ne.g. if we create our own Object that contains information on all user activity within our app, can we access that information using Kony Reporting?\nThanks!\n",
+        "tags": [
+            "Fabric",
+            "Kony Reporting",
+            "Custom Reports",
+            "Field Values"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugeFASAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "kannan veeraraghavan (home)",
+        "date": "October 21, 2018 4:27 AM",
+        "quesTitle": "How to get MainActivity from KonyMain API?",
+        "quesDetails": "Trying to run below codesnippet to record current screen name in Firebase Analytics through kony FFI.\nper Firebase documentation, the setCurrentScreen required (Activity, String, String) as parameters. Also this method should be called from the main tread. please advise how to get Current and Main activity here?\n \nmFirebaseAnalytics.setCurrentScreen(Activity, screenName, screenClass);\n \nVisualizer 7.2.1\n \n",
+        "tags": [
+            "Visualizer",
+            "Firebase Analytics",
+            "KonyMain API",
+            "String",
+            "API"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugbwuSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hein Htet Pyi Soe (KLST)",
+        "date": "October 22, 2018 5:57 PM",
+        "quesTitle": "How to put together login/auth service with an integration service that pulls from sharepoint API end points",
+        "quesDetails": "Hello,\nI'm looking to create a simple app where I can authenticate and retrieve lists from a specific sharepoint site. I've been successfully able to create a proper auth service using the reusableOffice365Login. By itself, it has been tested and logs in properly. I've also tested my integration API end point on browser to make sure that it is contacting the correct endpoints to retrieve the sharepoint list that I'm looking for. You can see the API endpoint I'm using on the requests below.\n  \nIt comes up with different errors when I'm trying to test the Sharepoint integration service on the KONY fabric console because the default web service authentication (using the same reusableOffice365Login as Identity service) generates an invalid header (\"Basic + token\" instead of \"Bearer + token\"). Here's the logged request from testing:\n \n{\n    \"Request\": {\n        \"Headers\": {\n            \"Authorization\": \"Basic aGVpbkBrbHN0aW5jLmNvbTo0MmJpZG5lc3N0aW1FIQ==\",\n            \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\"\n        },\n        \"Method\": \"GET\",\n        \"Url\": \"https://mysite.sharepoint.com/sites/mysite/Test/_api/web/lists('86B779B2-72F1-480A-A7E3-D06E3C46F946')/items\",\n        \"Payload\": {\n            \"\": [\n                \"\"\n            ]\n        }\n    }\n}\n \nThe above generates a bad request header error. In contrast, if I make the exact same service with no authentication via identity service, it generates the correct request header but I receive a \"Invalid issuer or signature\" error. Here's the request for that:\n{\n    \"Request\": {\n        \"Headers\": {\n            \"Authorization\": \"Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IkFRQUJBQUFBQUFDNXVuYTBFVUZnVElGOEVsYXh0V2pUWnZyUW9TMjdjUXludWw1LWNueTM5SV9kcGZsNzQyUkJFVE1YUHRyakp6dDVvdjdqWFFwajB3Rjc1M3dnQ0FVRXZZNnpwZmJQZklpalYwTUh2dmZVZ0NBQSIsImFsZyI6IlJTMjU2IiwieDV0IjoiaTZsR2szRlp6eFJjVWIyQzNuRVE3c3lISmxZIiwia2lkIjoiaTZsR2szRlp6eFJjVWIyQzNuRVE3c3lISmxZIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hNmJjMzJlYi1jMjU1LTRjNjEtOWY3My03YmI3NWU4ODJiMWUvIiwiaWF0IjoxNTQwMDY5NDM4LCJuYmYiOjE1NDAwNjk0MzgsImV4cCI6MTU0MDA3MzMzOCwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IjQyUmdZTGdoZlNOSjhzNmZncU5yOHJJMmhhWnpucG5pYi9US29LTXZiTWJia3V3Zkdsc0EiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IlNoYXJlcG9pbnQgQXV0aCIsImFwcGlkIjoiM2QyNTYyZDctMzRjMy00MWQ4LTg1OTYtNjZkZmEwNjcwZDU4IiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJQeWkgU29lIiwiZ2l2ZW5fbmFtZSI6IkhlaW4gSHRldCIsImlwYWRkciI6Ijc0LjczLjE1My4xMTgiLCJuYW1lIjoiSGVpbiBIdGV0IFB5aSBTb2UiLCJvaWQiOiI1MzM2NWYyOS00ZmFlLTQ2NjMtODhlNC04MzYyYjE3YjQ4NTkiLCJwbGF0ZiI6IjMiLCJwdWlkIjoiMTAwMzAwMDBBREY0MkVGRCIsInNjcCI6IlRhc2tzLlJlYWQgVXNlci5SZWFkIFVzZXIuUmVhZEJhc2ljLkFsbCBwcm9maWxlIG9wZW5pZCBlbWFpbCIsInN1YiI6Il9WVlBkdVltVld2VnBnYThNSnBLMzBuS2VFTkdzUVQyOVBwa0RqdUVDM0EiLCJ0aWQiOiJhNmJjMzJlYi1jMjU1LTRjNjEtOWY3My03YmI3NWU4ODJiMWUiLCJ1bmlxdWVfbmFtZSI6ImhlaW5Aa2xzdGluYy5jb20iLCJ1cG4iOiJoZWluQGtsc3RpbmMuY29tIiwidXRpIjoiS2hzZVc1V3cyVW1vUlluVVZLQjhBQSIsInZlciI6IjEuMCIsInhtc19zdCI6eyJzdWIiOiJxVDFCZGVHd3BpTm5BREFFNFQzMnVQdVBGV3hFLVo5aXE4bFlrNHZzQVlVIn0sInhtc190Y2R0IjoxMzE3NTcxNDc4fQ.VixGrwmfI-8vLG5nmZahtUkr2ah3sJvfi0-BwBrj7AzTZNt4k9JfIWYVf4D22P4j0hOVwKG-Ae0XrI6sM_vTrdcs0lclctI8YFRmHIXJY8AAkJrYLXXAUX0lEzy7Pxl7CiefXhEOXM2FC5vo0Cycxig_oytH1swSCzAiRSPgDkd1g3lw_WGlWUr25g5r9Ym_7xwbs9sktP1nzGEB8qLtlWu_VRGwVOJ7OyPgoInCaugI6KFlObxTniEzRPBlSqvGkZBMPBe5cy17ldU2_1nYB-uzYKhwP18xS1BoBh4UALrNglVJsfiQuXiNJtXUezL9aAg-XPMWKBmA4zYfOkNxnQ\",\n            \"Accept\": \"application/json\",\n            \"Content-Type\": \"application/json\"\n        },\n        \"Method\": \"GET\",\n        \"Url\": \"https://mysite.sharepoint.com/sites/mysite/Test/_api/web/lists('86B779B2-72F1-480A-A7E3-D06E3C46F946')/items\",\n        \"Payload\": {\n            \"\": [\n                \"\"\n            ]\n        }\n    }\n}\nSo what are my options here? Have I configured one of these services wrong? I know that my login identity service is working for sure but is there a different way to configure it to make it work with integration services?\n \nI have also attempted a few other methods such as using the login service by itself and trying to pass the token to another service from inside KONY visualizer but I haven't figured that out either. What's the most efficient course of action to get to the solution?\n",
+        "tags": [
+            "Visualizer",
+            "Integration Service",
+            "Authentication",
+            "BackEnd Services",
+            "Sharepoint",
+            "Identity Service",
+            "Proper Auth Service",
+            "Auth Service",
+            "Fabric"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugamjSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Devon Devereaux (Devereaux Entertainment)",
+        "date": "October 20, 2018 4:16 PM",
+        "quesTitle": "Can't find out how to add youtube videos to app",
+        "quesDetails": "Hey, I've looked all over the place, but I can't find how to add a youtube video into the app using their video player.\n",
+        "tags": [
+            "Base Camp",
+            "Youtube Video",
+            "Youtube Videos",
+            "Youtube"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugYeWSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Matthew Mann (Sealed Air)",
+        "date": "October 19, 2018 6:01 PM",
+        "quesTitle": "My iOS application hits a memory hard limit and crashes after taking around 25 pictures with the camera. What are the best practices regarding memory management and taking multiple pictures with the camera widget?",
+        "quesDetails": "I have a form with a camera widget on it. As the user takes picture after picture (saving to the Data Directory between each picture) the memory eventually reaches a memory hard limit of 1.4 GB and the app is exited by the iOS kernel. I would like to release this memory after each image is saved and prevent the crash. Any suggestions would be appreciated.\n",
+        "tags": [
+            "Base Camp",
+            "Memory Crash",
+            "Out Of Memory",
+            "Best Practices",
+            "Camera Widget"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugMMCSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Matthew Mann (Sealed Air)",
+        "date": "October 19, 2018 5:51 PM",
+        "quesTitle": "My application needs to activate the back camera's flash or the torch before scanning barcodes. Is this possible to set, and if so, how would I set the flash to on or auto?",
+        "quesDetails": "Users complain that the area in which they scan barcodes is too dark to reliably get a barcode to scan. I need to activate the flash, set flash to auto, or turn the torch on to provide more light. Any help or advice is appreciated.\n",
+        "tags": [
+            "Barcode/ QR Code Scanner",
+            "Marketplace",
+            "CAMERA",
+            "Device Torch"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugM1wSAE",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [],
+        "secList": [
+            {
+                "keyword": "Help",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "name": "Anwar Sadat (Amway)",
+        "date": "October 19, 2018 11:31 AM",
+        "quesTitle": "How do I pass the values for the \"Client Specified\" parameters configured as part of OAuth2 identity service?",
+        "quesDetails": "How do I pass the values for the \"Client Specified\" parameters configured as part of OAuth2 identity service?\n",
+        "tags": [
+            "Fabric",
+            "Parameters",
+            "OAuth2 Identity Service"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugB2ZSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Sanjay Kumar (DM)",
+        "date": "October 19, 2018 10:44 AM",
+        "quesTitle": "How do I store camera photo in sqlite database and retreive it to replace an existing image object?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Camera Photo",
+            "Image Object"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugAwlSAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Reynald Henryleo (Infosys)",
+        "date": "October 19, 2018 9:16 AM",
+        "quesTitle": "Error on kony.mvc.navigation",
+        "quesDetails": "im trying to navigate to other form using kony.mvc.navigation\nvar nextForm = new kony.mvc.Navigation(\"formConver\");\nnextForm.navigate();\nand an alert occur when i click the button like this below image\nwhat is the proper way to this ?\n",
+        "tags": [
+            "Visualizer",
+            "Form",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugAm2SAE",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Piet De Booser (home)",
+        "date": "October 19, 2018 7:35 AM",
+        "quesTitle": "I just installed and started with the hands-on getting started project.\nI messed up in the middle and want to start over again.\nHow can I do this without uninstalling and reinstalling?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugAeZSAU",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Houman Omidifar (Kony)",
+        "date": "October 19, 2018 2:44 AM",
+        "quesTitle": "Is there a way to adjust line height in Rich Text from default to a custom value?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Richtext",
+            "Line Height"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ugACYSA2",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "JD Wagner (Renegade R&D, LLC)",
+        "date": "October 18, 2018 10:32 PM",
+        "quesTitle": "I want my users to be able to upload images and videos for other users to see. I am not sure how to go about this. Is there something in the Library that I can use?",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Users",
+            "Images"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ug82pSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Hervé Ndoguéfouba (Chubb France)",
+        "date": "October 18, 2018 3:21 PM",
+        "quesTitle": "How to use the same Win8.1 FFI *.dll files within a Win10 build?",
+        "quesDetails": "Hi all,\n \nWe've managed to migrate our Win8.1 app from Kony Studio 5.6 to Kony Visualizer 7.3, even if there are still some critical/blocking issues before the release. We want to be able to migrate now this app to Win10 build.\n \nWe've been able to build the Win10 app, but during the executio with faced some issues with undefined FFI objects.\n \nWe then copy pasted the FFI from Win8.1 to Win10 by :\ncopy pasting *.dll files from [AppSourcePath]\\resources\\customlibs\\lib\\windows8\\*.* to [AppSourcePath]\\resources\\customlibs\\lib\\windows10\\*.* ;\ncopy pasting Win8.1 configs to Win10 configs in Kony Visualizer 7.3 : Edit / Integrate Third Party / Manage Custom Librairies / itgs / [someFFIMethod] / Native Mappings / Tablet .\n \nBut we have some issues with the build :\nIn the build.xml we can find some steps with win8buildtype, instead of the win10buildtype, we think.\nBuilding the resulting KonyApp.sln solution in Visual Studio 2015 we have some issues within the FFIAPI.cs file about methods/objects/etc. not defined in the referenced FFI *.dll files. For example :\n \nSeverity\tCode\tDescription\tProject\tFile\tLine Suppression State\nError\tCS7069\tReference to type 'JSClosure' claims it is defined in 'Foundation', but it could not be found KonyApp D:\\GIT\\WorkSpaceUNIcom73\\temp\\CSOfferGen\\build\\windows10\\Windows10\\KonyApp\\FFICode\\FFIAPIs.cs\t52\tActive\nError\tCS0117\t'KInterface' does not contain a definition for 'ToastNotificationAsync'\tKonyApp D:\\GIT\\WorkSpaceUNIcom73\\temp\\CSOfferGen\\build\\windows10\\Windows10\\KonyApp\\FFICode\\FFIAPIs.cs\t62\tActive\nError\tCS0117\t'KInterface' does not contain a definition for 'ToastNotification2'\tKonyApp D:\\GIT\\WorkSpaceUNIcom73\\temp\\CSOfferGen\\build\\windows10\\Windows10\\KonyApp\\FFICode\\FFIAPIs.cs\t72\tActive\nError\tCS0815\tCannot assign void to an implicitly-typed variable\tKonyApp D:\\GIT\\WorkSpaceUNIcom73\\temp\\CSOfferGen\\build\\windows10\\Windows10\\KonyApp\\FFICode\\FFIAPIs.cs\t82\tActive\nError\tCS0117\t'KInterface' does not contain a definition for 'viewsCount'\tKonyApp D:\\GIT\\WorkSpaceUNIcom73\\temp\\CSOfferGen\\build\\windows10\\Windows10\\KonyApp\\FFICode\\FFIAPIs.cs\t91\tActive\n \nHow do we then use the same Win8.1 FFI *.dll files within a Win10 build?\n",
+        "tags": [
+            "Visualizer",
+            "Kony Studio",
+            "Dll Files",
+            "Third Party",
+            "Git",
+            "Win8",
+            "Upgrade",
+            "Windows 10",
+            "7.3"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufv5PSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Bisher Nadaf (S4M)",
+        "date": "October 18, 2018 1:37 PM",
+        "quesTitle": "Using a native 3rd party in Kony",
+        "quesDetails": "I've been trying to link the attached link in my Kony project for hours, It either doesn't work or just gives me this error\n \n\"\nexec-shell returned: 173\nAnt build error=exec-shell returned: 173\nexec-shell returned: 173\n \n\"\n \nEDITED:\nI actually tried integrating using two different ways:\n\n \nneither worked, I'm not really actually sure if I'm doing it right, but when I do any of these too, I always get the error above plus these errors somewhere in the logs:\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n \n\\tLd build/Build/Intermediates.noindex/VMAppWithKonylib.build/Debug-iphonesimulator/KonyJS.build/Objects-normal/x86_64/Sample normal x86_64\n \n \nhttps://github.com/relatedcode/ProgressHUD\n",
+        "tags": [
+            "Visualizer",
+            "Kony Project",
+            "Native",
+            "ProgressHUD"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufpyNSAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Abdelkader semmar (CFG BANK)",
+        "date": "October 18, 2018 10:12 AM",
+        "quesTitle": "KPNS API",
+        "quesDetails": "Hello,\nWe are using KPNS api to send push notification from our backend to MF.\nThe api takes as parameters a MF console user crendentials to make the call.\nwe noticed that if we give the user a admin profile with full access permissions the push works perfectly. but if we change that push notifs are not send.\nfor security reasons we cannot give the user a full access permissions. we are looking for the necessary permissons to give to the user so the push can be send normaly other than Admin/full access permissons.\nPlease advice Us?\nRegards\n \n",
+        "tags": [
+            "Fabric",
+            "KPNS API",
+            "Banking"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufp7wSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Brandon Sueur (entreprise)",
+        "date": "October 18, 2018 8:25 AM",
+        "quesTitle": "Hello,\n\nI would like to create a \"web\" version.\n\n\nI have the tab \"Web\" on the left, I have the opportunity to build the \"Web\" version but I have no action on the generated web page.\n\nRegards,",
+        "quesDetails": "",
+        "tags": [
+            "Visualizer",
+            "Web",
+            "Web Page",
+            "VERSION",
+            "Desktop Web"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufouxSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Nakul Gupta (Customer)",
+        "date": "October 18, 2018 7:21 AM",
+        "quesTitle": "How can I call a relational database integration service with filters in Kony Visualizer?",
+        "quesDetails": "I have created a relational database integration service in the KF and I am able to apply filters in the KF. But now I want to call this service through code and pass the filters dynamically. How can I achieve this?\n",
+        "tags": [
+            "Visualizer",
+            "Relational Database Integration Service"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufopiSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "October 18, 2018 12:56 AM",
+        "quesTitle": "How to build Password Reset functionality to Kony User Repository?",
+        "quesDetails": "I cannot find any code that can be added to \"Forgot password\" link for a user to remind/reset password in Kony User Repository. Is it possible at all?\n",
+        "tags": [
+            "Visualizer",
+            "Password Reset",
+            "Kony User Repository"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufnL6SAI",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Gregory Turutin (King & Wood Mallesons)",
+        "date": "October 18, 2018 12:54 AM",
+        "quesTitle": "Linking Kony User Repository to an Application",
+        "quesDetails": "HI, what I found that Kony User Repository service is common for all applications in my cloud. Does it mean that if a user has access to one app, he/she will have access to all apps? Is there any way to create app specific repositories\n",
+        "tags": [
+            "Fabric",
+            "Kony User Repository"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufnKNSAY",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Katya Taran (King & Wood Mallesons)",
+        "date": "October 18, 2018 12:16 AM",
+        "quesTitle": "Is there a way to separate users into groups in Kony User Repository for managing access to different apps.",
+        "quesDetails": "It looks like all users get added to the same Kony User Repository, and all users would have access to all apps. Is there a way to manage through multiple instances of Kony User Repository or separation of users into groups within the same Repository?\n",
+        "tags": [
+            "Fabric",
+            "Kony User Repository",
+            "Different Apps"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ufn5zSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "vincent jamblin (gdfsuez)",
+        "date": "October 24, 2018 5:44 PM",
+        "quesTitle": "Hi, I've downloaded and installed Visualizer and, to start the tour, it is requesting me to login. When I click login, a small popup says \"opening login page...\" then ends up with an error \"connect ETIMEDOUT 34.200.34.152:443\".",
+        "quesDetails": "",
+        "tags": [
+            "Other",
+            "Small Popup",
+            "Login Page"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wemzISAQ",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "prasad.vangaveeti prasad.vangaveeti (My Company)",
+        "date": "October 25, 2018 8:25 AM",
+        "quesTitle": "How can i enable print statements in release mode build.",
+        "quesDetails": "Hello Team,\n \nI want to know how can i enable the print statements in visualizer 7.3 when i am running build with release mode using jenkins.\nIn 6.0, we have an option is projectprop.xml file to enable or disable print statements, same way is there any thing in 7.3.\n \nThanks\nPrasad.V\n \n",
+        "tags": [
+            "Visualizer",
+            "Print Statements",
+            "Release Mode"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000wf8jhSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
+    },
+    {
+        "name": "Estefanía Gutiérrez (Mercantil)",
+        "date": "October 24, 2018 9:16 PM",
+        "quesTitle": "Error Visualizer 8 pack 3. Failed to load extension.",
+        "quesDetails": "When I start the program, shows this error \"Failed to load extension from: C:/Program Files\\KonyVisualizer\\nw.\nInvalid value for 'app.urls[0]\": Missing scheme separator\"\n",
+        "tags": [
+            "Visualizer",
+            "Error Visualizer Pack",
+            "Program Files",
+            "Error",
+            "V8 SP3"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000weraxSAA",
+        "hidList": [],
+        "priList": [],
+        "secList": []
     }
 ]

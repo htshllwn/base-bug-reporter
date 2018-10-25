@@ -2,20 +2,29 @@ var PorterKeywords = require('porter-keywords');
 var _ = require('lodash');
 
 var checkKeywords = function(text, tempString){
+    var count = 0;
+    var lbPer = 60;
     var tempKeywords = PorterKeywords.extract(tempString);
     // console.log(tempKeywords);
     for(var tempKeywordsInd = 0; tempKeywordsInd < tempKeywords.length; tempKeywordsInd++){
-        if(!_.includes(text, tempKeywords[tempKeywordsInd])){
-            return false;
+        if(_.includes(text, tempKeywords[tempKeywordsInd])){
+            count++;
         }
     }
-    return true;
+    var percentageEqual = (count / tempKeywords.length) * 100;
+    
+    if(percentageEqual >= lbPer){
+        return true;
+    } else {
+        return false;
+    }
 }
 var filterData = function(result,hidKeywords,priKeywords,secKeywords){
     var filteredResult = [];
     for(var i = 0; i < result.length; i++){
         var quesTitle = result[i].quesTitle;
         var quesDetails = result[i].quesDetails;
+        var tags = result[i].tags.toString();
         
         result[i].hidList = [];
         result[i].priList = [];
@@ -31,6 +40,7 @@ var filterData = function(result,hidKeywords,priKeywords,secKeywords){
             count = 0;
             count += (quesTitle.match(re) || []).length;
             count += (quesDetails.match(re) || []).length;
+            count += (tags.match(re) || []).length;
             if(count > 0){
                 // console.log("Match Found");
                 result[i].hidList.push({
@@ -51,7 +61,7 @@ var filterData = function(result,hidKeywords,priKeywords,secKeywords){
             count += (quesTitle.match(re) || []).length;
             count += (quesDetails.match(re) || []).length;
             if(count > 0){
-                // console.log("Match Found");
+                console.log("Match Found");
                 result[i].priList.push({
                     keyword: tempString,
                     count: count

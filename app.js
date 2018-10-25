@@ -2,10 +2,18 @@ var config = require('./config');
 var fs = require('fs');
 var _ = require('lodash');
 
-var hidKeywords = require('./keywords/hidden');
-var priKeywords = require('./keywords/primary');
-var secKeywords = require('./keywords/secondary');
-var queriesKeywords = require('./keywords/queries');
+var keywords = require('./keywords/keywords');
+var hidKeywords = keywords.hidden;
+var priKeywords = keywords.primary;
+var secKeywords = keywords.secondary;
+var queriesKeywords = keywords.queries;
+
+console.log('Keywords = >');
+console.log('\tHidden: ' + hidKeywords.length);
+console.log('\tPrimary: ' + priKeywords.length);
+console.log('\tSecondary: ' + secKeywords.length);
+console.log('\tQueries: ' + queriesKeywords.length);
+console.log();
 
 var filterData = require('./helpers/filter-data');
 
