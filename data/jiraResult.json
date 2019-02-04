@@ -389,5 +389,614 @@
             }
         ],
         "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-805"
+    },
+    {
+        "name": "Kony Development (Simple Plus Group Ltd.)",
+        "date": "November 2, 2018 2:30 PM",
+        "quesTitle": "How can I change the style of QR code generator?",
+        "quesDetails": "There is a white background behind the QR code and I can't align the QR code in the middle of screen\n",
+        "tags": [
+            "QR Code Generator",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000yKYTYSA4",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "qr code generator",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Hang",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-872"
+    },
+    {
+        "name": "TAMIL SELVI (cognizant technology solution)",
+        "date": "November 10, 2018 3:30 PM",
+        "quesTitle": "voice to text feature getting error",
+        "quesDetails": "Error Message:\n{\n\"component\": \"Speech To Text Component\",\n\"event\": \"EXCEPTION\",\n\"function\": \"invokeCallback\",\n\"timestamp\": \"10/11/2018 3:2 PM\",\n\"level\": \"ERROR\",\n\"message\": \"{}\"\n}\n",
+        "tags": [
+            "Voice Input Interface",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000zg66XSAQ",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "sms/ text message (phone)",
+                "count": 1
+            },
+            {
+                "keyword": "events",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 3
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-911"
+    },
+    {
+        "name": "Srinivasan PS (HCL)",
+        "date": "November 14, 2018 9:31 PM",
+        "quesTitle": "Able to see lot of error in /emm/device/rest/myapps/policy/v5",
+        "quesDetails": "Hi Team,\nAny one have idea why these error occured in EMM. I am able to lot of error like this emm log file.\n \n2018-11-13, 13:07:07 ERROR [reqId=7845734373635671385,reqURL=https://emm.XXXX.online/emm/devicemanager/ota/devicelogin_v2,sessnId=] : com.kony.usermgmt.security.KonyAuthenticationManager - Error Occured during Authentication : userid : xxxxxx domain : xxxx.com source : ADS\n2018-11-13, 13:07:08 ERROR [reqId=7845734375191758192,reqURL=https://emm.xxx.online/emm/device/rest/myapps/policy/v5,sessnId=] : com.kony.mdm.rest.resource.device.MyApps - Device deactivated\n2018-11-13, 13:07:08 ERROR [reqId=7845734375191758192,reqURL=https://emm.xxxx.online/emm/device/rest/myapps/policy/v5,sessnId=] : com.kony.mdm.rest.resource.device.MyApps - Error while deactivating device \njavax.ws.rs.WebApplicationException\n        at com.kony.emm.i18n.MessageUtils.sendDeviceError(MessageUtils.java:94) ~[KonyUserMgmt-0.0.1-SNAPSHOT.jar:?]\n        at com.kony.mdm.rest.resource.device.MyApps.validateDeviceDeactivation(MyApps.java:813) ~[mdmweb-0.0.1.jar:?]\n        at com.kony.mdm.rest.resource.device.MyApps.validateAndFetchAppPolicy(MyApps.java:353) [mdmweb-0.0.1.jar:?]\n        at com.kony.mdm.rest.resource.device.MyApps.getPolicyV5(MyApps.java:1080) [mdmweb-0.0.1.jar:?]\n        at sun.reflect.GeneratedMethodAccessor776.invoke(Unknown Source) ~[?:?]\n        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]\n        at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]\n        at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60) [jersey-server-1.18.1.jar:1.18.1]\nat com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1542) [jersey-server-1.18.1.jar:1.18.1]\nat com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1473) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1419) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1409) [jersey-server-1.18.1.jar:1.18.1]\n        at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:409) [jersey-servlet-1.18.1.jar:1.18.1]\n        at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:540) [jersey-servlet-1.18.1.jar:1.18.1]\n        at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:715) [jersey-servlet-1.18.1.jar:1.18.1]\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:728) [servlet-api.jar:?]\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305) [catalina.jar:7.0.42]\nat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210) [catalina.jar:7.0.42]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at com.kony.usermgmt.security.device.DeviceValidationFilter.doFilter(DeviceValidationFilter.java:161) [KonyUserMgmt-0.0.1-SNAPSHOT.jar:?]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:199) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.oauth2.client.filter.OAuth2ClientContextFilter.doFilter(OAuth2ClientContextFilter.java:57) [spring-security-oauth2-2.0.6.RELEASE.jar:?]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:103) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n        at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113) [spring-security-web-3.2.5.RELEASE.jar:3.2.5.RELEASE]\n",
+        "tags": [
+            "Other",
+            "EMM",
+            "Error"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000zhoqSSAQ",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 2
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 1
+            },
+            {
+                "keyword": "work order management",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 9
+            },
+            {
+                "keyword": "Odd",
+                "count": 4
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-919"
+    },
+    {
+        "name": "Deni E Santoso (self employed)",
+        "date": "November 16, 2018 1:30 PM",
+        "quesTitle": "How to add another application name to Kony ?",
+        "quesDetails": "Hi,\n \nI wanna ask question about some trouble when integrating FFI to Kony. My FFI already have application name\n \n(\"android:name = \"com.myapps.MobileVideoApplication\"\")\n \nwritten in its manifest.\n \nWhen i integrate it to Kony and build it, console return me with error and force me to use \"tools:replace=\"android:name\" in attempt to override \"android:name\" in my FFI with \"android:name\" of Kony\n \n(i believe it is com.konylabs.android.KonyApplication, thought).\n \nin this case, i've tried 2 options, both options is successfully built the apps but fail to works as i want.\n \nFirst, i try to override it with \"tools:replace=\"android:name\" and \"android:name=\"com.myapps.MobileVideoApplication\". This options leads to apps cannot start and didn't even showing logcat in android.\n \nSecond, i delete \"android:name = \"com.myapps.MobileVideoApplication\"\" from my FFI manifest, so when it built in Kony, it didn't force me to override application name. But when i run the FFI, it return me with this error.\n \n java.lang.RuntimeException: Unable to start activity ComponentInfo{com.orgname.copytext/com.myapss.mobilevideo.LoginActivity}: java.lang.ClassCastException: com.konylabs.android.KonyApplication cannot be cast to com.myapps.mobilevideo.MobileVideoApplication\nI hope there is a way to solve this. Thank you for any hints and help.\n",
+        "tags": [
+            "Visualizer",
+            "Kony Foreign Function Integration",
+            "Android",
+            "Manifest",
+            "APPLICATION",
+            "Kony"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000ziTcjSAE",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            },
+            {
+                "keyword": "error",
+                "count": 2
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-927"
+    },
+    {
+        "name": "balaji maddirala (kony)",
+        "date": "November 20, 2018 4:31 AM",
+        "quesTitle": "An orientation of marketplace barcode scanner component is not working.",
+        "quesDetails": "We have locked the screen for portrait mode and when we hold the device upside down, all the widgets in the form rotate 180 degrees except the marketplace component (camera). It makes it very difficult to scan.\nCan you please let us know if there is a way to rotate the component as well? or any other solutions to overcome this issue.\n \nPlease find the sample app.\n",
+        "tags": [
+            "Continuous BarCode Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000011tk6YSAQ",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 3
+            },
+            {
+                "keyword": "market",
+                "count": 3
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            },
+            {
+                "keyword": "continuous barcode scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Not working",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-931"
+    },
+    {
+        "name": "balaji maddirala (kony)",
+        "date": "November 20, 2018 3:31 AM",
+        "quesTitle": "An orientation of device upside and down in portrait mode barcode scanner component(Camera) is not working.",
+        "quesDetails": "We have locked the screen for portrait mode and when we hold the device upside down, all the widgets in the form rotate 180 degrees except the marketplace component (camera). It makes it very difficult to scan. \nCan you please let us know if there is a way to rotate the component as well? or any other solutions to overcome this issue.\n",
+        "tags": [
+            "Continuous BarCode Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000011tk2ASAQ",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 2
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            },
+            {
+                "keyword": "continuous barcode scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Not working",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-932"
+    },
+    {
+        "name": "Bryan Chong (IsoftStone Sdn Bhd)",
+        "date": "November 27, 2018 3:31 PM",
+        "quesTitle": "iPhone unable to read component/widgets",
+        "quesDetails": "Hi, I'm having issue when executing the app in iPhone native (using Kony Visualizer app in iPhone)\nWhen I run it in iphone, it will shown me\nUnhandled Exception: frmXXController.js line #\nUnhandled Exception: frmHome.js line #19 setting a property that has only a getter\n \nError is\non the part that including the header component into the home screen\naccessing to widget, like flexContainer\neven the Visualizer generated code also had error, if based on the file i found, it will be this line: appHeader.autogrowMode = kony.flex.AUTOGROW_NONE;\n \nThis is only happened in iphone native, while iphone SPA, android native & SPA, all working perfectly.\n",
+        "tags": [
+            "Training & Certification",
+            "Component",
+            "Iphone",
+            "SPA",
+            "Unhandled Exception"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000011vgAISAY",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "qr code generator",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "error",
+                "count": 2
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1002"
+    },
+    {
+        "name": "alizay noor (abacus)",
+        "date": "December 6, 2018 11:31 AM",
+        "quesTitle": "How can add menu Option for dynamic sliding menu?",
+        "quesDetails": "For Dynamic Sliding Menu i have use this code and result screen shoot is attached\ncreateComponent: function()\n{\n/* Creating the component's object */\nvar SlidingMenu = new com.konymp.slidingmenu(\n{\n\"clipBounds\": true,\n\"height\": \"100%\",\n\"id\": \"SlidingMenu\",\n\"isVisible\": true,\n\"layoutType\": kony.flex.FREE_FORM,\n\"left\": \"0dp\",\n\"masterType\": constants.MASTER_TYPE_USERWIDGET,\n\"skin\": \"slFbox\",\n\"top\": \"0dp\",\n\"width\": \"100%\",\n\"zIndex\": 12\n}, {}, {});\n \n/* Setting the component's properties */\nSlidingMenu.footerImageHeight = \"28dp\";\nSlidingMenu.footerImageSrc = \"konymp_sm_logout_icon.png\";\nSlidingMenu.footerImageWidth = \"28dp\";\nSlidingMenu.headingText = \"Jon Dave\";\nSlidingMenu.profileImageSrc = \"user_profile.png\";\nSlidingMenu.profileImageTop = \"15%\";\nSlidingMenu.slidingMenuIcon = \"hamburger.png\";\nSlidingMenu.slidingMenuisVisible = true;\nSlidingMenu.subHeadingText = \"Texas\";\nSlidingMenu.slidingMenuDirection = \"Left\";\nSlidingMenu.headerAnimation = \"Slide In\";\nSlidingMenu.slidingMenuAnimation = \"Squeeze\";\nSlidingMenu.animationSpeed = \"0.25\";\nSlidingMenu.footerStyle = \"Image & Text\";\nSlidingMenu.profileImageType = \"Rounded Corner\";\nSlidingMenu.showMainMenuImage = true;\nSlidingMenu.showSubMenuImage = true;\n \n/*Adding the component to a Form*/ \nthis.view.add(SlidingMenu);\n \n}\nI want to add menu Options i have try this code for menu Options but failed to get successful result \n \ndefine(function(){\n return{\n createComponent: function(){\n  \nvar SlidingMenu = new com.konymp.slidingmenu(\n{\n\"clipBounds\": true,\n\"height\": \"100%\",\n\"id\": \"SlidingMenu\",\n\"isVisible\": true,\n\"layoutType\": kony.flex.FREE_FORM,\n\"left\": \"0dp\",\n\"masterType\": constants.MASTER_TYPE_USERWIDGET,\n\"skin\": \"slFbox\",\n\"top\": \"0dp\",\n\"width\": \"100%\",\n\"zIndex\": 12\n}, {}, {});\n \n/* Setting the component's properties */\nSlidingMenu.footerImageHeight = \"28dp\";\nSlidingMenu.footerImageSrc = \"option3.png\";\nSlidingMenu.footerImageWidth = \"28dp\";\nSlidingMenu.headingText = \"Alizay\";\nSlidingMenu.profileImageSrc = \"option3.png\";\nSlidingMenu.profileImageTop = \"15%\";\nSlidingMenu.slidingMenuIcon = \"hamburger.png\";\nSlidingMenu.slidingMenuisVisible = true;\nSlidingMenu.subHeadingText = \"Alizay@gmail.com\";\nSlidingMenu.slidingMenuDirection = \"Left\";\nSlidingMenu.headerAnimation = \"Slide In\";\nSlidingMenu.slidingMenuAnimation = \"Squeeze\";\nSlidingMenu.animationSpeed = \"0.25\";\nSlidingMenu.footerStyle = \"Image & Text\";\nSlidingMenu.profileImageType = \"Rounded Corner\";\nSlidingMenu.showMainMenuImage = true;\nSlidingMenu.showSubMenuImage = true;\nSlidingMenu.menuOptions= true;\nSlidingMenu.subMenuOptions= true;\n  \n/*Adding the component to a Form*/ \nthis.view.add(SlidingMenu);\n  this.view.menu.flxMenu.menuOptions =\n[\n{\n\"menuItemIcon\": \"option1.png\",\n\"menuItemName\": \"Sports\"\n},\n{\n\"menuItemIcon\": \"News_Icon.png\",\n\"menuItemName\": \"News\"\n}\n];  \n   \n \n  \n }\n };\n  \n });\nscreen shoot are attached\nanyone Please Help me to solve this issue as soon as possible.\n \n",
+        "tags": [
+            "Visualizer",
+            "Menu",
+            "Dynamic Sliding Menu",
+            "Texas",
+            "Result Screen Shoot",
+            "Please Help",
+            "TYPE USERWIDGET"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000014UOgPSAW",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 7
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "sliding menu",
+                "count": 2
+            },
+            {
+                "keyword": "retail user profile",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1014"
+    },
+    {
+        "name": "Aparna Amalladinne (USFoods)",
+        "date": "December 10, 2018 9:31 PM",
+        "quesTitle": "Access Camera flash light",
+        "quesDetails": "We are using a market place component - Continuous barcode scanner, the version 1.0.\nWe would like to check if there is a possibility of turning on the camera flash while scanning.\nWhen trying to scan in less light, the component fails to capture the barcode. Having the ability to switch the camera flash on will be very handy in such situations.\nIf the current component doesn't support, we would like to understand if there is any further release that may get the functionality implemented.\n",
+        "tags": [
+            "Continuous BarCode Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000014VkXzSAK",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market place",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            },
+            {
+                "keyword": "continuous barcode scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1015"
+    },
+    {
+        "name": "Aparna Amalladinne (USFoods)",
+        "date": "December 10, 2018 9:31 PM",
+        "quesTitle": "Camera Flash light access",
+        "quesDetails": "We are using a market place component - Continuous barcode scanner, the version 1.0.\nWe would like to check if there is a possibility of turning on the camera flash while scanning.\nWhen trying to scan in less light, the component fails to capture the barcode. Having the ability to switch the camera flash on will be very handy in such situations.\nIf the current component doesn't support, we would like to understand if there is any further release that may get the functionality implemented.\n",
+        "tags": [
+            "Continuous BarCode Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000014VkUlSAK",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market place",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            },
+            {
+                "keyword": "continuous barcode scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1016"
+    },
+    {
+        "name": "Aparna Amalladinne (USFoods)",
+        "date": "December 10, 2018 9:31 PM",
+        "quesTitle": "Camera flash light support",
+        "quesDetails": "We are using a market place component - Continuous barcode scanner, the version 1.0.\nWe would like to check if there is a possibility of turning on the camera flash while scanning.\nWhen trying to scan in less light, the component fails to capture the barcode. Having the ability to switch the camera flash on will be very handy in such situations.\nIf the current component doesn't support, we would like to understand if there is any further release that may get the functionality implemented.\n",
+        "tags": [
+            "Continuous BarCode Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000014Vkb4SAC",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market place",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 3
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            },
+            {
+                "keyword": "continuous barcode scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1017"
+    },
+    {
+        "name": "Aparna Amalladinne (USFoods)",
+        "date": "December 12, 2018 1:30 AM",
+        "quesTitle": "Enable/Disable camera flash for the component",
+        "quesDetails": "We are using a market place component - Continuous barcode scanner, the version 1.0.\nWe would like to check if there is a possibility of turning on the camera flash while scanning.\nWhen trying to scan in less light, the component fails to capture the barcode. Having the ability to switch the camera flash on will be very handy in such situations.\nIf the current component doesn't support, we would like to understand if there is any further release that may get the functionality implemented.\n",
+        "tags": [
+            "Continuous BarCode Scanner",
+            "Marketplace",
+            "CAMERA"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000014WL1PSAW",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market place",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 2
+            },
+            {
+                "keyword": "Component",
+                "count": 4
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "barcode/ qr code scanner",
+                "count": 1
+            },
+            {
+                "keyword": "continuous barcode scanner",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "fail",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1026"
+    },
+    {
+        "name": "Nakul Gupta (Customer)",
+        "date": "December 17, 2018 1:30 PM",
+        "quesTitle": "I am unable to generate .ipa after adding the component",
+        "quesDetails": "After building the .kar file, when I try to build the xcode project in terminal, it is getting stuck on building new libraries. Do we need to add something in our project for ios build?\n",
+        "tags": [
+            "Barcode/ QR Code Scanner",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000016yrGLSAY",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            },
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "qr code generator",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "stuck",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1057"
+    },
+    {
+        "name": "Lahiru TM (Customer)",
+        "date": "January 4, 2019 12:30 AM",
+        "quesTitle": "Can't select textbox after animating top and opacity",
+        "quesDetails": "I am trying to animate a textbox's visibility. Once the animation completes, I can see the input box on the screen but I can't tap on it. It also doesn't animate the opacity - it just appears. What am I doing wrong?\n \nI have the search box component (with contract) on a z-index of 50 and the flex container behind on a z-index of 1.\n \nTesting on iPhone X Native.\n  showSearch:function() {\n    // trigger onShowSearch event \n    this.onShowSearch();\n   // turn on search visibility\n    this.view.flxSearchContainer.setVisibility(true);\n    \n    const searchAnimation = kony.ui.createAnimation({\n      \"0\":{\"opacity\": \"0\", \"top\": \"0%\"},\n      \"100\":{\"opacity\": \"1\", \"top\": \"100%\"}\n    });\n    const animationConfig = {\n      \"duration\":\"0.5\",\n      \"delay\":\"0\",\n      \"iterationCount\":\"1\",\n      \"fillMode\":kony.anim.FILL_MODE_FORWARDS\n    };\n    const callBack = {\n      \"animationEnd\" : function(){}\n    };\n \n    this.view.flxSearchContainer.animate(searchAnimation, animationConfig, callBack);\n  }\n \n",
+        "tags": [
+            "Visualizer",
+            "Click",
+            "Textbox",
+            "Flex Container",
+            "Animated Text Field",
+            "Animate Textbox's Visibility",
+            "Flexbox Opacity"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A000019YObwSAG",
+        "hidList": [
+            {
+                "keyword": "Component",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "animated text field",
+                "count": 1
+            },
+            {
+                "keyword": "events",
+                "count": 1
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "wrong",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1073"
+    },
+    {
+        "name": "Thomas Mendorf (Henkel AG & Co. KGaA)",
+        "date": "January 13, 2019 5:01 PM",
+        "quesTitle": "How to get Desktop web app working for SAML identity provider?",
+        "quesDetails": "Hi, \nI had to change frmLoginController for Responsive web/Desktop as follows\n\nline 28\nvar sdkInstance = new kony.sdk.getCurrentInstance();\nchanged to\nvar sdkInstance = new kony.sdk.getDefaultInstance();\n\nsince otherwise, the sdkInstance would be (null) (getCurrentInstance() is deprecated)\n\nthen, on line 30\nvar userStoreAuth = sdkInstance.getIdentityService(\"myIdentityProvider\");\ninstead of userstore.\n\nHowever, after building the web app, and trying to log in, following error message occurs:\n\n{\n\"details\": {\n\"message\": \"Invalid Identity Provider found in Request\",\n\"errcode\": 0,\n\"errmsg\": \"Invalid Identity Provider found in Request\"\n},\n\"httpstatus\": \"Unauthorized\",\n\"requestid\": \"6576dbef-a309-4564-b2d9-9dca40bb95dc\",\n\"domain\": \"AUTH\",\n\"code\": -7,\n\"mfcode\": \"Auth-7\",\n\"message\": \"Invalid Provider\"\n}\n\nafter the Submit button is pressed on the login form.\nThe request is done to \"https://1000xxxxx.auth.konycloud.com/login?provider=myIdentityProvider\" but the IDP is actually a SAML service, and URL should be requested as \n\"https://1000xxxxx.auth.konycloud.com/saml/login?provider=myIdentityProvider\" (missing \"/saml\" in the URL)\n\nHow can I get this working to request SAML authentication on the web app? \n\nThanks\n",
+        "tags": [
+            "Employee Directory",
+            "Marketplace"
+        ],
+        "link": "https://basecamp.kony.com/s/question/0D56A00000snnpkSAA",
+        "hidList": [
+            {
+                "keyword": "MarketPlace",
+                "count": 1
+            },
+            {
+                "keyword": "market",
+                "count": 1
+            }
+        ],
+        "priList": [
+            {
+                "keyword": "login",
+                "count": 4
+            }
+        ],
+        "secList": [
+            {
+                "keyword": "Hang",
+                "count": 2
+            },
+            {
+                "keyword": "error",
+                "count": 1
+            }
+        ],
+        "jiraLink": "https://konysolutions.atlassian.net/browse/MARA-1101"
     }
 ]
